@@ -54,4 +54,7 @@
 
 
 
-## AI tool: Claude Code pro subscription.
+## AI tool: Claude Code pro subscription. 
+
+
+## What i will decide, not the AI: i will design the game entirely, i will make everything except for the code.
