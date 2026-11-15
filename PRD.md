@@ -1,7 +1,7 @@
 ## The problem: people are not giving the endangered animals the correct help when they need it the most of all times.
 
 
-## User story: Julian, 16, is a junior marine biologist, he says to a local newspaper, "I'm a local junior marine biologist, and every day, I find more and more sick endangered animals, i believe that people are hurting these animals, and not even consciously knowing that they are damaging the wildlife. And the ones that try to help, don't do a big enough impact on the animals to help them. I wish there was a website or app that could show people how to save these poor creatures while being entertained".
+## User story: Julian, 19, is a junior marine biologist, he says to a local newspaper, "I'm a local junior marine biologist, and every day, I find more and more sick endangered animals, i believe that people are hurting these animals, and not even consciously knowing that they are damaging the wildlife. And the ones that try to help, don't do a big enough impact on the animals to help them. I wish there was a website or app that could show people how to save these poor creatures while being entertained".
 
 
 ## How we'll know it works: Because normally other websites or apps that try to help the endangered species, like iucnredlist.org, do it in a boring way, or in a doomsday scenario like "Oh, humans are evil! We're killing these animals without mercy!" I'm gonna make a website that does it in a fun way, with games and nice happy colors, and no "the animals are dying! The world will be destroyed because of us!"
