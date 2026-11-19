@@ -58,3 +58,11 @@
 
 
 ## What i will decide, not the AI: i will design the game entirely, i will make everything except for the code.
+
+
+
+## Look and feel: Fun, Entertaining, Nature-friendly, Bold, Kind, Hard-Working, Earthy, Emotional, Friendly, Wild.
+
+
+
+## Inspiration: <img width="1280" height="720" alt="WIN_20261119_11_24_57_Pro" src="https://github.com/user-attachments/assets/96f9bb35-6a6a-46da-b357-831be7aeefda" /> look at this poor seal, it was once native to the Caribbean, but because of human actions, it is now gone, maybe we can save ones that will soon be gone with this website! You can protect animals that are in danger and maybe just maybe, this seal can be back Physically.
