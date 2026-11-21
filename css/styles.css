@@ -652,3 +652,17 @@ main {
 .popup-copies { margin: 0 0 10px; font-size: 0.9rem; }
 .popup-link { display: block; }
 @media print { .card-popup { display: none !important; } }
+
+/* ===== Red List status filter ===== */
+.status-chips { margin-top: 6px; }
+.chips-label { width: 100%; font-weight: 700; font-size: 0.85rem; text-align: center; margin-bottom: -2px; }
+.chip-status { display: inline-flex; align-items: center; gap: 6px; }
+.chip-status .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.chip-extinct .dot { background: #5d6d7e; }
+.chip-CR .dot { background: #e8590c; }
+.chip-EN .dot { background: #f08c00; }
+.chip-VU .dot { background: #d4a514; }
+.chip-NT .dot { background: #1677d2; }
+.chip-LC .dot { background: #12a150; }
+.chip-unknown .dot { background: #adb5bd; }
+.chip-status[aria-pressed="true"] .dot { box-shadow: 0 0 0 2px var(--white); }
