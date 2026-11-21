@@ -278,7 +278,6 @@ function showScreen() {
   else if (route === "favorites") { id = "screen-favorites"; renderFavorites(); }
   else if (route === "geography") { id = "screen-geography"; renderGeography(); }
   else if (route.startsWith("geography/")) { id = "screen-geography"; renderRegion(decodeURIComponent(route.slice(10))); }
-  else if (route === "both") id = "screen-both";
 
   document.querySelectorAll(".screen").forEach(s => { s.hidden = s.id !== id; });
 }
