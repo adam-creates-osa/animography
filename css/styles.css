@@ -120,8 +120,8 @@ main {
 
 @media (min-width: 760px) {
   .big-buttons {
-    grid-template-columns: repeat(3, 1fr);  /* computer: side by side */
-    max-width: 680px;
+    grid-template-columns: repeat(2, 1fr);  /* computer: side by side */
+    max-width: 520px;
   }
 }
 
