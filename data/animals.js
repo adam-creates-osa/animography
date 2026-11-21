@@ -271,11 +271,14 @@ window.ANIMALS = [
     },
     "wiki": "Leatherback_sea_turtle",
     "photo": {
-      "file": "LeatherbackTurtle.jpg",
-      "author": "NOAA",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180882941/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/180882941/large.jpeg",
+      "author": "Joshua Smith",
+      "license": "CC0",
+      "page": "https://www.inaturalist.org/photos/180882941",
+      "source": "iNaturalist",
       "cardOk": true,
-      "source": "Wikimedia Commons",
-      "license": "Public domain"
+      "inCostaRica": true
     }
   },
   {
@@ -476,11 +479,14 @@ window.ANIMALS = [
     },
     "wiki": "Golden_toad",
     "photo": {
-      "file": "Bufo periglenes2 cropped.jpg",
-      "author": "U.S. Fish and Wildlife Service",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98915580/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/98915580/large.jpeg",
+      "author": "Zac Peterson",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/98915580",
+      "source": "iNaturalist",
       "cardOk": true,
-      "source": "Wikimedia Commons",
-      "license": "Public domain"
+      "inCostaRica": true
     }
   },
   {
@@ -626,11 +632,14 @@ window.ANIMALS = [
     },
     "wiki": "Panamanian_white-faced_capuchin",
     "photo": {
-      "file": "Cebus imitator 213725274.jpg",
-      "author": "Thomas Hirsch",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136634265/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/136634265/large.jpg",
+      "author": "Matthew Gerke",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/136634265",
+      "source": "iNaturalist",
       "cardOk": true,
-      "source": "Wikimedia Commons",
-      "license": "CC0"
+      "inCostaRica": true
     }
   },
   {
@@ -675,11 +684,14 @@ window.ANIMALS = [
     },
     "wiki": "White-lipped_peccary",
     "photo": {
-      "file": "Tayassu pecari 205920788.jpg",
-      "author": "Whaldener Endo",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63585488/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/63585488/large.jpeg",
+      "author": "Rob Foster",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/63585488",
+      "source": "iNaturalist",
       "cardOk": true,
-      "source": "Wikimedia Commons",
-      "license": "CC0"
+      "inCostaRica": true
     }
   },
   {
@@ -780,11 +792,14 @@ window.ANIMALS = [
     },
     "wiki": "West_Indian_manatee",
     "photo": {
-      "file": "Manatee with calf.PD.jpg",
-      "author": "Galen Rathbun, USFWS",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61186254/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/61186254/large.jpg",
+      "author": "Samuel Paul Galick",
+      "license": "CC0",
+      "page": "https://www.inaturalist.org/photos/61186254",
+      "source": "iNaturalist",
       "cardOk": true,
-      "source": "Wikimedia Commons",
-      "license": "Public domain"
+      "inCostaRica": false
     }
   },
   {
@@ -1141,11 +1156,14 @@ window.ANIMALS = [
     },
     "wiki": "Blue_whale",
     "photo": {
-      "file": "Bluewhale877.jpg",
-      "author": "NOAA",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/615864130/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/615864130/large.jpg",
+      "author": "Tomás Tamagno",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/615864130",
+      "source": "iNaturalist",
       "cardOk": true,
-      "source": "Wikimedia Commons",
-      "license": "Public domain"
+      "inCostaRica": false
     }
   },
   {
@@ -5250,11 +5268,11 @@ window.ANIMALS = [
     },
     "wiki": "Pelecanus_occidentalis",
     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75414948/medium.jpeg",
-      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/75414948/large.jpeg",
-      "author": "Johannes Schuster",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31986120/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/31986120/large.jpeg",
+      "author": "Rob Foster",
       "license": "CC BY",
-      "page": "https://www.inaturalist.org/photos/75414948",
+      "page": "https://www.inaturalist.org/photos/31986120",
       "source": "iNaturalist",
       "cardOk": true,
       "inCostaRica": true
@@ -6963,11 +6981,11 @@ window.ANIMALS = [
     },
     "wiki": "Leptophis_ahaetulla",
     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351633373/medium.jpeg",
-      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/351633373/large.jpeg",
-      "author": "Stephanie Tran",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177235751/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/177235751/large.jpeg",
+      "author": "Alessandher Piva",
       "license": "CC BY",
-      "page": "https://www.inaturalist.org/photos/351633373",
+      "page": "https://www.inaturalist.org/photos/177235751",
       "source": "iNaturalist",
       "cardOk": true,
       "inCostaRica": false
@@ -7327,11 +7345,11 @@ window.ANIMALS = [
     },
     "wiki": "Anolis_aquaticus",
     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60099739/medium.jpg",
-      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/60099739/large.jpg",
-      "author": "Dan MacNeal",
-      "license": "CC BY",
-      "page": "https://www.inaturalist.org/photos/60099739",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13905887/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13905887/large.jpeg",
+      "author": "Reuven Martin",
+      "license": "CC0",
+      "page": "https://www.inaturalist.org/photos/13905887",
       "source": "iNaturalist",
       "cardOk": true,
       "inCostaRica": true
@@ -11301,11 +11319,11 @@ window.ANIMALS = [
     },
     "wiki": "Papilio_thoas",
     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243403191/medium.jpeg",
-      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/243403191/large.jpeg",
-      "author": "Daniel Benák",
-      "license": "CC BY",
-      "page": "https://www.inaturalist.org/photos/243403191",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/405293144/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/405293144/large.jpeg",
+      "author": "Alison Westwood",
+      "license": "CC0",
+      "page": "https://www.inaturalist.org/photos/405293144",
       "source": "iNaturalist",
       "cardOk": true,
       "inCostaRica": true
@@ -11457,11 +11475,11 @@ window.ANIMALS = [
     },
     "wiki": "Catonephele_numilia",
     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1742168/medium.jpg",
-      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1742168/large.jpg",
-      "author": "naturalist charlie",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/587091669/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/587091669/large.jpg",
+      "author": "Benjamin ZELVELDER",
       "license": "CC BY",
-      "page": "https://www.inaturalist.org/photos/1742168",
+      "page": "https://www.inaturalist.org/photos/587091669",
       "source": "iNaturalist",
       "cardOk": true,
       "inCostaRica": true
