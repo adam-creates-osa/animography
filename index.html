@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animography</title>
+  <meta name="description" content="Learn about the endangered animals of Costa Rica and how to help them.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Top bar: logo (goes home) + language switch -->
+  <header class="topbar">
+    <a href="#/" class="logo" aria-label="Animography home"><span class="logo-icon" aria-hidden="true">🌿</span><span class="logo-text">Animography</span></a>
+    <nav class="top-links">
+      <a href="#/favorites" class="pill" id="fav-pill"><span aria-hidden="true">❤️</span> <span id="fav-count">0</span><span class="visually-hidden" data-i18n="favorites"></span></a>
+      <a href="#/cards" class="pill" id="cards-pill"><span aria-hidden="true">🃏</span> <span id="cards-count">0</span><span class="visually-hidden" data-i18n="cardsLabel"></span></a>
+      <a href="#/trivia" class="pill" id="points-pill"><span aria-hidden="true">🎮</span> <span class="hide-small" data-i18n="trivia"></span> ⭐ <span id="points-count">0</span></a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="es" aria-pressed="false">ES</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME: bold green front with three buttons -->
+    <section id="screen-home" class="screen">
+      <h1 class="title">Animography</h1>
+      <p class="tagline" data-i18n="tagline"></p>
+      <nav class="big-buttons">
+        <a href="#/animals" class="big-btn" data-i18n="animals"></a>
+        <a href="#/geography" class="big-btn" data-i18n="geography"></a>
+        <a href="#/both" class="big-btn" data-i18n="both"></a>
+      </nav>
+    </section>
+
+    <!-- ANIMALS: search screen -->
+    <section id="screen-animals" class="screen" hidden>
+      <a href="#/" class="back" data-i18n="back"></a>
+      <h2 class="screen-title" data-i18n="pickAnimal"></h2>
+      <label class="search">
+        <span class="visually-hidden" data-i18n="searchLabel"></span>
+        <input type="search" id="animal-search" data-i18n-placeholder="searchPlaceholder" autocomplete="off">
+      </label>
+      <div id="animal-chips"></div>
+      <p class="results-count" id="results-count" aria-live="polite"></p>
+      <div class="results" id="results"></div>
+    </section>
+
+    <!-- ONE ANIMAL: filled in by js/app.js -->
+    <section id="screen-animal" class="screen animal-page" hidden>
+      <div id="animal-detail"></div>
+    </section>
+
+    <!-- TRIVIA: filled in by js/trivia.js -->
+    <section id="screen-trivia" class="screen" hidden>
+      <div id="trivia"></div>
+    </section>
+
+    <!-- MY CARDS + BLIND BOXES: filled in by js/cards.js -->
+    <section id="screen-cards" class="screen" hidden>
+      <div id="cards"></div>
+    </section>
+
+    <!-- MY FAVORITES -->
+    <section id="screen-favorites" class="screen" hidden>
+      <a href="#/" class="back" data-i18n="back"></a>
+      <h2 class="screen-title">❤️ <span data-i18n="favorites"></span></h2>
+      <div class="results" id="favorites-list"></div>
+    </section>
+
+    <!-- GEOGRAPHY: coming soon -->
+    <section id="screen-geography" class="screen" hidden>
+      <a href="#/" class="back" data-i18n="back"></a>
+      <h2 class="screen-title" data-i18n="geography"></h2>
+      <p class="note" data-i18n="comingSoon"></p>
+    </section>
+
+    <!-- BOTH: coming soon -->
+    <section id="screen-both" class="screen" hidden>
+      <a href="#/" class="back" data-i18n="back"></a>
+      <h2 class="screen-title" data-i18n="both"></h2>
+      <p class="note" data-i18n="comingSoon"></p>
+    </section>
+  </main>
+
+  <!-- Pop-up for one card (filled in by js/cards.js) -->
+  <dialog id="card-popup" class="card-popup"></dialog>
+
+  <div class="waves" aria-hidden="true"></div>
+  <p class="print-note" data-i18n="noPrint"></p>
+
+  <script src="data/animals.js"></script>
+  <script src="data/trivia.js"></script>
+  <script src="data/game-rules.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/trivia.js"></script>
+  <script src="js/cards.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
