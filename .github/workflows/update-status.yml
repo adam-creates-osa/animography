@@ -1,0 +1,64 @@
+# Every Monday, ask the IUCN Red List for each animal's latest status.
+# If anything changed, save it and publish the website again.
+# Needs a repository secret named IUCN_TOKEN (see README.md). The token is never in the code.
+name: Update IUCN statuses
+
+on:
+  schedule:
+    - cron: "17 12 * * 1"   # Mondays 12:17 UTC (6:17 am in Costa Rica)
+  workflow_dispatch:          # adds a "Run workflow" button so you can run it any time
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.save.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Ask the IUCN Red List
+        env:
+          IUCN_TOKEN: ${{ secrets.IUCN_TOKEN }}
+        run: node scripts/update-status.mjs
+      - name: Save changes
+        id: save
+        run: |
+          if git diff --quiet; then
+            echo "Nothing changed."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "animography-bot"
+            git config user.email "animography-bot@users.noreply.github.com"
+            git commit -am "Update animal statuses from the IUCN Red List"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
