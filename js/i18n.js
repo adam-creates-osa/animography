@@ -32,6 +32,9 @@ const STRINGS = {
     groupsPlural: { all: "All", mammal: "Mammals", bird: "Birds", reptile: "Reptiles", amphibian: "Amphibians", insect: "Insects" },
     neNote: "Scientists haven't assessed this species for the Red List yet. That doesn't mean it's safe: it means we need to learn more!",
     filterLabel: "Show",
+    statusFilterLabel: "Red List status:",
+    statusFilters: { all: "All statuses", extinct: "Extinct", CR: "Critically Endangered", EN: "Endangered",
+      VU: "Vulnerable", NT: "Near Threatened", LC: "Least Concern", unknown: "Not evaluated / not enough data" },
     status: {
       EX: "Extinct", EW: "Extinct in the Wild", DD: "Data Deficient", NE: "Not Evaluated", CR: "Critically Endangered", EN: "Endangered",
       VU: "Vulnerable", NT: "Near Threatened", LC: "Least Concern"
@@ -121,6 +124,9 @@ const STRINGS = {
     groupsPlural: { all: "Todos", mammal: "Mamíferos", bird: "Aves", reptile: "Reptiles", amphibian: "Anfibios", insect: "Insectos" },
     neNote: "Los científicos todavía no han evaluado esta especie para la Lista Roja. Eso no significa que esté a salvo: ¡significa que necesitamos aprender más!",
     filterLabel: "Mostrar",
+    statusFilterLabel: "Estado en la Lista Roja:",
+    statusFilters: { all: "Todos los estados", extinct: "Extinto", CR: "En peligro crítico", EN: "En peligro",
+      VU: "Vulnerable", NT: "Casi amenazado", LC: "Preocupación menor", unknown: "No evaluado / datos insuficientes" },
     status: {
       EX: "Extinto", EW: "Extinto en estado silvestre", DD: "Datos insuficientes", NE: "No evaluado", CR: "En peligro crítico", EN: "En peligro",
       VU: "Vulnerable", NT: "Casi amenazado", LC: "Preocupación menor"

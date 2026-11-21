@@ -72,6 +72,35 @@ function statusBadge(code) {
 const GROUPS = ["all", "mammal", "bird", "reptile", "amphibian", "insect"];
 let animalsFilter = "all";
 
+// ===== Red List status filter (Animals screen) =====
+// Each button can cover more than one IUCN code
+const STATUS_FILTERS = {
+  all: [], extinct: ["EX", "EW"], CR: ["CR"], EN: ["EN"], VU: ["VU"],
+  NT: ["NT"], LC: ["LC"], unknown: ["DD", "NE"]
+};
+let statusFilter = "all";
+
+function matchesStatus(a, key) {
+  return key === "all" || STATUS_FILTERS[key].includes(a.status);
+}
+
+// Counts follow the animal-group button that is picked, so the numbers always match the list
+function statusChips(pool) {
+  const row = el("div", { class: "chips status-chips", role: "group", "aria-label": t("statusFilterLabel") },
+    el("span", { class: "chips-label" }, t("statusFilterLabel")));
+  for (const key of Object.keys(STATUS_FILTERS)) {
+    const n = pool.filter(a => matchesStatus(a, key)).length;
+    if (key !== "all" && n === 0 && statusFilter !== key) continue; // hide empty ones
+    const chip = el("button", { type: "button", class: `chip chip-status chip-${key}`,
+      "aria-pressed": String(key === statusFilter) },
+      key === "all" ? "" : el("span", { class: "dot", "aria-hidden": "true" }),
+      `${t("statusFilters")[key]} (${n})`);
+    chip.addEventListener("click", () => { statusFilter = key; renderResults(); });
+    row.append(chip);
+  }
+  return row;
+}
+
 // countFn (optional) decides what to count in each chip, e.g. cards you own
 function groupChips(active, onPick, countFn) {
   const row = el("div", { class: "chips", role: "group", "aria-label": t("filterLabel") });
@@ -93,9 +122,13 @@ const searchBox = document.getElementById("animal-search");
 function renderResults() {
   const q = plain(searchBox.value.trim());
   const chipBox = document.getElementById("animal-chips");
-  chipBox.replaceChildren(groupChips(animalsFilter, g => { animalsFilter = g; renderResults(); }));
-  const matches = ANIMALS
-    .filter(a => animalsFilter === "all" || a.group === animalsFilter)
+  const inGroup = ANIMALS.filter(a => animalsFilter === "all" || a.group === animalsFilter);
+  chipBox.replaceChildren(
+    groupChips(animalsFilter, g => { animalsFilter = g; renderResults(); }),
+    statusChips(inGroup)
+  );
+  const matches = inGroup
+    .filter(a => matchesStatus(a, statusFilter))
     .filter(a => !q ||
       plain(a.name.en).includes(q) ||
       plain(a.name.es).includes(q) ||
