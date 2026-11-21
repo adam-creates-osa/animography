@@ -247,7 +247,7 @@ function renderAnimal(id) {
     el("p", { class: "checked" }, fill(t("statusChecked"), { date: a.checked })),
 
     section(t("about"), el("p", {}, a.summary[L])),
-    section(t("where"), el("p", {}, a.where[L])),
+    section(t("where"), el("p", {}, a.where[L]), regionLinks(a)),
     section(extinct ? t("threatsExtinct") : t("threats"), el("p", {}, a.threats[L])),
     section(extinct ? t("helpExtinct") : t("help"),
       el("ul", { class: "help-list" }, a.help[L].map(item => el("li", {}, item)))
@@ -276,7 +276,8 @@ function showScreen() {
   else if (route === "trivia") { id = "screen-trivia"; renderTrivia(); }
   else if (route === "cards") { id = "screen-cards"; renderCardsScreen(); }
   else if (route === "favorites") { id = "screen-favorites"; renderFavorites(); }
-  else if (route === "geography") id = "screen-geography";
+  else if (route === "geography") { id = "screen-geography"; renderGeography(); }
+  else if (route.startsWith("geography/")) { id = "screen-geography"; renderRegion(decodeURIComponent(route.slice(10))); }
   else if (route === "both") id = "screen-both";
 
   document.querySelectorAll(".screen").forEach(s => { s.hidden = s.id !== id; });
