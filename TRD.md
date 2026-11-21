@@ -1,13 +1,14 @@
 # TRD · Animography
 
 ## Must have (MVP)
-- Save data: My Collectible cards, (as an addition so the website is entertaining (this is necessary))
+- Save data: 1. the players' favorite cards (from Animography's preset collection) should be saved as part of the users' favorite list. 2. scores and performance on the trivia game. 
 - Deployed globally
-- AI inside: Gives the info for the animals so you can help them.
-- API: The normal information for extinct or endangered animals, example: about them and their habitat, their food, and how to save them etc...
+- API: the status of the animal must remain up to date according to the IUCN Red List of Threatened Species.
+- Where will it live: GitHub Pages
 
 ## Nice to have
 - Accounts and login
+- AI inside: the initial database will be created with AI assistance. Later, AI can help update small changes about the animals, their habitat, how to save them, fun facts, etc...
 
 ## Not needed
 - Payments: None
@@ -16,7 +17,7 @@
 Website
 
 ## AI tool
-Other
+Claude Max
 
 ## Hardest part
 The Collectible cards, because i need and want Copyright.
