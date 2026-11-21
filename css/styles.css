@@ -666,3 +666,51 @@ main {
 .chip-LC .dot { background: #12a150; }
 .chip-unknown .dot { background: #adb5bd; }
 .chip-status[aria-pressed="true"] .dot { box-shadow: 0 0 0 2px var(--white); }
+
+/* ===== Geography ===== */
+#screen-geography .back { float: none; }
+.geo-intro { max-width: 34em; margin: 0 auto 14px; }
+.map-wrap { max-width: 560px; margin: 0 auto; }
+.cr-map { width: 100%; height: auto; display: block; }
+.map-sea { fill: #a5d8ff; }
+.sea-label { fill: #1864ab; font: italic 700 18px "Nunito", sans-serif; opacity: 0.7; }
+.map-land { fill: #b2f2bb; stroke: #2b8a3e; stroke-width: 3; stroke-linejoin: round; }
+.inset { fill: rgba(255,255,255,0.45); stroke: #1864ab; stroke-dasharray: 6 5; stroke-width: 2; }
+.inset-label { fill: #1864ab; font: 700 12px "Nunito", sans-serif; }
+.map-marker circle { stroke: var(--white); stroke-width: 4; transition: r 0.15s; }
+.map-marker:hover circle, .map-marker:focus circle { r: 35; }
+.map-marker:focus { outline: none; }
+.map-marker:focus-visible circle { stroke: var(--ink); stroke-width: 6; }
+.marker-emoji { font-size: 30px; }
+.marker-label { font: 700 15px "Nunito", sans-serif; fill: var(--ink); paint-order: stroke; stroke: rgba(255,255,255,0.9); stroke-width: 4px; }
+.map-note { font-size: 0.75rem; opacity: 0.75; margin: 6px 0 16px; }
+
+.region-list { display: grid; gap: 10px; grid-template-columns: 1fr; text-align: left; }
+@media (min-width: 760px) { .region-list { grid-template-columns: 1fr 1fr; } }
+.region-btn {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--white); color: var(--ink); text-decoration: none;
+  border-radius: 18px; padding: 12px 16px;
+  border-left: 8px solid var(--rc);
+  box-shadow: 0 4px 0 rgba(0,0,0,0.15);
+}
+.region-btn:hover { transform: translateY(-2px); }
+.region-emoji { font-size: 2rem; }
+.region-text { display: flex; flex-direction: column; }
+.region-text strong { font-family: "Fredoka", sans-serif; font-size: 1.1rem; }
+.region-text em { font-size: 0.85rem; opacity: 0.75; }
+
+.region-hero {
+  margin: 14px 0 6px; padding: 18px; border-radius: var(--radius);
+  background: var(--rc); color: var(--white); text-align: left;
+}
+.region-hero h2 { font-family: "Fredoka", sans-serif; margin: 4px 0 6px; font-size: clamp(1.5rem, 6vw, 2.2rem); }
+.region-hero p { margin: 0; line-height: 1.5; }
+.region-hero-emoji { font-size: 2.6rem; }
+
+.region-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.region-link {
+  font-size: 0.85rem; font-weight: 700; text-decoration: none; color: var(--ink);
+  background: var(--white); border-left: 5px solid var(--rc);
+  padding: 5px 10px; border-radius: 999px;
+}
