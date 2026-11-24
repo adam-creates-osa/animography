@@ -3,7 +3,7 @@
 Learn about the endangered animals of Costa Rica and how to help them, with trivia, points, blind boxes and collectible cards.
 English and Spanish. Works on phones and computers.
 
----
+# the website to go for other devices: animography.vercel.app---
 
 ## 1. Try it on your computer
 Double-click **`index.html`**. That's it, nothing to install. (Photos and the rounded font need internet.)
