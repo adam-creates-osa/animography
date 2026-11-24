@@ -97,3 +97,7 @@ Finds a real photo for every animal on **iNaturalist**, accepting **only CC0 or 
 - **Saving:** favorites, points, scores and cards are saved in each visitor's browser (no accounts). They don't move between devices, and someone tech-savvy could edit their points.
 - **Card protection:** cards are built by the website (not image files), have a "© Animography" watermark, block right-click saving, and are hidden when printing. Because the repository is public, a determined person could still find how the cards are made. Truly hidden rare cards would need accounts and a server (a future "nice to have").
 - **Copyright:** © Animography for the card designs and game. Animal photos belong to their photographers (credited on each animal page, licenses on Wikimedia Commons).
+
+
+
+## why it's unique: Most people would say, "Oh, there's so many websites to help endangered animals, like iucnredlist.org" but, mine is different in many ways, one first is actually showing it with enthusiasm, a second one, is it includes games, and actual fun memorization and learning with the trivia, and fun collectible cards, so, in a summary, it would be iucnredlist.org, Expanded fun edition, which they haven't even put a millisecond of thought into that, so this is the only place ( in this case, website and future app,) where you can do this stuff.
