@@ -99,6 +99,8 @@ Finds a real photo for every animal on **iNaturalist**, accepting **only CC0 or 
 
 **Learning rewards:** every 5 NEW animal pages a player reads (at least 8 seconds each), Lento gives 10–30 random bonus points.
 
+**Wild IQ (🧠 button):** a just-for-fun score from 70 to 200 with 7 ranks (Sleepy Sprout → Legendary Naturalist). It grows with animal pages read, perfect trivia rounds, codes and best trivia scores. Change the numbers and rank names in `data/mascot.js` (the `iq` part).
+
 **Trivia milestones:** perfect rounds (10/10, any level) earn personal secret codes: 1 perfect round, 3 perfect rounds, 5 perfect in a row, and 10 perfect rounds. Change them in `data/mascot.js`.
 
 **Your own secret codes (for events, friends, schools…):**
