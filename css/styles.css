@@ -714,3 +714,83 @@ main {
   background: var(--white); border-left: 5px solid var(--rc);
   padding: 5px 10px; border-radius: 999px;
 }
+
+/* ===== Trivia levels ===== */
+.choose-title { font-family: "Fredoka", sans-serif; margin: 6px 0 10px; }
+.level-picker { display: grid; gap: 10px; grid-template-columns: 1fr; max-width: 640px; margin: 0 auto 6px; }
+@media (min-width: 760px) { .level-picker { grid-template-columns: repeat(3, 1fr); } }
+.level-card {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  font: inherit; color: var(--ink); text-align: center;
+  background: rgba(255,255,255,0.55); border: 3px solid transparent;
+  border-radius: 18px; padding: 14px 12px; cursor: pointer;
+}
+.level-card:hover { background: rgba(255,255,255,0.85); }
+.level-card[aria-checked="true"] { background: var(--white); border-color: var(--ink); box-shadow: 0 4px 0 rgba(0,0,0,0.15); }
+.level-card:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+.level-icon { font-size: 2rem; }
+.level-card strong { font-family: "Fredoka", sans-serif; font-size: 1.2rem; }
+.level-desc { font-size: 0.85rem; line-height: 1.35; }
+.level-meta { font-size: 0.75rem; font-weight: 700; opacity: 0.8; margin-top: 2px; }
+.level-done { font-weight: 700; margin: -10px 0 12px; }
+.change-level { margin: -6px auto 12px; display: block; }
+.option.sci { font-style: italic; }
+
+/* ===== Lento the sloth mascot ===== */
+.mascot { position: fixed; right: 14px; bottom: 12px; z-index: 50; display: flex; flex-direction: column; align-items: flex-end; }
+.mascot-btn {
+  width: 84px; height: 90px; padding: 0; border: 0; background: none; cursor: pointer;
+  transform-origin: 50% 8%; animation: sway 4s ease-in-out infinite;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.25));
+}
+.mascot-btn svg { width: 100%; height: 100%; display: block; }
+.mascot-btn:focus-visible { outline: 4px solid var(--blue); outline-offset: 2px; border-radius: 16px; }
+.mascot-btn.wiggle { animation: wiggle 0.6s ease-in-out 3; }
+@keyframes sway { 0%, 100% { transform: rotate(-4deg); } 50% { transform: rotate(4deg); } }
+@keyframes wiggle { 0%, 100% { transform: rotate(0) scale(1); } 25% { transform: rotate(-12deg) scale(1.08); } 75% { transform: rotate(12deg) scale(1.08); } }
+@media (prefers-reduced-motion: reduce) { .mascot-btn, .mascot-btn.wiggle { animation: none; } }
+
+.mascot-panel {
+  width: min(330px, calc(100vw - 28px));
+  max-height: min(70vh, 560px); overflow-y: auto;
+  background: var(--white); color: var(--ink);
+  border-radius: 20px; padding: 14px 16px 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  margin-bottom: 8px; position: relative; text-align: left;
+  animation: pop-in 0.25s ease-out;
+}
+.mascot-panel::after { /* little speech-bubble tail */
+  content: ""; position: absolute; right: 34px; bottom: -10px;
+  border: 10px solid transparent; border-top-color: var(--white); border-bottom: 0;
+}
+.mascot-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.mascot-head strong { font-family: "Fredoka", sans-serif; font-size: 1.15rem; }
+.mascot-close { border: 0; background: none; font-size: 1.1rem; cursor: pointer; color: var(--ink); }
+.mascot-bubble p { margin: 0 0 8px; line-height: 1.45; }
+.mascot-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; border-top: 1px solid rgba(10,77,51,0.12); padding-top: 10px; }
+.mascot-actions .chip { font-size: 0.8rem; padding: 6px 10px; background: #e6f4ee; }
+.mascot-links { display: flex; flex-wrap: wrap; gap: 6px; }
+.mascot-links .region-link { border-left-color: var(--green); background: #e6f4ee; }
+.mascot-form { display: flex; gap: 6px; }
+.mascot-input {
+  flex: 1; min-width: 0; font: 700 0.95rem "Nunito", sans-serif; letter-spacing: 1px; text-transform: uppercase;
+  padding: 10px 12px; border-radius: 12px; border: 2px solid var(--blue-light); outline: none;
+}
+.mascot-input:focus { border-color: var(--blue); }
+.mascot-go { border: 0; cursor: pointer; font-size: 0.95rem; padding: 10px 14px; box-shadow: 0 3px 0 #0d4f8f; }
+.mascot-result { margin-top: 10px; }
+.mascot-prize { font: 700 2rem "Fredoka", sans-serif; text-align: center; color: var(--blue); margin: 4px 0 6px; }
+.mascot-code {
+  font: 700 1.25rem ui-monospace, monospace; letter-spacing: 2px; text-align: center;
+  background: #fff3bf; border: 2px dashed #f08c00; border-radius: 12px; padding: 10px; margin: 6px 0 8px;
+  user-select: all;
+}
+.mascot-small { font-size: 0.85rem; opacity: 0.85; }
+.mascot-card { width: 170px; margin: 6px auto 0; }
+.mascot-codes { list-style: none; padding: 0; margin: 0; font-size: 0.85rem; }
+.mascot-codes li { padding: 4px 0; }
+.mascot-codes li.used { opacity: 0.5; text-decoration: line-through; }
+/* leave room so the sloth never covers the last buttons on a page */
+main { padding-bottom: 110px; }
+@media (max-width: 520px) { .mascot-btn { width: 66px; height: 72px; } .mascot { right: 8px; bottom: 8px; } }
+@media print { .mascot { display: none !important; } }
