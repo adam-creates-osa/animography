@@ -7,7 +7,9 @@ const DEFAULT_SAVE = {
   totalEarned: 0,   // all points ever earned
   bestScore: 0,     // most correct answers in one round
   bestPoints: 0,    // most points in one round
-  rounds: [],       // last 20 rounds: { date, correct, total, points }
+  rounds: [],       // last 20 rounds: { date, correct, total, points, level }
+  bestByLevel: {},  // best number of right answers per level
+  seen: {},         // recently asked question ids per level, so they don't repeat
   favorites: [],    // animal ids
   cards: {}         // collectible cards: { animalId: how many copies }
 };
@@ -27,15 +29,25 @@ const Store = {
     catch (e) { /* storage blocked (e.g. private mode): progress won't be kept */ }
   },
 
-  addRound(correct, total, points) {
+  addRound(correct, total, points, level) {
     const d = this.load();
     d.points += points;
     d.totalEarned += points;
     d.bestScore = Math.max(d.bestScore, correct);
     d.bestPoints = Math.max(d.bestPoints, points);
-    d.rounds = [{ date: new Date().toISOString(), correct, total, points }, ...d.rounds].slice(0, 20);
+    if (level) d.bestByLevel = { ...d.bestByLevel, [level]: Math.max(d.bestByLevel?.[level] || 0, correct) };
+    d.rounds = [{ date: new Date().toISOString(), correct, total, points, level }, ...d.rounds].slice(0, 20);
     this.save(d);
     return d;
+  },
+
+  seenIds(level) { return new Set(this.load().seen?.[level] || []); },
+
+  markSeen(level, ids, keep) {
+    const d = this.load();
+    const old = (d.seen?.[level] || []).filter(id => !ids.includes(id));
+    d.seen = { ...d.seen, [level]: [...ids, ...old].slice(0, keep) };
+    this.save(d);
   },
 
   // Spend points on a blind box and add the card. Returns null if not enough points.
