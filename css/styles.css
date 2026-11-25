@@ -794,3 +794,13 @@ main {
 main { padding-bottom: 110px; }
 @media (max-width: 520px) { .mascot-btn { width: 66px; height: 72px; } .mascot { right: 8px; bottom: 8px; } }
 @media print { .mascot { display: none !important; } }
+
+/* ===== Wild IQ ===== */
+.iq-title { text-align: center; font-weight: 700; margin: 0 !important; }
+.iq-score { font: 700 3.2rem "Fredoka", sans-serif; text-align: center; color: var(--blue); line-height: 1.1; }
+.iq-rank { text-align: center; font: 700 1.1rem "Fredoka", sans-serif; }
+.iq-bar { margin: 4px 0 6px; }
+.iq-parts { list-style: none; padding: 0; margin: 8px 0; font-size: 0.85rem; }
+.iq-parts li { display: flex; justify-content: space-between; padding: 3px 0; border-bottom: 1px solid rgba(10,77,51,0.1); }
+.iq-fun { font-style: italic; }
+.iq-up { background: #fff3bf; border-radius: 12px; padding: 8px 10px; font-weight: 700; }
