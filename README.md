@@ -14,7 +14,8 @@ Double-click **`index.html`**. That's it, nothing to install. (Photos and the ro
 |---|---|---|
 | `data/animals.js` | All the animals: names, facts, how to help, status, photos | ✅ Yes, change the words between the quotes |
 | `data/trivia.js` | Trivia questions. **The first answer is always the right one** (the game shuffles them) | ✅ Yes |
-| `data/game-rules.js` | Points, bonus, blind box price, odds, which status = which rarity | ✅ Yes, just change the numbers |
+| `data/animal-updates.js` | Small fixes to animals without replacing `animals.js` (keeps the robot's photos safe) | ✅ Yes |
+| `data/game-rules.js` | Points, bonus, blind box price, card tickets (odds), which status = which rarity | ✅ Yes, just change the numbers |
 | `js/i18n.js` | Every button and label in English and Spanish | ✅ Yes |
 | `css/styles.css` | Colors and layout. Main color is `--seafoam` at the top | ✅ Carefully |
 | `js/*.js` | The code that makes it all work | ⚠️ Ask Claude first |
@@ -113,6 +114,13 @@ The website only keeps a scrambled version ("hash") of each code, so nobody can 
 There's an example code, **PURAVIDA** (50 points), that you can delete when you don't need it.
 
 > Honest limits: everything is saved in the player's browser, so a tech-savvy person could still give themselves points. Truly cheat-proof rewards would need accounts and a server.
+
+---
+
+## 7a. Blind box chances (card tickets)
+
+Every card gets "tickets" by rarity (`cardWeights` in `data/game-rules.js`): Common 6, Rare 3, Secret Rare 1. One ticket is drawn per box.
+So any one Common card is always 6× as likely as any one Secret Rare, no matter how many cards you add. The My Cards screen works out and shows the real percentages automatically.
 
 ---
 
