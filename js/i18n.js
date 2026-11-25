@@ -120,7 +120,16 @@ const STRINGS = {
     backToMap: "← Map",
     openCard: "see card",
     close: "Close",
-    copies: "You have {n} copies of this card"
+    copies: "You have {n} copies of this card",
+    talkBtn: "💬 Talk to me",
+    chatBack: "← Card",
+    chatLabel: "Chat with the {name}",
+    chatPlaceholder: "Type a message…",
+    chatSend: "Send",
+    chatTyping: "Typing…",
+    chatRegions: "Regions: {list}.",
+    chatHiPrefix: ["{sound} Hi!", "Hello!", "Hey there!"],
+    chatPrivacy: "🔒 This chat stays on your device. Answers come from the animal's fact sheet."
   },
   es: {
     tagline: "¡Conoce a los vecinos salvajes de Costa Rica y aprende cómo ayudarlos a prosperar!",
@@ -241,6 +250,15 @@ const STRINGS = {
     backToMap: "← Mapa",
     openCard: "ver carta",
     close: "Cerrar",
-    copies: "Tienes {n} copias de esta carta"
+    copies: "Tienes {n} copias de esta carta",
+    talkBtn: "💬 Habla conmigo",
+    chatBack: "← Carta",
+    chatLabel: "Chat con {name}",
+    chatPlaceholder: "Escribe un mensaje…",
+    chatSend: "Enviar",
+    chatTyping: "Escribiendo…",
+    chatRegions: "Regiones: {list}.",
+    chatHiPrefix: ["{sound} ¡Hola!", "¡Hola!", "¡Hey!"],
+    chatPrivacy: "🔒 Este chat se queda en tu dispositivo. Las respuestas salen de la ficha del animal."
   }
 };

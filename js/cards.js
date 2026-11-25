@@ -184,8 +184,11 @@ function showReveal() {
 // ----- Pop-up of one card (from My Cards) -----
 function openCardPopup(animal, count) {
   const dlg = document.getElementById("card-popup");
+  dlg.classList.remove("chatting");
   const close = el("button", { type: "button", class: "popup-close", "aria-label": t("close") }, "✕");
   close.addEventListener("click", () => dlg.close());
+  const talk = el("button", { type: "button", class: "big-btn small popup-talk" }, t("talkBtn"));
+  talk.addEventListener("click", () => openAnimalChat(animal, count));
   const link = el("a", { href: `#/animal/${animal.id}`, class: "big-btn small popup-link" },
     fill(t("meetAnimal"), { name: animal.name[currentLang] }));
   link.addEventListener("click", () => dlg.close());
@@ -193,13 +196,27 @@ function openCardPopup(animal, count) {
     close,
     el("div", { class: "popup-card" }, renderCard(animal)),
     count > 1 ? el("p", { class: "popup-copies" }, fill(t("copies"), { n: count })) : "",
+    talk,
     link
   );
-  dlg.showModal();
-  link.focus();
+  if (!dlg.open) dlg.showModal();
+  talk.focus();
+}
+
+// ----- Chat with the animal (same pop-up, chat view) -----
+function openAnimalChat(animal, count) {
+  const dlg = document.getElementById("card-popup");
+  const close = el("button", { type: "button", class: "popup-close", "aria-label": t("close") }, "✕");
+  close.addEventListener("click", () => dlg.close());
+  dlg.classList.add("chatting");
+  dlg.replaceChildren(close, AnimalChat.renderChat(animal, { onBack: () => openCardPopup(animal, count) }));
 }
 
 // Clicking the dark area around the pop-up closes it (Esc also works)
 document.getElementById("card-popup").addEventListener("click", e => {
-  if (e.target.id === "card-popup") e.target.close();
+  const dlg = e.currentTarget;
+  if (e.target !== dlg) return;
+  const r = dlg.getBoundingClientRect();
+  const inside = e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom;
+  if (!inside) dlg.close();
 });
