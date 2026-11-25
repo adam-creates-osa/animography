@@ -1,10 +1,21 @@
 // Animography game rules. Change any number here and the game follows it.
 window.GAME_RULES = {
-  questionsPerRound: 10,     // questions in one trivia round
-  statusQuestionsPerRound: 3, // how many of those are "What is this animal's status?" questions
-  pointsPerCorrect: 10,      // points for each right answer
-  streakLength: 3,           // right answers in a row needed for a bonus...
-  streakBonus: 5,            // ...and how many bonus points it gives
+  questionsPerRound: 10,      // questions in one trivia round
+  streakLength: 3,            // right answers in a row needed for a bonus...
+  streakBonus: 5,             // ...and how many bonus points it gives
+
+  // Difficulty levels. "written" = how many hand-written questions per round (the rest are automatic).
+  // "auto" = which kinds of automatic questions this level uses:
+  //   group: "What kind of animal is the …?"         groupPick: "Which of these is a bird?"
+  //   status: "What is its Red List status?"          region: "Where in Costa Rica can you find it?"
+  //   riddle: "Which animal is this?" (from fun facts) scientific / reverseScientific: scientific names
+  //   whichCR: "Which of these is Critically Endangered?"
+  levels: {
+    beginner:     { pointsPerCorrect: 10, written: 6, auto: ["group", "groupPick"] },
+    intermediate: { pointsPerCorrect: 15, written: 5, auto: ["status", "region", "riddle"] },
+    advanced:     { pointsPerCorrect: 20, written: 4, auto: ["scientific", "reverseScientific", "whichCR", "region", "riddle"] }
+  },
+  rememberSeen: 120,          // how many recent questions per level the game avoids repeating
 
   // Used in the next step (blind boxes and cards)
   blindBoxCost: 100,
