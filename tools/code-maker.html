@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Animography · Secret code maker</title>
+<style>
+  body { font-family: system-ui, sans-serif; background: #8ed4b8; color: #0a4d33; margin: 0; padding: 24px; }
+  main { max-width: 640px; margin: 0 auto; background: #fff; border-radius: 20px; padding: 24px; }
+  h1 { margin-top: 0; }
+  label { display: block; font-weight: 700; margin: 14px 0 6px; }
+  input, select { font: inherit; padding: 10px 12px; border-radius: 10px; border: 2px solid #4fc3f7; width: 100%; box-sizing: border-box; }
+  button { font: 700 1rem system-ui; background: #1677d2; color: #fff; border: 0; border-radius: 12px; padding: 12px 18px; margin-top: 16px; cursor: pointer; }
+  pre { background: #f1f3f5; padding: 14px; border-radius: 12px; white-space: pre-wrap; word-break: break-all; }
+  .hint { font-size: 0.9rem; opacity: 0.8; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>🦥 Secret code maker</h1>
+  <p class="hint">For the developer. Make a code here, then paste the line into <b>data/secret-codes.js</b>. The code itself is never saved in the website's files, only a scrambled version of it.</p>
+
+  <label for="code">Secret code (letters and numbers; spaces and dashes are ignored)</label>
+  <input id="code" placeholder="e.g. JAGUAR2027" autocomplete="off">
+
+  <div class="row">
+    <div>
+      <label for="type">Prize</label>
+      <select id="type">
+        <option value="points">Points</option>
+        <option value="randomRare">A random Rare card</option>
+        <option value="randomSecret">A random Secret Rare card</option>
+        <option value="card">A specific card</option>
+      </select>
+    </div>
+    <div>
+      <label for="value">How many points / which animal</label>
+      <input id="value" placeholder="100  or  jaguar">
+    </div>
+  </div>
+
+  <label for="expires">Last day it works (optional)</label>
+  <input id="expires" type="date">
+
+  <label for="note">Note for yourself (optional, people can read this)</label>
+  <input id="note" placeholder="e.g. School visit, Dec 2026">
+
+  <button id="make">Make my code line</button>
+
+  <div id="out" hidden>
+    <p><b>Copy this line</b> and paste it inside the [ ] in <b>data/secret-codes.js</b> (add a comma after the line above it):</p>
+    <pre id="line"></pre>
+    <p class="hint">Players type: <b id="show"></b> · Keep the code somewhere safe: the website can't show it to you again.</p>
+  </div>
+</main>
+<script src="../js/sha256-only.js"></script>
+<script>
+  const clean = c => c.toUpperCase().replace(/[^A-Z0-9]/g, "");
+  document.getElementById("make").addEventListener("click", () => {
+    const code = clean(document.getElementById("code").value);
+    if (code.length < 5) { alertBox("Please use at least 5 letters or numbers."); return; }
+    const type = document.getElementById("type").value;
+    const value = document.getElementById("value").value.trim();
+    let reward;
+    if (type === "points") {
+      const n = parseInt(value, 10);
+      if (!(n > 0)) { alertBox("Type how many points, like 100."); return; }
+      reward = { points: n };
+    } else if (type === "randomRare") reward = { randomCard: "rare" };
+    else if (type === "randomSecret") reward = { randomCard: "secretRare" };
+    else {
+      if (!value) { alertBox("Type the animal id, like jaguar or blue-morpho (it's the end of the animal page address)."); return; }
+      reward = { card: value.toLowerCase() };
+    }
+    const item = { hash: sha256("animography:" + code), reward };
+    const exp = document.getElementById("expires").value;
+    if (exp) item.expires = exp;
+    const note = document.getElementById("note").value.trim();
+    if (note) item.note = note;
+    document.getElementById("line").textContent = "  " + JSON.stringify(item).replace(/,"/g, ', "').replace(/":/g, '": ');
+    document.getElementById("show").textContent = code;
+    document.getElementById("out").hidden = false;
+  });
+  function alertBox(t) { const o = document.getElementById("out"); o.hidden = false; document.getElementById("line").textContent = "⚠️ " + t; document.getElementById("show").textContent = "—"; }
+</script>
+</body>
+</html>

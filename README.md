@@ -3,7 +3,7 @@
 Learn about the endangered animals of Costa Rica and how to help them, with trivia, points, blind boxes and collectible cards.
 English and Spanish. Works on phones and computers.
 
-# the website to go for other devices: animography.vercel.app---
+---
 
 ## 1. Try it on your computer
 Double-click **`index.html`**. That's it, nothing to install. (Photos and the rounded font need internet.)
@@ -93,11 +93,28 @@ Finds a real photo for every animal on **iNaturalist**, accepting **only CC0 or 
 
 ---
 
-## 6. Good to know
+## 7. Lento the sloth (mascot) and secret codes
+
+**Change his name, tips, messages and rewards:** `data/mascot.js` (English and Spanish).
+
+**Learning rewards:** every 5 NEW animal pages a player reads (at least 8 seconds each), Lento gives 10–30 random bonus points.
+
+**Trivia milestones:** perfect rounds (10/10, any level) earn personal secret codes: 1 perfect round, 3 perfect rounds, 5 perfect in a row, and 10 perfect rounds. Change them in `data/mascot.js`.
+
+**Your own secret codes (for events, friends, schools…):**
+1. Open `tools/code-maker.html` (on your computer, or at `https://YOUR-USERNAME.github.io/animography/tools/code-maker.html`).
+2. Type a code (at least 5 letters/numbers) and choose the prize: points, a random Rare or Secret Rare card, or a specific card.
+3. Copy the line it gives you into `data/secret-codes.js`, then upload.
+4. Share the code with players. Each code works once per player (per device and browser).
+
+The website only keeps a scrambled version ("hash") of each code, so nobody can read your codes in the files.
+There's an example code, **PURAVIDA** (50 points), that you can delete when you don't need it.
+
+> Honest limits: everything is saved in the player's browser, so a tech-savvy person could still give themselves points. Truly cheat-proof rewards would need accounts and a server.
+
+---
+
+## 8. Good to know
 - **Saving:** favorites, points, scores and cards are saved in each visitor's browser (no accounts). They don't move between devices, and someone tech-savvy could edit their points.
 - **Card protection:** cards are built by the website (not image files), have a "© Animography" watermark, block right-click saving, and are hidden when printing. Because the repository is public, a determined person could still find how the cards are made. Truly hidden rare cards would need accounts and a server (a future "nice to have").
 - **Copyright:** © Animography for the card designs and game. Animal photos belong to their photographers (credited on each animal page, licenses on Wikimedia Commons).
-
-
-
-****## why it's unique:** Most people would say, "Oh, there's so many websites to help endangered animals, like iucnredlist.org" but, mine is different in many ways, one, it is actually showing it with enthusiasm, second, it includes games, and actual fun memorization and learning with the trivia, and fun collectible cards, so, in a summary, it would be iucnredlist.org, Expanded fun edition, which they haven't even put a millisecond of thought into that, so this is the only place ( in this case, website and future app,) where you can do this stuff.
