@@ -116,6 +116,18 @@ There's an example code, **PURAVIDA** (50 points), that you can delete when you 
 
 ---
 
+## 7b. Talk to your animals (card chat)
+
+In 🃏 My Cards, tap a card → **💬 Talk to me**. The animal chats back in English or Spanish.
+
+- **How it works now (free):** the animal recognizes what the player is asking (hi, "you're my favorite", where do you live, what do you eat, are you in danger, how can I help, fun fact, joke, thanks, bye…) and answers using its own fact sheet from `data/animals.js`. Nothing the player types leaves their device.
+- **Change replies, jokes, sounds and suggestion buttons:** `data/chat.js`. Each reply list can have several versions; the animal picks one at random. `{name}`, `{where}`, `{help}` and the other words in curly brackets are filled in automatically — keep them as they are.
+- **Teach it new words:** add words to the `match` lists in `data/chat.js` (lowercase, no accents).
+
+**Future real-AI version (not turned on):** set `mode: "ai"` and `aiEndpoint` to the address of YOUR middleman server (for example a free Cloudflare Worker). That server keeps the AI key secret and answers with `{ "reply": "..." }`. **Never put an AI key in `data/chat.js`.** If the server fails, the free chat answers automatically.
+
+---
+
 ## 8. Good to know
 - **Saving:** favorites, points, scores and cards are saved in each visitor's browser (no accounts). They don't move between devices, and someone tech-savvy could edit their points.
 - **Card protection:** cards are built by the website (not image files), have a "© Animography" watermark, block right-click saving, and are hidden when printing. Because the repository is public, a determined person could still find how the cards are made. Truly hidden rare cards would need accounts and a server (a future "nice to have").
