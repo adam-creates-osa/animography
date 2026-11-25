@@ -95,7 +95,7 @@ const Mascot = (() => {
 
   function menu() {
     actions.replaceChildren();
-    for (const [key, fn] of [["tipBtn", showTip], ["goBtn", showGo], ["codeBtn", showCode], ["rewardsBtn", showRewards]]) {
+    for (const [key, fn] of [["tipBtn", showTip], ["goBtn", showGo], ["codeBtn", showCode], ["rewardsBtn", showRewards], ["iqBtn", showIQ]]) {
       const b = el("button", { type: "button", class: "chip" }, T()[key]);
       b.addEventListener("click", fn);
       actions.append(b);
@@ -148,9 +148,13 @@ const Mascot = (() => {
       addPoints(d, p);
       Store.save(d);
       updateCounters();
-      show(el("p", {}, say("learnBonus", { n, p })), el("div", { class: "mascot-prize" }, `+${p} ⭐`));
+      const up = checkRankUp();
+      show(el("p", {}, say("learnBonus", { n, p })), el("div", { class: "mascot-prize" }, `+${p} ⭐`),
+           up ? el("p", { class: "iq-up" }, up) : "");
     } else {
       Store.save(d);
+      const up = checkRankUp();
+      if (up) { show(el("p", { class: "iq-up" }, up)); wiggle(); }
     }
   }
 
@@ -176,12 +180,15 @@ const Mascot = (() => {
       }
     }
     Store.save(d);
+    const up = checkRankUp();
+    if (!earned && up) setTimeout(() => { show(el("p", { class: "iq-up" }, up)); wiggle(); }, 600);
     if (earned) {
       const ms = CFG.milestones.find(x => x.id === earned.milestone);
       setTimeout(() => {
         show(el("p", {}, say("milestone", { what: milestoneName(ms) })),
              el("div", { class: "mascot-code" }, earned.code),
-             el("p", { class: "mascot-small" }, T().milestoneHow));
+             el("p", { class: "mascot-small" }, T().milestoneHow),
+             up ? el("p", { class: "iq-up" }, up) : "");
         wiggle();
       }, 600);
     }
@@ -230,6 +237,8 @@ const Mascot = (() => {
     updateCounters();
     if (got.points) msg(say("gotPoints", { n: got.points }), el("div", { class: "mascot-prize" }, `+${got.points} ⭐`));
     else msg(T().gotCard, el("div", { class: "mascot-card" }, renderCard(got.animal)));
+    const up = checkRankUp();
+    if (up) result.append(el("p", { class: "iq-up" }, up));
     wiggle();
   }
 
@@ -241,12 +250,65 @@ const Mascot = (() => {
       ? el("ul", { class: "mascot-codes" }, m.codes.map(c =>
           el("li", { class: c.used ? "used" : "" }, el("code", {}, c.code), " · ", c.used ? T().used : T().unused)))
       : el("p", { class: "mascot-small" }, T().noCodes);
+    const q = computeIQ(d);
     show(
+      el("p", {}, el("strong", {}, `🧠 ${T().iqTitle}: ${q.score}`), ` · ${q.rank.icon} ${rankName(q.rank)}`),
       el("p", {}, say("learnProgress", { n: m.read.length, left })),
       el("p", {}, say("perfectStats", { total: m.perfectTotal, streak: m.perfectStreak })),
       el("p", { class: "mascot-small" }, next ? say("nextMilestone", { what: milestoneName(next) }) : T().allMilestones),
       el("p", {}, el("strong", {}, T().myCodes)), codes
     );
+  }
+
+  // ---------- 5) Wild IQ: a just-for-fun score ----------
+  function computeIQ(d) {
+    const c = CFG.iq, m = d.mascot;
+    const best = d.bestByLevel || {};
+    const parts = {
+      read: m.read.length * c.perAnimalRead,
+      perfect: Math.min(m.perfectTotal, c.maxPerfectRounds) * c.perPerfectRound,
+      tcodes: m.codes.length * c.perTriviaCode,
+      scodes: Math.min(m.redeemed.length, c.maxSecretCodes) * c.perSecretCode,
+      best: Object.entries(c.perBestAnswer).reduce((sum, [lv, w]) => sum + (best[lv] || 0) * w, 0)
+    };
+    const score = Math.min(c.max, Math.round(c.base + Object.values(parts).reduce((a, b) => a + b, 0)));
+    const ranks = [...c.ranks].sort((a, b) => a.min - b.min);
+    const rank = ranks.filter(r => score >= r.min).pop();
+    const next = ranks.find(r => r.min > score) || null;
+    return { score, parts, rank, next };
+  }
+
+  const rankName = r => r[currentLang] || r.en;
+
+  function showIQ() {
+    const d = state(), q = computeIQ(d), c = CFG.iq;
+    const pct = Math.round(((q.score - c.base) / (c.max - c.base)) * 100);
+    const list = el("ul", { class: "iq-parts" },
+      Object.entries(q.parts).map(([k, v]) => el("li", {}, el("span", {}, T().iqParts[k]), el("strong", {}, "+" + Math.round(v)))));
+    show(
+      el("p", { class: "iq-title" }, T().iqTitle),
+      el("div", { class: "iq-score" }, String(q.score)),
+      el("p", { class: "iq-rank" }, fill(T().iqRank, { icon: q.rank.icon, rank: rankName(q.rank) })),
+      el("div", { class: "progress iq-bar", role: "img", "aria-label": `${q.score} / ${c.max}` },
+        el("div", { class: "progress-bar", style: `width:${Math.max(2, pct)}%` })),
+      el("p", { class: "mascot-small" }, q.next
+        ? fill(T().iqNext, { n: q.next.min - q.score, icon: q.next.icon, rank: rankName(q.next) })
+        : T().iqTop),
+      list,
+      el("p", { class: "mascot-small" }, T().iqHow),
+      el("p", { class: "mascot-small iq-fun" }, T().iqFun)
+    );
+  }
+
+  // After any reward: if the rank went up, Lento celebrates (returns the message or null)
+  function checkRankUp() {
+    const d = state(), q = computeIQ(d);
+    const before = d.mascot.iqRank ?? null;
+    if (before === q.rank.min) return null;
+    d.mascot.iqRank = q.rank.min;
+    Store.save(d);
+    if (before === null || q.rank.min < before) return null;   // first time we measure: no fanfare
+    return say("iqUp", { score: q.score, icon: q.rank.icon, rank: rankName(q.rank) });
   }
 
   // ---------- following the user around ----------
@@ -264,6 +326,7 @@ const Mascot = (() => {
 
   function start() {
     build();
+    checkRankUp();
     btn.setAttribute("aria-label", say("open"));
     const d = state();
     if (!d.mascot.introDone) {
@@ -273,7 +336,7 @@ const Mascot = (() => {
     }
   }
 
-  return { onRoute, onRoundEnd, start, hide };
+  return { onRoute, onRoundEnd, start, hide, computeIQ: () => computeIQ(state()) };
 })();
 
 // ---------- SHA-256 (turns a code into a scrambled "hash" so codes aren't readable in the files) ----------
