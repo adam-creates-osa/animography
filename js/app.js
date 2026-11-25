@@ -280,6 +280,7 @@ function showScreen() {
   else if (route.startsWith("geography/")) { id = "screen-geography"; renderRegion(decodeURIComponent(route.slice(10))); }
 
   document.querySelectorAll(".screen").forEach(s => { s.hidden = s.id !== id; });
+  Mascot.onRoute(route);
 }
 
 window.addEventListener("hashchange", () => {
@@ -293,3 +294,4 @@ window.addEventListener("hashchange", () => {
 applyLang(getLang());
 updateCounters();
 showScreen();
+Mascot.start();

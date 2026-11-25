@@ -298,6 +298,7 @@ function answer(optIndex) {
     round.saved = Store.addRound(round.correct, round.questions.length, round.points, round.level);
     Store.markSeen(round.level, round.questions.map(q => q.id), RULES.rememberSeen);
     updateCounters();
+    Mascot.onRoundEnd(round.correct, round.questions.length);
   }
   renderTrivia();
 }
