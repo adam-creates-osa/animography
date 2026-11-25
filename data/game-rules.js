@@ -20,7 +20,11 @@ window.GAME_RULES = {
   // Used in the next step (blind boxes and cards)
   blindBoxCost: 100,
   duplicateRefund: 10,
-  odds: { common: 70, rare: 25, secretRare: 5 }, // percent
+  // Blind box chances work like raffle tickets: EVERY card gets this many tickets, then one ticket is drawn.
+  // So any one Common card is always more likely than any one Rare, and any one Rare more likely than any one
+  // Secret Rare, no matter how many cards are in each group. (Example: 6 vs 1 = a Common is 6× as likely.)
+  // The game works out and shows the real percentages by itself.
+  cardWeights: { common: 6, rare: 3, secretRare: 1 },
 
   // Which Red List status makes which card rarity
   rarityByStatus: {

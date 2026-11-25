@@ -294,7 +294,7 @@ window.ANIMAL_REGIONS = {
   "indigo-snake": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
   "variable-harlequin-toad": ["central-pacific","south-pacific"],
   "chiriqui-harlequin-frog": ["talamanca"],
-  "pass-stubfoot-toad": ["central-mountains"],
+  "pass-stubfoot-toad": ["central-mountains", "talamanca"],
   "pico-blanco-toad": ["talamanca"],
   "holdridges-toad": ["central-mountains"],
   "chompipe-toad": ["central-mountains"],
