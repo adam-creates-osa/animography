@@ -21,6 +21,29 @@ window.MASCOT = {
     { id: "perfect-10", type: "total",  count: 10, reward: { randomCard: "secretRare" } }
   ],
 
+  // ----- Wild IQ: a just-for-fun score (NOT a real IQ test) -----
+  // Score = base + points from each part below, never above "max".
+  iq: {
+    base: 70,
+    max: 200,
+    perAnimalRead: 0.3,                 // each animal page read (250 animals → up to +75)
+    perPerfectRound: 3,                 // each perfect trivia round...
+    maxPerfectRounds: 10,               // ...counting up to 10 of them (+30)
+    perTriviaCode: 3,                   // each milestone code earned in trivia (+12 for all 4)
+    perSecretCode: 2,                   // each developer secret code used...
+    maxSecretCodes: 5,                  // ...counting up to 5 (+10)
+    perBestAnswer: { beginner: 0.5, intermediate: 1, advanced: 1.5 }, // best trivia score on each level (+30)
+    ranks: [
+      { min: 0,   icon: "😴", en: "Sleepy Sprout",       es: "Brote Dormilón" },
+      { min: 90,  icon: "🌱", en: "Curious Cub",          es: "Cachorro Curioso" },
+      { min: 110, icon: "🔎", en: "Forest Explorer",      es: "Explorador del Bosque" },
+      { min: 130, icon: "🧭", en: "Jungle Ranger",        es: "Guardabosques de la Selva" },
+      { min: 150, icon: "🦉", en: "Wildlife Expert",      es: "Experto en Vida Silvestre" },
+      { min: 170, icon: "🦥", en: "Wise Old Sloth",       es: "Perezoso Sabio" },
+      { min: 190, icon: "🌟", en: "Legendary Naturalist", es: "Naturalista Legendario" }
+    ]
+  },
+
   // ----- Words -----
   text: {
     en: {
@@ -28,6 +51,15 @@ window.MASCOT = {
       open: "Talk to {name}, the sloth guide",
       close: "Close",
       tipBtn: "💡 Tip", goBtn: "🧭 Take me to…", codeBtn: "🔑 Secret code", rewardsBtn: "🎁 My rewards",
+      iqBtn: "🧠 Wild IQ",
+      iqTitle: "Your Wild IQ",
+      iqFun: "Just for fun! This is a game score, not a real IQ test. 😉",
+      iqRank: "Rank: {icon} {rank}",
+      iqNext: "{n} more to reach {icon} {rank}.",
+      iqTop: "You reached the top rank. Amazing! 🌟",
+      iqParts: { read: "📖 Animal pages read", perfect: "🏆 Perfect trivia rounds", tcodes: "🎟️ Trivia codes earned", scodes: "🔑 Secret codes used", best: "🎮 Best trivia scores" },
+      iqHow: "To raise it: read new animal pages, play trivia (Advanced counts the most!) and collect codes.",
+      iqUp: "Your Wild IQ went up to {score}! 🧠 New rank: {icon} {rank}!",
       goTitle: "Where do you want to go?",
       places: { animals: "🐾 Animals", geography: "🗺️ Geography", trivia: "🎮 Trivia", cards: "🃏 My Cards", favorites: "❤️ My Favorites", home: "🏠 Home" },
       codeTitle: "Type a secret code:",
@@ -66,6 +98,15 @@ window.MASCOT = {
       open: "Hablar con {name}, el perezoso guía",
       close: "Cerrar",
       tipBtn: "💡 Consejo", goBtn: "🧭 Llévame a…", codeBtn: "🔑 Código secreto", rewardsBtn: "🎁 Mis premios",
+      iqBtn: "🧠 IQ Salvaje",
+      iqTitle: "Tu IQ Salvaje",
+      iqFun: "¡Es solo por diversión! Es un puntaje del juego, no una prueba de IQ de verdad. 😉",
+      iqRank: "Rango: {icon} {rank}",
+      iqNext: "Te faltan {n} para llegar a {icon} {rank}.",
+      iqTop: "Llegaste al rango más alto. ¡Increíble! 🌟",
+      iqParts: { read: "📖 Páginas de animales leídas", perfect: "🏆 Rondas perfectas de trivia", tcodes: "🎟️ Códigos de trivia ganados", scodes: "🔑 Códigos secretos usados", best: "🎮 Mejores puntajes de trivia" },
+      iqHow: "Para subirlo: lee páginas de animales nuevos, juega trivia (¡Avanzado cuenta más!) y junta códigos.",
+      iqUp: "¡Tu IQ Salvaje subió a {score}! 🧠 Nuevo rango: {icon} {rank}!",
       goTitle: "¿A dónde quieres ir?",
       places: { animals: "🐾 Animales", geography: "🗺️ Geografía", trivia: "🎮 Trivia", cards: "🃏 Mis Cartas", favorites: "❤️ Mis Favoritos", home: "🏠 Inicio" },
       codeTitle: "Escribe un código secreto:",
