@@ -864,3 +864,5 @@ main {
 .iq-parts li { display: flex; justify-content: space-between; padding: 3px 0; border-bottom: 1px solid rgba(10,77,51,0.1); }
 .iq-fun { font-style: italic; }
 .iq-up { background: #fff3bf; border-radius: 12px; padding: 8px 10px; font-weight: 700; }
+
+.odds-each { font-size: 0.75rem; margin-top: 2px; }
