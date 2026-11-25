@@ -74,14 +74,32 @@ function renderCard(animal) {
 }
 
 // ----- Picking a card -----
+// Every card gets "tickets" by rarity (GAME_RULES.cardWeights); one ticket is drawn.
+function cardTickets(animal) {
+  return window.GAME_RULES.cardWeights[rarityOf(animal)] || 0;
+}
 function pickCard() {
-  const odds = window.GAME_RULES.odds;
-  const roll = Math.random() * (odds.common + odds.rare + odds.secretRare);
-  let rarity = roll < odds.common ? "common" : roll < odds.common + odds.rare ? "rare" : "secretRare";
-  // If a rarity has no animals (the list can change), fall back to common
-  let pool = window.ANIMALS.filter(a => rarityOf(a) === rarity);
-  if (!pool.length) pool = window.ANIMALS.filter(a => rarityOf(a) === "common");
-  return pool[Math.floor(Math.random() * pool.length)];
+  const total = window.ANIMALS.reduce((sum, a) => sum + cardTickets(a), 0);
+  let roll = Math.random() * total;
+  for (const a of window.ANIMALS) {
+    roll -= cardTickets(a);
+    if (roll < 0) return a;
+  }
+  return window.ANIMALS[window.ANIMALS.length - 1];
+}
+
+// Real chances, worked out from the tickets: per rarity group and per single card
+function cardOdds() {
+  const total = window.ANIMALS.reduce((sum, a) => sum + cardTickets(a), 0);
+  const fmt = x => x >= 1 ? x.toFixed(1).replace(/\.0$/, "") : x.toFixed(2);
+  const group = {}, each = {};
+  for (const r of RARITIES) {
+    const count = window.ANIMALS.filter(a => rarityOf(a) === r).length;
+    const w = window.GAME_RULES.cardWeights[r] || 0;
+    group[r] = fmt(100 * count * w / total);
+    each[r] = fmt(100 * w / total);
+  }
+  return { group, each };
 }
 
 // ----- My Cards screen -----
@@ -111,7 +129,8 @@ function renderCardsScreen() {
         canOpen ? "" : el("p", { class: "note" },
           fill(t("needPoints"), { n: R.blindBoxCost - save.points }), " ",
           el("a", { href: "#/trivia", class: "learn-link" }, t("playTrivia"))),
-        el("p", { class: "odds" }, fill(t("oddsLine"), R.odds))
+        el("p", { class: "odds" }, fill(t("oddsLine"), cardOdds().group)),
+        el("p", { class: "odds odds-each" }, fill(t("oddsEach"), cardOdds().each))
       )
     ),
     el("div", { id: "reveal" }),
