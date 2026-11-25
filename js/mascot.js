@@ -82,7 +82,7 @@ const Mascot = (() => {
     actions = el("div", { class: "mascot-actions" });
     btn = el("button", { type: "button", class: "mascot-btn", "aria-expanded": "false" });
     btn.innerHTML = SLOTH_SVG;
-    root.append(panel, btn);
+    root.append(btn, panel);
     btn.addEventListener("click", toggle);
     document.addEventListener("keydown", e => { if (e.key === "Escape" && !panel.hidden) hide(); });
   }
