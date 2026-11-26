@@ -30,6 +30,71 @@ window.ANIMAL_UPDATES = {
     funFact: {
       en: "Its scientific name 'senex' means 'old man' in Latin. Males were bluish gray or black, while females could have lime or lemon-colored patches.",
       es: "Su nombre científico 'senex' significa 'anciano' en latín. Los machos eran gris azulado o negros, y las hembras podían tener manchas color lima o limón."
+    },
+    statusNote: {
+      "en": "Listed as Extinct by the IUCN. Not seen since 1986, but Costa Rican biologists keep searching for it.",
+      "es": "En la categoría Extinto de la UICN. No se ve desde 1986, pero biólogos costarricenses siguen buscándolo."
+    },
+    more: [
+      {
+        "icon": "🐸",
+        "title": {
+          "en": "What it was like",
+          "es": "Cómo era"
+        },
+        "text": {
+          "en": [
+            "It was known from only three places on Earth, all in Costa Rica: one near Barva Volcano and two on the northern slopes of the Talamanca mountains, between 1,100 and 2,200 m high.",
+            "It was small: males were about 3 cm long and females up to about 4 cm. It was active during the day and laid its eggs in mountain streams in July and August.",
+            "A funny detail: scientists noticed it walked more often than it hopped!"
+          ],
+          "es": [
+            "Solo se conocía en tres lugares del mundo, todos en Costa Rica: uno cerca del volcán Barva y dos en las laderas del norte de la cordillera de Talamanca, entre 1.100 y 2.200 m de altura.",
+            "Era pequeño: los machos medían unos 3 cm y las hembras hasta unos 4 cm. Estaba activo de día y ponía sus huevos en quebradas de montaña en julio y agosto.",
+            "Un detalle curioso: ¡los científicos notaron que caminaba más de lo que saltaba!"
+          ]
+        }
+      },
+      {
+        "icon": "🔎",
+        "style": "hope",
+        "title": {
+          "en": "Could it still be out there?",
+          "es": "¿Podría seguir allá afuera?"
+        },
+        "text": {
+          "en": [
+            "There's a reason for hope! Its neighbor on Barva Volcano, Holdridge's toad, also vanished in 1986 and was declared extinct… and then it was found again in 2010! In the same years, a rain frog that disappeared in 1986 was rediscovered too.",
+            "Harlequin toads are famous for surprises: scientists have found that up to 32 kinds once thought possibly extinct are still alive in the wild. Its cousin, the Variable Harlequin Toad, was found again in Costa Rica in 2003.",
+            "Its forests are huge, steep and rainy, so a tiny toad by a hidden stream could be missed for years.",
+            "🔬 What scientists say: it was listed as Extinct because long searches, in the right places and at the right time of year, found none. Biologists have searched streams in Braulio Carrillo, Tapantí and Orosi without luck. So the chance is small, but Costa Rican scientists haven't stopped looking."
+          ],
+          "es": [
+            "¡Hay una razón para tener esperanza! Su vecino del volcán Barva, el sapo de Holdridge, también desapareció en 1986 y fue declarado extinto… ¡y en 2010 lo volvieron a encontrar! En esos mismos años también se redescubrió una ranita de lluvia que había desaparecido en 1986.",
+            "Los sapos arlequín son famosos por dar sorpresas: los científicos encontraron que hasta 32 especies que se creían posiblemente extintas siguen vivas en la naturaleza. Su primo, el Sapo Arlequín Variable, se volvió a encontrar en Costa Rica en 2003.",
+            "Sus bosques son enormes, empinados y lluviosos, así que un sapito junto a una quebrada escondida podría pasar desapercibido por años.",
+            "🔬 Lo que dicen los científicos: se declaró Extinto porque largas búsquedas, en los lugares correctos y en la época correcta del año, no encontraron ninguno. Biólogos han buscado en quebradas de Braulio Carrillo, Tapantí y Orosi sin suerte. Así que la probabilidad es pequeña, pero los científicos costarricenses no han dejado de buscar."
+          ]
+        }
+      }
+    ],
+    chat: {
+      "status": {
+        "en": [
+          "Scientists say I'm extinct: no one has seen me since 1986. 😢 But my neighbor, Holdridge's toad, was 'extinct' too, and it was found again in 2010! So maybe… just maybe… a few of us are still walking by a hidden stream. 🐸"
+        ],
+        "es": [
+          "Los científicos dicen que estoy extinto: nadie me ha visto desde 1986. 😢 Pero mi vecino, el sapo de Holdridge, también estaba 'extinto' ¡y lo volvieron a encontrar en 2010! Así que tal vez… solo tal vez… algunos de nosotros seguimos caminando junto a una quebrada escondida. 🐸"
+        ]
+      },
+      "how": {
+        "en": [
+          "I'm a memory now… or am I? 😉 Some lost toads have been found again, so people keep looking for me. I love that you remember me! 💚"
+        ],
+        "es": [
+          "Ahora soy un recuerdo… ¿o no? 😉 Algunos sapos perdidos se han vuelto a encontrar, así que la gente me sigue buscando. ¡Me encanta que te acuerdes de mí! 💚"
+        ]
+      }
     }
   },
 
@@ -59,6 +124,88 @@ window.ANIMAL_UPDATES = {
     funFact: {
       en: "Males and females looked different: males were often yellow or lime green, while females were bigger and usually colored differently.",
       es: "Machos y hembras se veían distintos: los machos solían ser amarillos o verde lima, y las hembras eran más grandes y casi siempre de otros colores."
+    },
+    statusNote: {
+      "en": "Listed as Extinct by the IUCN. Not seen in Costa Rica since 1996 or in Panama since the late 1990s, but many of its harlequin cousins have been found again.",
+      "es": "En la categoría Extinto de la UICN. No se ve en Costa Rica desde 1996 ni en Panamá desde finales de los años 90, pero muchos de sus primos arlequín se han vuelto a encontrar."
+    },
+    more: [
+      {
+        "icon": "🐸",
+        "title": {
+          "en": "What it was like",
+          "es": "Cómo era"
+        },
+        "text": {
+          "en": [
+            "It lived along cool, rainy mountain streams of the Talamanca range, about 1,400 to 2,500 m high, in Costa Rica and western Panama.",
+            "Males stayed close to the streams, while females liked shady forest and only visited wetter spots to breed.",
+            "It was once super common: in 1991 scientists counted 348 of them along just 800 m of one stream in Costa Rica!"
+          ],
+          "es": [
+            "Vivía junto a quebradas frías y lluviosas de la cordillera de Talamanca, entre unos 1.400 y 2.500 m de altura, en Costa Rica y el oeste de Panamá.",
+            "Los machos se quedaban cerca de las quebradas, y las hembras preferían el bosque con sombra y solo visitaban lugares más húmedos para reproducirse.",
+            "Antes era muy común: ¡en 1991 los científicos contaron 348 en solo 800 m de una quebrada en Costa Rica!"
+          ]
+        }
+      },
+      {
+        "icon": "📜",
+        "title": {
+          "en": "How it disappeared",
+          "es": "Cómo desapareció"
+        },
+        "text": {
+          "en": [
+            "In 1996, in Panama's Fortuna forest reserve, a scientist found dozens of dead and dying frogs of many kinds in streams where they had been plentiful just one year before. The chytrid fungus had arrived.",
+            "1996: the last sighting in Costa Rica. Late 1990s: the last records in Panama. Searches in Panama in 2012 found none."
+          ],
+          "es": [
+            "En 1996, en la reserva forestal Fortuna de Panamá, una científica encontró decenas de ranas muertas y moribundas de muchas especies en quebradas donde un año antes abundaban. Había llegado el hongo quitridio.",
+            "1996: el último avistamiento en Costa Rica. Finales de los 90: los últimos registros en Panamá. Búsquedas en Panamá en 2012 no encontraron ninguno."
+          ]
+        }
+      },
+      {
+        "icon": "🔎",
+        "style": "hope",
+        "title": {
+          "en": "Could it still be out there?",
+          "es": "¿Podría seguir allá afuera?"
+        },
+        "text": {
+          "en": [
+            "Its family gives us hope! About one-third of the harlequin frogs once presumed extinct have been rediscovered, up to 32 species. Its close cousin, the Variable Harlequin Toad, vanished from Costa Rica and Panama in the early 1990s and was found again in both countries.",
+            "In Panama, the scientists who rediscovered the Variable Harlequin Toad in 2012 went on to confirm that eight more frog species hit hard by chytrid were somehow surviving.",
+            "Its home, the Talamanca mountains, is one of the wildest, least-explored places in Central America, with many remote streams that are very hard to reach. Scientists also have a new trick: they can find traces of an animal's DNA in stream water, without even seeing it.",
+            "🔬 What scientists say: its whole range is a place where the chytrid fungus can live, and searches have found nothing for almost 30 years. So the chance is small. But if a few survived, they might be resistant to the fungus, and that could help save other frogs."
+          ],
+          "es": [
+            "¡Su familia nos da esperanza! Cerca de un tercio de los sapos arlequín que se creían extintos se han vuelto a encontrar, hasta 32 especies. Su primo cercano, el Sapo Arlequín Variable, desapareció de Costa Rica y Panamá a inicios de los 90 y se volvió a encontrar en los dos países.",
+            "En Panamá, los científicos que redescubrieron el Sapo Arlequín Variable en 2012 después confirmaron que otras ocho especies de ranas muy golpeadas por el quitridio de alguna manera seguían vivas.",
+            "Su hogar, la cordillera de Talamanca, es uno de los lugares más salvajes y menos explorados de Centroamérica, con muchas quebradas remotas muy difíciles de alcanzar. Además, los científicos tienen un truco nuevo: pueden encontrar rastros del ADN de un animal en el agua de una quebrada, sin siquiera verlo.",
+            "🔬 Lo que dicen los científicos: todo el territorio donde vivía es un lugar donde el hongo quitridio puede vivir, y las búsquedas no han encontrado nada en casi 30 años. Así que la probabilidad es pequeña. Pero si algunos sobrevivieron, podrían ser resistentes al hongo, y eso podría ayudar a salvar a otras ranas."
+          ]
+        }
+      }
+    ],
+    chat: {
+      "status": {
+        "en": [
+          "Scientists say I'm extinct: no one has seen me since the 1990s. 😢 But lots of my harlequin cousins were 'extinct' too, and then they were found again! Maybe a few of us are hiding by a remote stream in the Talamanca mountains… 🏔️"
+        ],
+        "es": [
+          "Los científicos dicen que estoy extinto: nadie me ha visto desde los años 90. 😢 Pero muchos de mis primos arlequín también estaban 'extintos' ¡y luego los volvieron a encontrar! Tal vez algunos de nosotros estemos escondidos junto a una quebrada remota de Talamanca… 🏔️"
+        ]
+      },
+      "how": {
+        "en": [
+          "I'm a memory now… or am I? 😉 So many harlequin frogs have been found again that people still hope for me. I love that you remember me! 💚"
+        ],
+        "es": [
+          "Ahora soy un recuerdo… ¿o no? 😉 Se han vuelto a encontrar tantos sapos arlequín que la gente todavía tiene esperanza por mí. ¡Me encanta que te acuerdes de mí! 💚"
+        ]
+      }
     }
   },
 
@@ -175,6 +322,104 @@ window.ANIMAL_UPDATES = {
       how: {
         en: ["I'm a memory now… or am I? 😉 Some people think a few of us might still be hiding. Scientists say it's very unlikely, but I love that you remember me! 💚"],
         es: ["Ahora soy un recuerdo… ¿o no? 😉 Algunas personas creen que unas pocas podríamos seguir escondidas. Los científicos dicen que es muy poco probable, ¡pero me encanta que te acuerdes de mí! 💚"]
+      }
+    }
+  },
+
+  // The golden toad: extra sections, including "Could it still be out there?"
+  "golden-toad": {
+    statusNote: {
+      "en": "Listed as Extinct by the IUCN (2004). Last confirmed in 1989, but people are still searching for it.",
+      "es": "En la categoría Extinto de la UICN (2004). Se confirmó por última vez en 1989, pero la gente todavía lo busca."
+    },
+    more: [
+      {
+        "icon": "🟠",
+        "title": {
+          "en": "What it was like",
+          "es": "Cómo era"
+        },
+        "text": {
+          "en": [
+            "It lived only in a tiny patch of cloud forest of about 4 km² north of Monteverde, smaller than many towns.",
+            "It spent most of the year hidden underground. When the rainy season began, the toads came out for a few weeks to breed in little rain pools among tree roots, and then they disappeared again.",
+            "Males were bright golden orange. Females were dark olive to black, with red spots outlined in yellow."
+          ],
+          "es": [
+            "Vivía solo en un pedacito de bosque nuboso de unos 4 km² al norte de Monteverde, más pequeño que muchos pueblos.",
+            "Pasaba casi todo el año escondido bajo tierra. Cuando empezaba la época lluviosa, los sapos salían unas pocas semanas para reproducirse en charquitos de lluvia entre las raíces de los árboles, y luego desaparecían otra vez.",
+            "Los machos eran de un naranja dorado brillante. Las hembras eran de color oliva oscuro a negro, con manchas rojas bordeadas de amarillo."
+          ]
+        }
+      },
+      {
+        "icon": "📜",
+        "title": {
+          "en": "How it disappeared",
+          "es": "Cómo desapareció"
+        },
+        "text": {
+          "en": [
+            "Mid-1960s: scientists described it for the first time.",
+            "1987: more than 1,500 golden toads were seen. But that year the dry season was unusually warm and dry.",
+            "1988 and 1989: only a few toads appeared. In 1989 the last confirmed one was seen.",
+            "2004: the IUCN declared it extinct. It became a symbol, all over the world, of frogs and toads in danger."
+          ],
+          "es": [
+            "Mediados de los años 60: los científicos lo describieron por primera vez.",
+            "1987: se vieron más de 1.500 sapos dorados. Pero ese año la época seca fue inusualmente caliente y seca.",
+            "1988 y 1989: aparecieron solo unos pocos sapos. En 1989 se vio el último confirmado.",
+            "2004: la UICN lo declaró extinto. Se convirtió en un símbolo, en todo el mundo, de las ranas y sapos en peligro."
+          ]
+        }
+      },
+      {
+        "icon": "🔎",
+        "style": "hope",
+        "title": {
+          "en": "Could it still be out there?",
+          "es": "¿Podría seguir allá afuera?"
+        },
+        "text": {
+          "en": [
+            "Some people think so! Eladio Cruz, a local naturalist, says that in 1991, two years after the last confirmed sighting, he found a group of golden toads with tadpoles in a remote part of the Children's Eternal Rainforest. There's no photo, so scientists can't confirm it.",
+            "Many valleys and ridges in those mountains have never been searched. A toad that spends most of the year underground and comes out for just a few weeks is very easy to miss.",
+            "Other lost frogs of Monteverde came back! The green-eyed frog disappeared in the late 1980s and was found again in the early 2000s. In 2021, searchers even found frogs returning to mountain heights they had left.",
+            "🔬 What scientists say: expeditions, including one in 2021 to the ridge where Eladio saw the toads, haven't found any. It's still officially extinct and the chance is small. But as the searchers say, not finding something doesn't always mean it's gone, so people keep looking every rainy season."
+          ],
+          "es": [
+            "¡Algunas personas creen que sí! Eladio Cruz, un naturalista de la zona, cuenta que en 1991, dos años después del último avistamiento confirmado, encontró un grupo de sapos dorados con renacuajos en una parte remota del Bosque Eterno de los Niños. No hay foto, así que los científicos no lo pueden confirmar.",
+            "Hay muchos valles y filas en esas montañas que nunca se han revisado. Un sapo que pasa casi todo el año bajo tierra y sale solo unas pocas semanas es muy fácil de pasar por alto.",
+            "¡Otras ranas perdidas de Monteverde regresaron! La rana de ojos verdes desapareció a finales de los años 80 y se volvió a encontrar a inicios de los 2000. En 2021, los buscadores hasta encontraron ranas regresando a alturas de la montaña que habían abandonado.",
+            "🔬 Lo que dicen los científicos: las expediciones, incluida una en 2021 a la fila donde Eladio vio los sapos, no han encontrado ninguno. Sigue oficialmente extinto y la probabilidad es pequeña. Pero como dicen los buscadores, no encontrar algo no siempre significa que ya no está, así que la gente sigue buscando cada época lluviosa."
+          ]
+        }
+      }
+    ],
+    chat: {
+      "status": {
+        "en": [
+          "Scientists say I'm extinct: the last confirmed golden toad was seen in 1989. 😢 But a local naturalist says he saw a group of us in 1991, and many valleys in Monteverde's mountains have never been searched… Maybe we're just hiding underground, waiting for the rain! 🌧️"
+        ],
+        "es": [
+          "Los científicos dicen que estoy extinto: el último sapo dorado confirmado se vio en 1989. 😢 Pero un naturalista de la zona dice que vio un grupo de nosotros en 1991, y hay muchos valles en las montañas de Monteverde que nunca se han revisado… ¡Tal vez solo estamos escondidos bajo tierra, esperando la lluvia! 🌧️"
+        ]
+      },
+      "where": {
+        "en": [
+          "I lived in one tiny patch of cloud forest above Monteverde, and nowhere else on Earth. 🌫️ Some people think a few of us might still be hiding in the remote valleys of the Children's Eternal Rainforest…"
+        ],
+        "es": [
+          "Vivía en un pedacito de bosque nuboso arriba de Monteverde, y en ningún otro lugar del mundo. 🌫️ Algunas personas creen que unos pocos todavía podríamos estar escondidos en los valles remotos del Bosque Eterno de los Niños…"
+        ]
+      },
+      "how": {
+        "en": [
+          "I'm a memory now… or am I? 😉 People still search for me every rainy season. I love that you remember me! 💚"
+        ],
+        "es": [
+          "Ahora soy un recuerdo… ¿o no? 😉 La gente todavía me busca cada época lluviosa. ¡Me encanta que te acuerdes de mí! 💚"
+        ]
       }
     }
   }
