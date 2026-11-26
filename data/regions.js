@@ -10,8 +10,8 @@ window.REGIONS = [
     "lat": 10.45,
     "lon": -85.45,
     "name": {
-      "en": "North Pacific Dry Forest",
-      "es": "Pacífico Norte Bosque Seco"
+      "en": "North Pacific",
+      "es": "Pacífico Norte"
     },
     "desc": {
       "en": "Guanacaste and the Nicoya Peninsula: hot, sunny dry forests that turn brown in the dry season and green with the rains, plus volcanoes like Rincón de la Vieja and turtle beaches.",
@@ -40,8 +40,8 @@ window.REGIONS = [
     "lat": 8.6,
     "lon": -83.4,
     "name": {
-      "en": "South Pacific & Osa",
-      "es": "Pacífico Sur y Osa"
+      "en": "South Pacific",
+      "es": "Pacífico Sur"
     },
     "desc": {
       "en": "The wild Osa Peninsula, Corcovado and Golfo Dulce: some of the most biologically intense rainforest on Earth, plus mangroves and whale-watching waters.",
@@ -55,8 +55,8 @@ window.REGIONS = [
     "lat": 10.1,
     "lon": -84.2,
     "name": {
-      "en": "Volcanoes & Central Valley",
-      "es": "Volcanes y Valle Central"
+      "en": "Volcanoes-Central Valley",
+      "es": "Volcanes-Valle Central"
     },
     "desc": {
       "en": "Volcanoes like Poás, Irazú and Barva, the cloud forests of Monteverde, and the Central Valley where most people live.",
@@ -86,7 +86,7 @@ window.REGIONS = [
     "lon": -84.45,
     "name": {
       "en": "Northern Plains",
-      "es": "Llanuras del Norte"
+      "es": "Llanuras_del_Norte"
     },
     "desc": {
       "en": "Flat, rainy lowlands near Nicaragua: Caño Negro's wetlands, Sarapiquí's rivers and Maquenque, home of the great green macaw.",
