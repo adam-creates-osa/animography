@@ -455,13 +455,14 @@ main {
   text-align: left;
 }
 .card-rare { --edge: linear-gradient(135deg, #1677d2, #4fc3f7, #1677d2); }
+.card-special { --edge: linear-gradient(135deg, #6f2dbd, #c77dff, #6f2dbd); }
 .card-secretRare {
   --edge: linear-gradient(120deg, #ffd43b, #ff922b, #f783ac, #74c0fc, #8ce99a, #ffd43b);
   background-size: 300% 300%;
   animation: holo 4s linear infinite;
 }
 @keyframes holo { to { background-position: 300% 0; } }
-.card-rare, .card-secretRare { background: var(--edge); }
+.card-rare, .card-special, .card-secretRare { background: var(--edge); }
 .card-secretRare { background-size: 300% 300%; }
 
 .card-top {
@@ -552,6 +553,7 @@ main {
   animation: pop-in 0.4s ease-out;
 }
 .reveal-rare { box-shadow: 0 0 0 4px var(--blue-light); }
+.reveal-special { box-shadow: 0 0 0 4px #c77dff, 0 0 20px rgba(199,125,255,0.6); }
 .reveal-secretRare { box-shadow: 0 0 0 4px #ffd43b, 0 0 30px #ffd43b; }
 .reveal-title { font: 700 1.4rem "Fredoka", sans-serif; margin: 0 0 12px; }
 .reveal-card { width: min(260px, 75vw); margin: 0 auto 12px; animation: flip-in 0.7s ease-out; }
@@ -586,6 +588,7 @@ main {
   gap: 4px;
 }
 .locked-rare { border-color: rgba(22,119,210,0.5); }
+.locked-special { border-color: rgba(111,45,189,0.55); }
 .locked-secretRare { border-color: rgba(240,140,0,0.6); }
 .lock-q { font: 700 2.4rem "Fredoka", sans-serif; opacity: 0.6; }
 .lock-num, .lock-name { font-size: 0.75rem; opacity: 0.75; }
