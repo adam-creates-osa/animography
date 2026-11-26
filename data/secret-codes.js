@@ -1,4 +1,4 @@
- Developer secret codes for the mascot.
+// Developer secret codes for the mascot.
 // The codes themselves are NOT written here, only their scrambled "hash", so people can't read them in the files.
 // To make a new code: open tools/code-maker.html, type your code and prize, then paste the line it gives you below.
 //
