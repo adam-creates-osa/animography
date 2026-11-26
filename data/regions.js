@@ -11,7 +11,7 @@ window.REGIONS = [
     "lon": -85.45,
     "name": {
       "en": "North Pacific Dry Forest",
-      "es": "Bosque Seco del Pacífico Norte"
+      "es": "Pacífico Norte Bosque Seco"
     },
     "desc": {
       "en": "Guanacaste and the Nicoya Peninsula: hot, sunny dry forests that turn brown in the dry season and green with the rains, plus volcanoes like Rincón de la Vieja and turtle beaches.",
