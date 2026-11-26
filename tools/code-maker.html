@@ -31,6 +31,7 @@
       <select id="type">
         <option value="points">Points</option>
         <option value="randomRare">A random Rare card</option>
+        <option value="randomSpecial">A random Special card</option>
         <option value="randomSecret">A random Secret Rare card</option>
         <option value="card">A specific card</option>
       </select>
@@ -69,6 +70,7 @@
       if (!(n > 0)) { alertBox("Type how many points, like 100."); return; }
       reward = { points: n };
     } else if (type === "randomRare") reward = { randomCard: "rare" };
+    else if (type === "randomSpecial") reward = { randomCard: "special" };
     else if (type === "randomSecret") reward = { randomCard: "secretRare" };
     else {
       if (!value) { alertBox("Type the animal id, like jaguar or blue-morpho (it's the end of the animal page address)."); return; }
