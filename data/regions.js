@@ -116,7 +116,7 @@ window.REGIONS = [
     "lon": null,
     "name": {
       "en": "Cocos Island",
-      "es": "Isla del Coco"
+      "es": "Isla_del_Coco"
     },
     "desc": {
       "en": "A rainy, faraway island in the Pacific, more than 500 km from the mainland, with birds that live nowhere else and famous shark-filled waters.",
