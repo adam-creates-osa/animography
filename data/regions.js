@@ -55,8 +55,8 @@ window.REGIONS = [
     "lat": 10.1,
     "lon": -84.2,
     "name": {
-      "en": "Volcanoes-Central Valley",
-      "es": "Volcanes-Valle Central"
+      "en": "Volcanoes_Central Valley",
+      "es": "Volcanes_Valle Central"
     },
     "desc": {
       "en": "Volcanoes like Poás, Irazú and Barva, the cloud forests of Monteverde, and the Central Valley where most people live.",
@@ -116,7 +116,7 @@ window.REGIONS = [
     "lon": null,
     "name": {
       "en": "Cocos Island",
-      "es": "Isla del Coco"
+      "es": "Isla_del_Coco"
     },
     "desc": {
       "en": "A rainy, faraway island in the Pacific, more than 500 km from the mainland, with birds that live nowhere else and famous shark-filled waters.",
