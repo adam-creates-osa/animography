@@ -15,5 +15,6 @@ window.SECRET_CODES = [
   { hash: "9011d5793ae867045db1739190018df8b13668a215e7ccea524ffb96e4ce8e94", reward: { points: 100 }, note: "Big points code 1" },
   { hash: "f03ceeab514aa84f43f9855485b6b6b544ae81f11330c1dd4633abc6e15fec4a", reward: { points: 100 }, note: "Big points code 2" },
    {"hash": "92579b4f097c81cfbcef40b0c8862cd1391dcac793831445c318781fec95b217", "reward": {"card": "pass-stubfoot-toad"}, "expires": "2026-12-25", "note": "Christmas gift!"},
-  {"hash": "37a23dcd6e385e410665c43de7b810176bc217e57b31d849d34c92a667e122ae", "reward": {"card": "chiriqui-harlequin-frog"}, "expires": "2026-12-25", "note": "Christmas gift!"}
+  {"hash": "37a23dcd6e385e410665c43de7b810176bc217e57b31d849d34c92a667e122ae", "reward": {"card": "chiriqui-harlequin-frog"}, "expires": "2026-12-25", "note": "Christmas gift!"},
+   {"hash": "5b6370b04e9b72dece4a6bb5e47ce67ba660fb0971eba1112b51603a157e8172", "reward": {"card": "caribbean-monk-seal"}, "expires": "2026-12-25", "note": "Christmas gift!"}
 ];
