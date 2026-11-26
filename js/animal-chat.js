@@ -63,8 +63,10 @@ const AnimalChat = (() => {
   // Pick a template (extinct animals use the "_ex" version when there is one)
   function template(key, a, L) {
     const R = C().replies[L];
-    const k = isExtinct(a) && R[key + "_ex"] ? key + "_ex" : key;
-    let list = R[k] || R.fallback;
+    // An animal can have its own special replies (field "chat" in its data), e.g. chat.status.en = ["..."]
+    const own = a.chat && a.chat[key] && a.chat[key][L];
+    const k = own ? "own-" + key : isExtinct(a) && R[key + "_ex"] ? key + "_ex" : key;
+    let list = own || R[k] || R.fallback;
     if (list.length > 1) list = list.filter(x => x !== lastUsed[a.id + k]);
     const chosen = pick(list);
     lastUsed[a.id + k] = chosen;

@@ -256,6 +256,11 @@ function renderAnimal(id) {
       el("h3", {}, "✨ " + t("funFact")),
       el("p", {}, a.funFact[L])
     ),
+    // Extra sections (optional field "more" in the animal's data)
+    ...(a.more || []).map(m => el("section", { class: "info-card more" + (m.style ? " more-" + m.style : "") },
+      el("h3", {}, (m.icon ? m.icon + " " : "") + m.title[L]),
+      ...m.text[L].map(p => el("p", {}, p))
+    )),
     section(t("learnMore"),
       el("div", { class: "links" },
         el("a", { href: `https://www.iucnredlist.org/search?query=${q}`, target: "_blank", rel: "noopener" }, t("linkIucn")),
