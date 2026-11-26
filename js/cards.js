@@ -1,7 +1,7 @@
 // ===== Collectible cards & blind boxes =====
 // Uses: window.ANIMALS, window.GAME_RULES, Store, el(), t(), fill(), currentLang
 
-const RARITIES = ["common", "rare", "secretRare"];
+const RARITIES = ["common", "rare", "special", "secretRare"];
 let reveal = null; // the card just opened: { animal, duplicate }
 let cardsFilter = "all";
 
@@ -190,7 +190,8 @@ function showReveal() {
   document.getElementById("reveal").append(
     el("div", { class: `reveal reveal-${rarity}`, role: "status" },
       el("p", { class: "reveal-title" },
-        rarity === "secretRare" ? t("gotSecret") : rarity === "rare" ? t("gotRare") : t("gotCard")),
+        rarity === "secretRare" ? t("gotSecret") : rarity === "special" ? t("gotSpecial") :
+        rarity === "rare" ? t("gotRare") : t("gotCard")),
       el("div", { class: "reveal-card" }, renderCard(animal)),
       duplicate ? el("p", { class: "note" }, fill(t("duplicate"), { r: R.duplicateRefund })) : "",
       el("p", {}, el("a", { href: `#/animal/${animal.id}`, class: "learn-link" },
