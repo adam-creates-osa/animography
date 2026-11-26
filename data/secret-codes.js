@@ -13,3 +13,4 @@ window.SECRET_CODES = [
   {"hash": "9011d5793ae867045db1739190018df8b13668a215e7ccea524ffb96e4ce8e94", "reward": { "points": 1000000 }, "expires": "2026-12-25", "note": "Christmas gift!"},
 ];
  {"hash": "f03ceeab514aa84f43f9855485b6b6b544ae81f11330c1dd4633abc6e15fec4a", "reward": {"points": 10000000}, "expires": "2026-12-25", "note": "Christmas gift!"}
+];
