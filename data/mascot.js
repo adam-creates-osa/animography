@@ -13,11 +13,11 @@ window.MASCOT = {
 
   // ----- Trivia milestones: perfect rounds (10/10, any level) earn a personal secret code -----
   // type: "total" = perfect rounds in total · "streak" = perfect rounds in a row
-  // reward: { points: 50 } or { randomCard: "rare" } or { randomCard: "secretRare" } or { card: "animal-id" }
+  // reward: { points: 50 } or { randomCard: "rare" } or { randomCard: "special" } or { randomCard: "secretRare" } or { card: "animal-id" }
   milestones: [
     { id: "perfect-1",  type: "total",  count: 1,  reward: { points: 25 } },
     { id: "perfect-3",  type: "total",  count: 3,  reward: { points: 50 } },
-    { id: "streak-5",   type: "streak", count: 5,  reward: { randomCard: "rare" } },
+    { id: "streak-5",   type: "streak", count: 5,  reward: { randomCard: "special" } },
     { id: "perfect-10", type: "total",  count: 10, reward: { randomCard: "secretRare" } }
   ],
 

@@ -21,15 +21,17 @@ window.GAME_RULES = {
   blindBoxCost: 100,
   duplicateRefund: 10,
   // Blind box chances work like raffle tickets: EVERY card gets this many tickets, then one ticket is drawn.
-  // So any one Common card is always more likely than any one Rare, and any one Rare more likely than any one
-  // Secret Rare, no matter how many cards are in each group. (Example: 6 vs 1 = a Common is 6× as likely.)
+  // So any one Common card is always more likely than any one Rare, any one Rare more likely than any one
+  // Special, and any one Special more likely than any one Secret Rare, no matter how many cards are in each group.
+  // With 8 / 4 / 2 / 1, each level is half as likely as the one before it.
   // The game works out and shows the real percentages by itself.
-  cardWeights: { common: 6, rare: 3, secretRare: 1 },
+  cardWeights: { common: 8, rare: 4, special: 2, secretRare: 1 },
 
   // Which Red List status makes which card rarity
   rarityByStatus: {
-    secretRare: ["EX", "EW"],  // extinct animals
-    rare: ["CR", "EN"],        // critically endangered + endangered
-    common: ["VU", "NT", "LC", "DD", "NE"] // everyone else
+    secretRare: ["EX", "EW"],    // extinct (and extinct in the wild)
+    special: ["CR", "EN"],       // critically endangered + endangered
+    rare: ["VU", "NT"],          // vulnerable + near threatened
+    common: ["LC", "DD", "NE"]   // least concern, data deficient, not evaluated
   }
 };
