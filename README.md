@@ -106,7 +106,7 @@ Finds a real photo for every animal on **iNaturalist**, accepting **only CC0 or 
 
 **Your own secret codes (for events, friends, schools…):**
 1. Open `tools/code-maker.html` (on your computer, or at `https://YOUR-USERNAME.github.io/animography/tools/code-maker.html`).
-2. Type a code (at least 5 letters/numbers) and choose the prize: points, a random Rare or Secret Rare card, or a specific card.
+2. Type a code (at least 5 letters/numbers) and choose the prize: points, a random Rare, Special or Secret Rare card, or a specific card.
 3. Copy the line it gives you into `data/secret-codes.js`, then upload.
 4. Share the code with players. Each code works once per player (per device and browser).
 
@@ -119,8 +119,10 @@ There's an example code, **PURAVIDA** (50 points), that you can delete when you 
 
 ## 7a. Blind box chances (card tickets)
 
-Every card gets "tickets" by rarity (`cardWeights` in `data/game-rules.js`): Common 6, Rare 3, Secret Rare 1. One ticket is drawn per box.
-So any one Common card is always 6× as likely as any one Secret Rare, no matter how many cards you add. The My Cards screen works out and shows the real percentages automatically.
+Rarities (`rarityByStatus` in `data/game-rules.js`): 🌿 Common = Least Concern, Data Deficient, Not Evaluated · 💎 Rare = Near Threatened, Vulnerable · 🔮 Special = Endangered, Critically Endangered · ✨ Secret Rare = Extinct.
+
+Every card gets "tickets" by rarity (`cardWeights`): Common 8, Rare 4, Special 2, Secret Rare 1. One ticket is drawn per box.
+So each level is half as likely as the one before it, no matter how many cards you add. The My Cards screen works out and shows the real percentages automatically.
 
 ---
 
