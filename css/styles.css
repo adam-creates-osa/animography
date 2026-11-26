@@ -866,3 +866,7 @@ main {
 .iq-up { background: #fff3bf; border-radius: 12px; padding: 8px 10px; font-weight: 700; }
 
 .odds-each { font-size: 0.75rem; margin-top: 2px; }
+
+/* Extra sections on an animal page ("more" in the animal's data) */
+.info-card.more p + p { margin-top: 10px; }
+.info-card.more-hope { background: linear-gradient(135deg, #e3f4ff, #d9f2e8); border: 2px dashed var(--blue); }
