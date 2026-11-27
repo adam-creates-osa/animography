@@ -10,8 +10,8 @@ window.REGIONS = [
     "lat": 10.45,
     "lon": -85.45,
     "name": {
-      "en": "North Pacific",
-      "es": "Pacífico Norte"
+      "en": "North Pacific Dry Forest",
+      "es": "Bosque Seco del Pacífico Norte"
     },
     "desc": {
       "en": "Guanacaste and the Nicoya Peninsula: hot, sunny dry forests that turn brown in the dry season and green with the rains, plus volcanoes like Rincón de la Vieja and turtle beaches.",
@@ -40,8 +40,8 @@ window.REGIONS = [
     "lat": 8.6,
     "lon": -83.4,
     "name": {
-      "en": "South Pacific",
-      "es": "Pacífico Sur"
+      "en": "South Pacific & Osa",
+      "es": "Pacífico Sur y Osa"
     },
     "desc": {
       "en": "The wild Osa Peninsula, Corcovado and Golfo Dulce: some of the most biologically intense rainforest on Earth, plus mangroves and whale-watching waters.",
@@ -55,8 +55,8 @@ window.REGIONS = [
     "lat": 10.1,
     "lon": -84.2,
     "name": {
-      "en": "Volcanoes_Central Valley",
-      "es": "Volcanes_Valle Central"
+      "en": "Volcanoes & Central Valley",
+      "es": "Volcanes y Valle Central"
     },
     "desc": {
       "en": "Volcanoes like Poás, Irazú and Barva, the cloud forests of Monteverde, and the Central Valley where most people live.",
@@ -86,7 +86,7 @@ window.REGIONS = [
     "lon": -84.45,
     "name": {
       "en": "Northern Plains",
-      "es": "Llanuras_del_Norte"
+      "es": "Llanuras del Norte"
     },
     "desc": {
       "en": "Flat, rainy lowlands near Nicaragua: Caño Negro's wetlands, Sarapiquí's rivers and Maquenque, home of the great green macaw.",
@@ -116,7 +116,7 @@ window.REGIONS = [
     "lon": null,
     "name": {
       "en": "Cocos Island",
-      "es": "Isla_del_Coco"
+      "es": "Isla del Coco"
     },
     "desc": {
       "en": "A rainy, faraway island in the Pacific, more than 500 km from the mainland, with birds that live nowhere else and famous shark-filled waters.",
@@ -390,5 +390,56 @@ window.ANIMAL_REGIONS = {
   "leaf-mantis": ["south-pacific","northern-plains","caribbean"],
   "giant-cockroach": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
   "giant-grasshopper": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
-  "dobsonfly": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"]
+  "dobsonfly": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
+  // Sea creatures
+  "scalloped-hammerhead": ["cocos", "ocean", "south-pacific"],
+  "great-hammerhead": ["caribbean", "north-pacific", "ocean"],
+  "oceanic-whitetip": ["ocean", "cocos"],
+  "whale-shark": ["ocean", "cocos", "north-pacific", "south-pacific"],
+  "pelagic-thresher": ["ocean", "cocos"],
+  "pacific-nurse-shark": ["north-pacific", "central-pacific"],
+  "bull-shark": ["north-pacific", "caribbean", "northern-plains"],
+  "silky-shark": ["ocean", "cocos"],
+  "whitetip-reef-shark": ["cocos", "south-pacific"],
+  "tiger-shark": ["cocos", "ocean", "caribbean"],
+  "giant-manta-ray": ["ocean", "cocos", "north-pacific"],
+  "spotted-eagle-ray": ["caribbean"],
+  "munks-devil-ray": ["north-pacific", "central-pacific", "cocos"],
+  "pacific-chupare": ["central-pacific", "cocos"],
+  "marble-ray": ["cocos"],
+  "southern-stingray": ["caribbean"],
+  "goliath-grouper": ["caribbean"],
+  "pacific-seahorse": ["north-pacific", "central-pacific", "south-pacific"],
+  "blue-marlin": ["ocean", "north-pacific", "cocos"],
+  "cocos-barnacle-blenny": ["cocos"],
+  "sailfish": ["ocean", "north-pacific", "central-pacific", "south-pacific"],
+  "yellowfin-tuna": ["ocean", "cocos"],
+  "mahi-mahi": ["ocean", "north-pacific", "caribbean"],
+  "roosterfish": ["north-pacific", "central-pacific", "south-pacific"],
+  "king-angelfish": ["north-pacific", "south-pacific", "cocos"],
+  "porcupine-pufferfish": ["caribbean", "north-pacific", "cocos"],
+  "rainbow-parrotfish": ["caribbean"],
+  "zebra-moray": ["cocos", "south-pacific"],
+  "moorish-idol": ["cocos", "south-pacific", "north-pacific"],
+  "scorpionfish": ["caribbean"],
+  "yellowhead-jawfish": ["caribbean"],
+  "staghorn-coral": ["caribbean"],
+  "elkhorn-coral": ["caribbean"],
+  "pillar-coral": ["caribbean"],
+  "boulder-star-coral": ["caribbean"],
+  "cauliflower-coral": ["north-pacific", "south-pacific", "cocos"],
+  "grooved-brain-coral": ["caribbean"],
+  "purple-sea-fan": ["caribbean"],
+  "giant-caribbean-anemone": ["caribbean"],
+  "brown-sea-cucumber": ["north-pacific", "south-pacific", "cocos"],
+  "caribbean-reef-octopus": ["caribbean"],
+  "pacific-striped-octopus": ["north-pacific", "central-pacific", "south-pacific"],
+  "caribbean-reef-squid": ["caribbean"],
+  "moon-jellyfish": ["caribbean", "north-pacific", "ocean"],
+  "cannonball-jellyfish": ["north-pacific", "caribbean"],
+  "portuguese-man-o-war": ["ocean", "caribbean", "north-pacific"],
+  "agassiz-nudibranch": ["north-pacific", "south-pacific", "cocos"],
+  "chocolate-chip-sea-star": ["north-pacific", "central-pacific", "cocos"],
+  "caribbean-spiny-lobster": ["caribbean"],
+  "sally-lightfoot-crab": ["north-pacific", "central-pacific", "south-pacific", "cocos"]
 };

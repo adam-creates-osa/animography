@@ -13,7 +13,8 @@ window.CHAT = {
     bird:      { en: ["Tweet!", "Chirp chirp!", "*flaps wings*"], es: ["¡Pío!", "¡Pío pío!", "*aletea*"] },
     reptile:   { en: ["Hisss… I mean, hi!", "*slow blink*", "*suns itself*"], es: ["Sss… digo, ¡hola!", "*parpadea despacio*", "*toma el sol*"] },
     amphibian: { en: ["Ribbit!", "Croak!", "*blinks big eyes*"], es: ["¡Croac!", "¡Cruac!", "*parpadea sus ojotes*"] },
-    insect:    { en: ["Bzzz!", "*wiggles antennae*", "*flutters*"], es: ["¡Bzzz!", "*mueve las antenas*", "*revolotea*"] }
+    insect:    { en: ["Bzzz!", "*wiggles antennae*", "*flutters*"], es: ["¡Bzzz!", "*mueve las antenas*", "*revolotea*"] },
+    sea:       { en: ["Blub blub!", "*splash*", "*swims in a circle*"], es: ["¡Glu glu!", "*splash*", "*nada en círculos*"] }
   },
 
   // Suggestion buttons under the chat
@@ -128,6 +129,8 @@ window.CHAT = {
     amphibian: { en: ["What's a frog's favorite drink? Croak-a-cola! 🐸", "Why are frogs so happy? They eat whatever bugs them! 🐸"],
                  es: ["¿Cuál es la bebida favorita de una rana? ¡La Croac-a-Cola! 🐸", "¿Qué le dijo una rana a otra? ¡Te veo en el charco! 🐸"] },
     insect:    { en: ["Why did the bee get married? Because he found his honey! 🐝", "What do you call an ant that skips school? A tru-ant! 🐜"],
-                 es: ["¿Cuál es el colmo de una abeja? ¡Tener un panal de rica miel y estar a dieta! 🐝", "¿Qué le dijo una hormiga a otra? ¡Hormi-gracias por venir! 🐜"] }
+                 es: ["¿Cuál es el colmo de una abeja? ¡Tener un panal de rica miel y estar a dieta! 🐝", "¿Qué le dijo una hormiga a otra? ¡Hormi-gracias por venir! 🐜"] },
+    sea:       { en: ["Why are fish so smart? Because they live in schools! 🐟", "What did the ocean say to the beach? Nothing, it just waved! 🌊"],
+                 es: ["¿Qué le dijo un pez a otro pez? ¡Nada! 🐟", "¿Qué le dijo el mar a la playa? Nada, solo la saludó con una ola. 🌊"] }
   }
 };

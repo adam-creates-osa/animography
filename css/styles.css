@@ -618,6 +618,7 @@ main {
 .chip:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
 .status-NE { background: #adb5bd; color: #212529; }
 .hero-insect, .card-art.art-insect { background: linear-gradient(135deg, #ffd43b, #8ce99a); }
+.hero-sea, .card-art.art-sea { background: linear-gradient(135deg, #3bc9db, #1677d2); }
 .card-credit {
   position: absolute; left: 4px; right: 4px; bottom: 3px;
   font-size: 0.55rem; line-height: 1.2;

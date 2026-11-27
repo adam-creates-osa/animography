@@ -26,7 +26,7 @@ window.MASCOT = {
   iq: {
     base: 70,
     max: 200,
-    perAnimalRead: 0.3,                 // each animal page read (250 animals → up to +75)
+    perAnimalRead: 0.3,                 // each animal page read (300 animals → up to +90)
     perPerfectRound: 3,                 // each perfect trivia round...
     maxPerfectRounds: 10,               // ...counting up to 10 of them (+30)
     perTriviaCode: 3,                   // each milestone code earned in trivia (+12 for all 4)
@@ -83,11 +83,11 @@ window.MASCOT = {
       nextMilestone: "Next code: {what}.",
       allMilestones: "You've earned every trivia code. Legend! 🌟",
       tips: {
-        home: ["Tap Animals to explore 250 animals of Costa Rica!", "Play trivia to earn ⭐ points, then open blind boxes to win cards!", "Use the EN | ES buttons at the top to switch languages.", "Read animal pages and I might surprise you with bonus points!"],
+        home: ["Tap Animals to explore 300 animals of Costa Rica!", "Play trivia to earn ⭐ points, then open blind boxes to win cards!", "Use the EN | ES buttons at the top to switch languages.", "Read animal pages and I might surprise you with bonus points!"],
         animals: ["Use the group buttons and the Red List colors to filter animals.", "Search works with English, Spanish or scientific names, even without accents!", "Every few new animals you read about, I give you a bonus. 🌿"],
         animal: ["Tap ♡ to save this animal to your favorites.", "Check \"How you can help\": small actions make a big difference!", "Tap a region button to see who else lives there.", "Take your time reading: I only count pages you really read. 📖"],
         geography: ["Tap a marker on the map to explore a region.", "Cocos Island is more than 500 km away, so it has its own box on the map!", "The Ocean is a region too: whales, dolphins and sea turtles live there."],
-        region: ["Use the group buttons to see only birds, frogs, insects…", "Many animals live in more than one region."],
+        region: ["Use the group buttons to see only birds, frogs, sea creatures…", "Many animals live in more than one region."],
         trivia: ["Start with Beginner, then try Advanced for 20 ⭐ per answer!", "Get 3 right in a row for a 🔥 bonus.", "Perfect rounds (10/10) earn secret codes from me!", "Wrong answers are fine: tap \"Meet the…\" to learn more."],
         cards: ["Blind boxes cost 100 ⭐. Play trivia to earn points!", "Tap any card to see it bigger.", "Secret codes can unlock rare cards!"],
         favorites: ["Your favorites are saved on this device.", "Tap ♡ on any animal page to add it here."]
@@ -130,11 +130,11 @@ window.MASCOT = {
       nextMilestone: "Próximo código: {what}.",
       allMilestones: "Ganaste todos los códigos de trivia. ¡Eres una leyenda! 🌟",
       tips: {
-        home: ["Toca Animales para explorar 250 animales de Costa Rica.", "Juega trivia para ganar ⭐ puntos y abre cajas sorpresa para ganar cartas.", "Usa los botones EN | ES de arriba para cambiar de idioma.", "¡Lee páginas de animales y tal vez te sorprenda con puntos extra!"],
+        home: ["Toca Animales para explorar 300 animales de Costa Rica.", "Juega trivia para ganar ⭐ puntos y abre cajas sorpresa para ganar cartas.", "Usa los botones EN | ES de arriba para cambiar de idioma.", "¡Lee páginas de animales y tal vez te sorprenda con puntos extra!"],
         animals: ["Usa los botones de grupos y los colores de la Lista Roja para filtrar.", "La búsqueda funciona con nombres en español, inglés o científicos, ¡hasta sin tildes!", "Cada pocos animales nuevos que leas, te doy un premio. 🌿"],
         animal: ["Toca ♡ para guardar este animal en tus favoritos.", "Revisa \"Cómo puedes ayudar\": ¡las acciones pequeñas hacen una gran diferencia!", "Toca un botón de región para ver quién más vive ahí.", "Lee con calma: solo cuento las páginas que de verdad lees. 📖"],
         geography: ["Toca un marcador en el mapa para explorar una región.", "¡La Isla del Coco está a más de 500 km, por eso tiene su propio cuadro en el mapa!", "El océano también es una región: ahí viven ballenas, delfines y tortugas marinas."],
-        region: ["Usa los botones de grupos para ver solo aves, ranas, insectos…", "Muchos animales viven en más de una región."],
+        region: ["Usa los botones de grupos para ver solo aves, ranas, criaturas marinas…", "Muchos animales viven en más de una región."],
         trivia: ["Empieza en Principiante y luego prueba Avanzado: ¡20 ⭐ por respuesta!", "Acierta 3 seguidas para un bono 🔥.", "¡Las rondas perfectas (10/10) ganan códigos secretos!", "Equivocarse está bien: toca \"Conoce…\" para aprender más."],
         cards: ["Las cajas sorpresa cuestan 100 ⭐. ¡Juega trivia para ganar puntos!", "Toca cualquier carta para verla en grande.", "¡Los códigos secretos pueden desbloquear cartas raras!"],
         favorites: ["Tus favoritos se guardan en este dispositivo.", "Toca ♡ en la página de cualquier animal para agregarlo aquí."]

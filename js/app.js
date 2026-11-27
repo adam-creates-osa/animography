@@ -69,7 +69,7 @@ function statusBadge(code) {
 }
 
 // ===== Group filter chips (used on Animals and My Cards) =====
-const GROUPS = ["all", "mammal", "bird", "reptile", "amphibian", "insect"];
+const GROUPS = ["all", "mammal", "bird", "reptile", "amphibian", "insect", "sea"];
 let animalsFilter = "all";
 
 // ===== Red List status filter (Animals screen) =====

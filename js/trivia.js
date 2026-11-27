@@ -6,7 +6,7 @@ const RULES = window.GAME_RULES;
 const LEVELS = ["beginner", "intermediate", "advanced"];
 const LEVEL_ICON = { beginner: "🌱", intermediate: "🌿", advanced: "🌳" };
 const STATUS_CODES = ["EX", "CR", "EN", "VU", "NT", "LC"];   // answer choices for status questions
-const GROUP_IDS = ["mammal", "bird", "reptile", "amphibian", "insect"];
+const GROUP_IDS = ["mammal", "bird", "reptile", "amphibian", "insect", "sea"];
 const LEVEL_KEY = "animography.level";
 
 let round = null;   // the round being played (only saved when it ends)
@@ -42,7 +42,7 @@ const AUTO = {
       id: `auto:groupPick:${a.id}`, animal: a.id,
       q: both(L => {
         const one = STRINGS[L].groups[a.group].toLowerCase();
-        const aone = L === "en" ? (/^[aeiou]/.test(one) ? "an " : "a ") + one : "un " + one;
+        const aone = L === "en" ? (/^[aeiou]/.test(one) ? "an " : "a ") + one : (a.group === "sea" ? "una " : "un ") + one;
         return fill(STRINGS[L].autoGroupPickQ, { aone });
       }),
       a: both(L => [a, ...others].map(x => nm(x, L))),

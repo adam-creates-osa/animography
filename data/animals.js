@@ -12619,5 +12619,2155 @@ window.ANIMALS = [
       "cardOk": true,
       "inCostaRica": true
     }
+  },
+  {
+    "id": "scalloped-hammerhead",
+    "group": "sea",
+    "emoji": "🦈",
+    "scientific": "Sphyrna lewini",
+    "status": "CR",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Scalloped Hammerhead Shark",
+      "es": "Tiburón Martillo Común"
+    },
+    "summary": {
+      "en": "A shark with a wide, hammer-shaped head. Around Cocos Island, hundreds of them swim together in huge schools.",
+      "es": "Un tiburón con la cabeza ancha en forma de martillo. Alrededor de la Isla del Coco, cientos de ellos nadan juntos en enormes cardúmenes."
+    },
+    "where": {
+      "en": "Cocos Island and the open Pacific. Young sharks grow up in calm bays like Golfo Dulce.",
+      "es": "La Isla del Coco y el océano Pacífico abierto. Las crías crecen en bahías tranquilas como el Golfo Dulce."
+    },
+    "threats": {
+      "en": "Fishing for their fins and getting caught by accident in fishing lines and nets.",
+      "es": "La pesca para quitarles las aletas y quedar atrapados por accidente en líneas y redes de pesca."
+    },
+    "help": {
+      "en": [
+        "Never buy shark fin soup or shark products.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas like Cocos Island."
+      ],
+      "es": [
+        "Nunca compres sopa de aleta de tiburón ni productos de tiburón.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas como la Isla del Coco."
+      ]
+    },
+    "funFact": {
+      "en": "Its wide head works like a metal detector: it senses the tiny electric signals of animals hiding in the sand.",
+      "es": "Su cabeza ancha funciona como un detector de metales: siente las pequeñas señales eléctricas de los animales escondidos en la arena."
+    },
+    "wiki": "Scalloped_hammerhead",
+    "photo": null
+  },
+  {
+    "id": "great-hammerhead",
+    "group": "sea",
+    "emoji": "🦈",
+    "scientific": "Sphyrna mokarran",
+    "status": "CR",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Great Hammerhead Shark",
+      "es": "Gran Tiburón Martillo"
+    },
+    "summary": {
+      "en": "The biggest of all hammerhead sharks. It can grow up to about 6 m long and has a tall, curved back fin.",
+      "es": "El más grande de todos los tiburones martillo. Puede medir hasta unos 6 m de largo y tiene una aleta dorsal alta y curva."
+    },
+    "where": {
+      "en": "Warm coasts and open sea on both the Caribbean and Pacific sides of Costa Rica, but it is rare.",
+      "es": "Costas cálidas y mar abierto, tanto en el Caribe como en el Pacífico de Costa Rica, pero es raro."
+    },
+    "threats": {
+      "en": "Fishing for its fins, and being caught by accident. It gets stressed easily and often dies even if it is released.",
+      "es": "La pesca para quitarle las aletas y quedar atrapado por accidente. Se estresa fácilmente y muchas veces muere aunque lo liberen."
+    },
+    "help": {
+      "en": [
+        "Never buy shark fin soup or shark products.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas like Cocos Island."
+      ],
+      "es": [
+        "Nunca compres sopa de aleta de tiburón ni productos de tiburón.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas como la Isla del Coco."
+      ]
+    },
+    "funFact": {
+      "en": "Its favorite food is stingrays. It uses its hammer-shaped head to pin them down on the sea floor!",
+      "es": "Su comida favorita son las rayas. ¡Usa su cabeza de martillo para sujetarlas contra el fondo del mar!"
+    },
+    "wiki": "Great_hammerhead",
+    "photo": null
+  },
+  {
+    "id": "oceanic-whitetip",
+    "group": "sea",
+    "emoji": "🦈",
+    "scientific": "Carcharhinus longimanus",
+    "status": "CR",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Oceanic Whitetip Shark",
+      "es": "Tiburón Punta Blanca Oceánico"
+    },
+    "summary": {
+      "en": "A shark of the deep blue open ocean, with very long, rounded fins that have white tips.",
+      "es": "Un tiburón del océano abierto y profundo, con aletas muy largas y redondeadas que tienen las puntas blancas."
+    },
+    "where": {
+      "en": "Far from shore, in the open Pacific and Caribbean waters around Costa Rica.",
+      "es": "Lejos de la costa, en mar abierto del Pacífico y el Caribe alrededor de Costa Rica."
+    },
+    "threats": {
+      "en": "Its big fins are wanted for shark fin soup, and many are caught by tuna fishing boats. It has disappeared from much of the ocean.",
+      "es": "Sus aletas grandes son muy buscadas para la sopa de aleta de tiburón, y muchos caen en barcos que pescan atún. Ha desaparecido de gran parte del océano."
+    },
+    "help": {
+      "en": [
+        "Never buy shark fin soup or shark products.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas like Cocos Island."
+      ],
+      "es": [
+        "Nunca compres sopa de aleta de tiburón ni productos de tiburón.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas como la Isla del Coco."
+      ]
+    },
+    "funFact": {
+      "en": "It often swims along with pilot whales, maybe because the whales help it find squid to eat.",
+      "es": "A menudo nada junto a ballenas piloto, tal vez porque las ballenas le ayudan a encontrar calamares para comer."
+    },
+    "wiki": "Oceanic_whitetip_shark",
+    "photo": null
+  },
+  {
+    "id": "whale-shark",
+    "group": "sea",
+    "emoji": "🦈",
+    "scientific": "Rhincodon typus",
+    "status": "EN",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Whale Shark",
+      "es": "Tiburón Ballena"
+    },
+    "summary": {
+      "en": "The biggest fish in the world. It can be longer than a school bus, but it eats tiny plankton and is gentle with divers.",
+      "es": "El pez más grande del mundo. Puede ser más largo que un bus escolar, pero come plancton diminuto y es tranquilo con los buzos."
+    },
+    "where": {
+      "en": "Open Pacific waters, Cocos Island, Caño Island and the Gulf of Papagayo.",
+      "es": "Aguas abiertas del Pacífico, la Isla del Coco, la Isla del Caño y el Golfo de Papagayo."
+    },
+    "threats": {
+      "en": "Being hit by boats, caught in fishing nets, and hunted in some countries.",
+      "es": "Los choques con barcos, quedar atrapado en redes de pesca y la cacería en algunos países."
+    },
+    "help": {
+      "en": [
+        "Never touch or ride a whale shark when you swim near one.",
+        "Ask boat captains to go slowly where whale sharks live.",
+        "Choose seafood from responsible fisheries."
+      ],
+      "es": [
+        "Nunca toques ni te montes en un tiburón ballena si nadas cerca de uno.",
+        "Pide a los capitanes que vayan despacio donde viven tiburones ballena.",
+        "Escoge mariscos de pesca responsable."
+      ]
+    },
+    "funFact": {
+      "en": "Every whale shark has its own pattern of white spots, like a fingerprint. Scientists use photos of the spots to tell them apart!",
+      "es": "Cada tiburón ballena tiene su propio dibujo de manchas blancas, como una huella digital. ¡Los científicos usan fotos de las manchas para reconocerlos!"
+    },
+    "wiki": "Whale_shark",
+    "photo": null
+  },
+  {
+    "id": "pelagic-thresher",
+    "group": "sea",
+    "emoji": "🦈",
+    "scientific": "Alopias pelagicus",
+    "status": "EN",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Pelagic Thresher Shark",
+      "es": "Tiburón Zorro Pelágico"
+    },
+    "summary": {
+      "en": "A shark whose tail fin is almost as long as the rest of its body. It uses it like a whip to stun small fish.",
+      "es": "Un tiburón con la aleta de la cola casi tan larga como el resto de su cuerpo. La usa como un látigo para aturdir peces pequeños."
+    },
+    "where": {
+      "en": "The open Pacific Ocean and the waters around Cocos Island.",
+      "es": "El océano Pacífico abierto y las aguas alrededor de la Isla del Coco."
+    },
+    "threats": {
+      "en": "Too much fishing. It has very few babies, so its numbers recover very slowly.",
+      "es": "La pesca excesiva. Tiene muy pocas crías, así que su población se recupera muy despacio."
+    },
+    "help": {
+      "en": [
+        "Never buy shark fin soup or shark products.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas like Cocos Island."
+      ],
+      "es": [
+        "Nunca compres sopa de aleta de tiburón ni productos de tiburón.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas como la Isla del Coco."
+      ]
+    },
+    "funFact": {
+      "en": "It slaps its tail so fast that it can stun several fish at once, then it turns around and eats them.",
+      "es": "Golpea con la cola tan rápido que puede aturdir varios peces a la vez, y luego se da la vuelta para comérselos."
+    },
+    "wiki": "Pelagic_thresher",
+    "photo": null
+  },
+  {
+    "id": "pacific-nurse-shark",
+    "group": "sea",
+    "emoji": "🦈",
+    "scientific": "Ginglymostoma unami",
+    "status": "EN",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Pacific Nurse Shark",
+      "es": "Tiburón Gata del Pacífico"
+    },
+    "summary": {
+      "en": "A slow, calm shark that rests on the sandy sea floor during the day and hunts at night. Scientists only named it as a new species in 2015.",
+      "es": "Un tiburón lento y tranquilo que descansa en el fondo arenoso durante el día y caza de noche. Los científicos lo nombraron como especie nueva apenas en 2015."
+    },
+    "where": {
+      "en": "Rocky reefs and sandy bays of the Pacific coast, like the dive sites near Playa del Coco in Guanacaste.",
+      "es": "Arrecifes rocosos y bahías arenosas de la costa del Pacífico, como los sitios de buceo cerca de Playa del Coco en Guanacaste."
+    },
+    "threats": {
+      "en": "Fishing nets and lines near the coast. It has disappeared from many places where it used to be common.",
+      "es": "Las redes y líneas de pesca cerca de la costa. Ha desaparecido de muchos lugares donde antes era común."
+    },
+    "help": {
+      "en": [
+        "Never buy shark fin soup or shark products.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas like Cocos Island."
+      ],
+      "es": [
+        "Nunca compres sopa de aleta de tiburón ni productos de tiburón.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas como la Isla del Coco."
+      ]
+    },
+    "funFact": {
+      "en": "The marine parks of Costa Rica and Panama may be one of the last safe places for this shark.",
+      "es": "Los parques marinos de Costa Rica y Panamá podrían ser uno de los últimos lugares seguros para este tiburón."
+    },
+    "wiki": "Pacific_nurse_shark",
+    "photo": null
+  },
+  {
+    "id": "bull-shark",
+    "group": "sea",
+    "emoji": "🦈",
+    "scientific": "Carcharhinus leucas",
+    "status": "VU",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Bull Shark",
+      "es": "Tiburón Toro"
+    },
+    "summary": {
+      "en": "A strong, heavy shark that can live in both salt water and fresh water. It can even swim far up rivers!",
+      "es": "Un tiburón fuerte y robusto que puede vivir en agua salada y en agua dulce. ¡Hasta puede nadar río arriba!"
+    },
+    "where": {
+      "en": "Both coasts. The Bat Islands in Guanacaste are famous for big bull sharks, and some swim up the San Juan River.",
+      "es": "Ambas costas. Las Islas Murciélago en Guanacaste son famosas por sus grandes tiburones toro, y algunos suben por el río San Juan."
+    },
+    "threats": {
+      "en": "Fishing, and the loss of river mouths and mangroves where young sharks grow up.",
+      "es": "La pesca y la pérdida de las desembocaduras de los ríos y los manglares donde crecen las crías."
+    },
+    "help": {
+      "en": [
+        "Never buy shark fin soup or shark products.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas like Cocos Island."
+      ],
+      "es": [
+        "Nunca compres sopa de aleta de tiburón ni productos de tiburón.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas como la Isla del Coco."
+      ]
+    },
+    "funFact": {
+      "en": "Its body can control how much salt it keeps inside, which lets it travel from the sea into lakes and rivers.",
+      "es": "Su cuerpo puede controlar cuánta sal guarda adentro, y eso le permite viajar del mar a lagos y ríos."
+    },
+    "wiki": "Bull_shark",
+    "photo": null
+  },
+  {
+    "id": "silky-shark",
+    "group": "sea",
+    "emoji": "🦈",
+    "scientific": "Carcharhinus falciformis",
+    "status": "VU",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Silky Shark",
+      "es": "Tiburón Sedoso"
+    },
+    "summary": {
+      "en": "A sleek open-ocean shark named for its skin, which feels smooth like silk.",
+      "es": "Un tiburón esbelto de mar abierto, llamado así por su piel, que se siente suave como la seda."
+    },
+    "where": {
+      "en": "The open Pacific, especially around Cocos Island and floating objects far from shore.",
+      "es": "El Pacífico abierto, sobre todo alrededor de la Isla del Coco y de objetos que flotan lejos de la costa."
+    },
+    "threats": {
+      "en": "Many are caught by accident by boats fishing for tuna, and others are caught for their fins.",
+      "es": "Muchos caen por accidente en barcos que pescan atún, y otros son pescados por sus aletas."
+    },
+    "help": {
+      "en": [
+        "Never buy shark fin soup or shark products.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas like Cocos Island."
+      ],
+      "es": [
+        "Nunca compres sopa de aleta de tiburón ni productos de tiburón.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas como la Isla del Coco."
+      ]
+    },
+    "funFact": {
+      "en": "Shark skin is covered with tiny tooth-like scales. The silky shark's are so small that its skin feels smooth.",
+      "es": "La piel de los tiburones está cubierta de escamas diminutas parecidas a dientes. Las del tiburón sedoso son tan pequeñas que su piel se siente lisa."
+    },
+    "wiki": "Silky_shark",
+    "photo": null
+  },
+  {
+    "id": "whitetip-reef-shark",
+    "group": "sea",
+    "emoji": "🦈",
+    "scientific": "Triaenodon obesus",
+    "status": "VU",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Whitetip Reef Shark",
+      "es": "Tiburón Punta Blanca de Arrecife"
+    },
+    "summary": {
+      "en": "A slim reef shark with white tips on its fins. During the day it often rests in caves, and at night it hunts in groups.",
+      "es": "Un tiburón de arrecife delgado con las puntas de las aletas blancas. De día suele descansar en cuevas y de noche caza en grupo."
+    },
+    "where": {
+      "en": "Rocky reefs at Cocos Island and Caño Island.",
+      "es": "Arrecifes rocosos de la Isla del Coco y la Isla del Caño."
+    },
+    "threats": {
+      "en": "Fishing on reefs. It stays close to home, so a reef can lose all its sharks if fishing isn't controlled.",
+      "es": "La pesca en los arrecifes. Se queda cerca de su casa, así que un arrecife puede perder todos sus tiburones si la pesca no se controla."
+    },
+    "help": {
+      "en": [
+        "Never buy shark fin soup or shark products.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas like Cocos Island."
+      ],
+      "es": [
+        "Nunca compres sopa de aleta de tiburón ni productos de tiburón.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas como la Isla del Coco."
+      ]
+    },
+    "funFact": {
+      "en": "Unlike many sharks, it can lie still on the bottom and pump water over its gills to breathe.",
+      "es": "A diferencia de muchos tiburones, puede quedarse quieto en el fondo y bombear agua por sus branquias para respirar."
+    },
+    "wiki": "Whitetip_reef_shark",
+    "photo": null
+  },
+  {
+    "id": "tiger-shark",
+    "group": "sea",
+    "emoji": "🦈",
+    "scientific": "Galeocerdo cuvier",
+    "status": "NT",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Tiger Shark",
+      "es": "Tiburón Tigre"
+    },
+    "summary": {
+      "en": "A big shark with dark stripes on its sides, like a tiger. The stripes fade as it grows older.",
+      "es": "Un tiburón grande con rayas oscuras en los costados, como un tigre. Las rayas se desvanecen a medida que envejece."
+    },
+    "where": {
+      "en": "Warm waters on both coasts, and around Cocos Island.",
+      "es": "Aguas cálidas en ambas costas y alrededor de la Isla del Coco."
+    },
+    "threats": {
+      "en": "Fishing for its fins, liver oil and meat.",
+      "es": "La pesca por sus aletas, el aceite de su hígado y su carne."
+    },
+    "help": {
+      "en": [
+        "Never buy shark fin soup or shark products.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas like Cocos Island."
+      ],
+      "es": [
+        "Nunca compres sopa de aleta de tiburón ni productos de tiburón.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas como la Isla del Coco."
+      ]
+    },
+    "funFact": {
+      "en": "It eats almost anything: fish, sea turtles, birds, and sometimes even trash. Its teeth can cut through turtle shells!",
+      "es": "Come casi de todo: peces, tortugas marinas, aves, y a veces hasta basura. ¡Sus dientes pueden cortar caparazones de tortuga!"
+    },
+    "wiki": "Tiger_shark",
+    "photo": null
+  },
+  {
+    "id": "giant-manta-ray",
+    "group": "sea",
+    "emoji": "🛸",
+    "scientific": "Mobula birostris",
+    "status": "EN",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Giant Oceanic Manta Ray",
+      "es": "Mantarraya Gigante"
+    },
+    "summary": {
+      "en": "The biggest ray in the world. Its 'wings' can be up to about 7 m (23 ft) wide, and it eats tiny plankton.",
+      "es": "La raya más grande del mundo. Sus 'alas' pueden medir hasta unos 7 m de ancho, y come plancton diminuto."
+    },
+    "where": {
+      "en": "The open Pacific, Cocos Island and the Bat Islands in Guanacaste.",
+      "es": "El Pacífico abierto, la Isla del Coco y las Islas Murciélago en Guanacaste."
+    },
+    "threats": {
+      "en": "Fishing nets, and people who catch them for their gill plates, which are sold in some countries.",
+      "es": "Las redes de pesca y la gente que las captura por sus branquias, que se venden en algunos países."
+    },
+    "help": {
+      "en": [
+        "Never touch a manta: it can damage the slime that protects its skin.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas."
+      ],
+      "es": [
+        "Nunca toques una manta: puedes dañar la baba que protege su piel.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas."
+      ]
+    },
+    "funFact": {
+      "en": "Mantas have one of the biggest brains of any fish, and they visit 'cleaning stations' where small fish clean their skin.",
+      "es": "Las mantas tienen uno de los cerebros más grandes de todos los peces, y visitan 'estaciones de limpieza' donde pececitos les limpian la piel."
+    },
+    "wiki": "Giant_oceanic_manta_ray",
+    "photo": null
+  },
+  {
+    "id": "spotted-eagle-ray",
+    "group": "sea",
+    "emoji": "🛸",
+    "scientific": "Aetobatus narinari",
+    "status": "EN",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Spotted Eagle Ray",
+      "es": "Raya Águila Moteada"
+    },
+    "summary": {
+      "en": "A graceful ray with a dark back covered in bright white spots. It 'flies' through the water like an eagle.",
+      "es": "Una raya elegante con la espalda oscura llena de manchas blancas brillantes. 'Vuela' por el agua como un águila."
+    },
+    "where": {
+      "en": "Reefs and sandy shallows of the Caribbean coast. A very close cousin lives on the Pacific side.",
+      "es": "Arrecifes y bajos arenosos de la costa del Caribe. Una prima muy cercana vive en el lado del Pacífico."
+    },
+    "threats": {
+      "en": "Fishing nets and lines, and fishing for its meat.",
+      "es": "Las redes y líneas de pesca, y la pesca por su carne."
+    },
+    "help": {
+      "en": [
+        "Shuffle your feet when you walk in shallow water, so rays can swim away safely.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas."
+      ],
+      "es": [
+        "Arrastra los pies al caminar en aguas poco profundas, para que las rayas se alejen sin peligro.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas."
+      ]
+    },
+    "funFact": {
+      "en": "It has flat teeth like a nutcracker that crush clams and snails, and it digs for them with its duck-like snout.",
+      "es": "Tiene dientes planos como un cascanueces que trituran almejas y caracoles, y los busca escarbando con su hocico de pato."
+    },
+    "wiki": "Spotted_eagle_ray",
+    "photo": null
+  },
+  {
+    "id": "munks-devil-ray",
+    "group": "sea",
+    "emoji": "🛸",
+    "scientific": "Mobula munkiana",
+    "status": "VU",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Munk's Devil Ray",
+      "es": "Manta Diablo de Munk"
+    },
+    "summary": {
+      "en": "A small manta-like ray that leaps high out of the water and lands with a big belly-flop!",
+      "es": "Una raya pequeña parecida a una manta que salta muy alto fuera del agua y cae con un gran panzazo."
+    },
+    "where": {
+      "en": "The Pacific coast, especially the Gulf of Papagayo, where big groups gather.",
+      "es": "La costa del Pacífico, sobre todo el Golfo de Papagayo, donde se juntan grandes grupos."
+    },
+    "threats": {
+      "en": "Being caught in fishing nets, especially near the coast.",
+      "es": "Quedar atrapada en redes de pesca, sobre todo cerca de la costa."
+    },
+    "help": {
+      "en": [
+        "Shuffle your feet when you walk in shallow water, so rays can swim away safely.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas."
+      ],
+      "es": [
+        "Arrastra los pies al caminar en aguas poco profundas, para que las rayas se alejen sin peligro.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas."
+      ]
+    },
+    "funFact": {
+      "en": "Nobody knows for sure why they jump. It could be to talk to each other, to impress mates, or to shake off parasites.",
+      "es": "Nadie sabe con seguridad por qué saltan. Puede ser para comunicarse, para impresionar a su pareja o para quitarse parásitos."
+    },
+    "wiki": "Munk's_devil_ray",
+    "photo": null
+  },
+  {
+    "id": "pacific-chupare",
+    "group": "sea",
+    "emoji": "🛸",
+    "scientific": "Styracura pacifica",
+    "status": "VU",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Pacific Chupare Stingray",
+      "es": "Chupare del Pacífico"
+    },
+    "summary": {
+      "en": "A large, round stingray of shallow Pacific waters, with a long tail that has a venomous spine.",
+      "es": "Una raya grande y redonda de aguas poco profundas del Pacífico, con una cola larga que tiene una espina venenosa."
+    },
+    "where": {
+      "en": "Soft, sandy and muddy bottoms in shallow water along the Pacific coast and at Cocos Island.",
+      "es": "Fondos suaves de arena y lodo en aguas poco profundas de la costa del Pacífico y la Isla del Coco."
+    },
+    "threats": {
+      "en": "Fishing nets near the coast, and damage to shallow coastal habitats.",
+      "es": "Las redes de pesca cerca de la costa y el daño a los hábitats costeros poco profundos."
+    },
+    "help": {
+      "en": [
+        "Shuffle your feet when you walk in shallow water, so rays can swim away safely.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas."
+      ],
+      "es": [
+        "Arrastra los pies al caminar en aguas poco profundas, para que las rayas se alejen sin peligro.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas."
+      ]
+    },
+    "funFact": {
+      "en": "Its closest relatives are river stingrays from South America, even though it lives in the sea!",
+      "es": "¡Sus parientes más cercanos son las rayas de río de Sudamérica, aunque ella vive en el mar!"
+    },
+    "wiki": "Styracura_pacifica",
+    "photo": null
+  },
+  {
+    "id": "marble-ray",
+    "group": "sea",
+    "emoji": "🛸",
+    "scientific": "Taeniurops meyeni",
+    "status": "VU",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Marble Ray",
+      "es": "Raya Marmoleada"
+    },
+    "summary": {
+      "en": "A huge, round stingray with a dark marbled pattern that blends into rocky reefs. It can be more than 1.5 m wide.",
+      "es": "Una raya enorme y redonda con un dibujo oscuro como de mármol que se camufla en los arrecifes rocosos. Puede medir más de 1,5 m de ancho."
+    },
+    "where": {
+      "en": "Around Cocos Island, where divers often see it resting on the sand.",
+      "es": "Alrededor de la Isla del Coco, donde los buzos la ven a menudo descansando en la arena."
+    },
+    "threats": {
+      "en": "Fishing for big rays in many parts of the world.",
+      "es": "La pesca de rayas grandes en muchas partes del mundo."
+    },
+    "help": {
+      "en": [
+        "Shuffle your feet when you walk in shallow water, so rays can swim away safely.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas."
+      ],
+      "es": [
+        "Arrastra los pies al caminar en aguas poco profundas, para que las rayas se alejen sin peligro.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas."
+      ]
+    },
+    "funFact": {
+      "en": "Scientists think the marble rays of Cocos and the Galápagos might actually be a separate, still unnamed species!",
+      "es": "¡Los científicos creen que las rayas marmoleadas del Coco y Galápagos podrían ser una especie distinta que todavía no tiene nombre!"
+    },
+    "wiki": "Taeniurops_meyeni",
+    "photo": null
+  },
+  {
+    "id": "southern-stingray",
+    "group": "sea",
+    "emoji": "🛸",
+    "scientific": "Hypanus americanus",
+    "status": "NT",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Southern Stingray",
+      "es": "Raya Látigo Americana"
+    },
+    "summary": {
+      "en": "A diamond-shaped stingray that buries itself in the sand of the Caribbean shallows, with only its eyes peeking out.",
+      "es": "Una raya con forma de diamante que se entierra en la arena de las aguas poco profundas del Caribe, dejando solo los ojos afuera."
+    },
+    "where": {
+      "en": "Sandy bottoms and seagrass near reefs on the Caribbean coast, like Cahuita.",
+      "es": "Fondos arenosos y pastos marinos cerca de los arrecifes del Caribe, como en Cahuita."
+    },
+    "threats": {
+      "en": "Fishing nets and too much fishing near the coast.",
+      "es": "Las redes de pesca y la pesca excesiva cerca de la costa."
+    },
+    "help": {
+      "en": [
+        "Shuffle your feet when you walk in shallow water, so rays can swim away safely.",
+        "Choose seafood from responsible fisheries.",
+        "Support marine protected areas."
+      ],
+      "es": [
+        "Arrastra los pies al caminar en aguas poco profundas, para que las rayas se alejen sin peligro.",
+        "Escoge mariscos de pesca responsable.",
+        "Apoya las áreas marinas protegidas."
+      ]
+    },
+    "funFact": {
+      "en": "To find hidden clams and worms, it blows jets of water into the sand to uncover them.",
+      "es": "Para encontrar almejas y gusanos escondidos, sopla chorros de agua en la arena para destaparlos."
+    },
+    "wiki": "Southern_stingray",
+    "photo": null
+  },
+  {
+    "id": "goliath-grouper",
+    "group": "sea",
+    "emoji": "🐟",
+    "scientific": "Epinephelus itajara",
+    "status": "VU",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Goliath Grouper",
+      "es": "Mero Guasa"
+    },
+    "summary": {
+      "en": "A giant reef fish that can grow to about 2.5 m long and weigh around 360 kg (800 pounds).",
+      "es": "Un pez gigante de arrecife que puede medir unos 2,5 m de largo y pesar cerca de 360 kg."
+    },
+    "where": {
+      "en": "Reefs, shipwrecks and mangroves of the Caribbean coast. Young ones grow up in mangroves.",
+      "es": "Arrecifes, barcos hundidos y manglares de la costa del Caribe. Los jóvenes crecen en los manglares."
+    },
+    "threats": {
+      "en": "It is big, slow and curious, so it was easy to overfish. Cutting mangroves also takes away its nurseries.",
+      "es": "Es grande, lento y curioso, así que fue fácil pescarlo de más. La tala de manglares también le quita sus criaderos."
+    },
+    "help": {
+      "en": [
+        "Choose seafood from responsible fisheries, and never eat undersized fish.",
+        "Practice catch-and-release when you go sportfishing.",
+        "Keep plastic and trash out of the ocean."
+      ],
+      "es": [
+        "Escoge mariscos de pesca responsable y nunca comas peces demasiado pequeños.",
+        "Practica la pesca de captura y liberación cuando vayas a pescar.",
+        "No dejes que el plástico ni la basura lleguen al mar."
+      ]
+    },
+    "funFact": {
+      "en": "It makes loud 'BOOM' sounds with its swim bladder that divers can feel in their chest!",
+      "es": "¡Hace fuertes sonidos de 'BUM' con su vejiga natatoria que los buzos pueden sentir en el pecho!"
+    },
+    "wiki": "Atlantic_goliath_grouper",
+    "photo": null
+  },
+  {
+    "id": "pacific-seahorse",
+    "group": "sea",
+    "emoji": "🐠",
+    "scientific": "Hippocampus ingens",
+    "status": "VU",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Pacific Seahorse",
+      "es": "Caballito de Mar del Pacífico"
+    },
+    "summary": {
+      "en": "One of the largest seahorses, up to about 30 cm long. It uses its curly tail to hold on to coral and sea fans.",
+      "es": "Uno de los caballitos de mar más grandes, de hasta unos 30 cm. Usa su cola enrollada para sujetarse a corales y abanicos de mar."
+    },
+    "where": {
+      "en": "Rocky reefs, sea fans and seaweed along the Pacific coast.",
+      "es": "Arrecifes rocosos, abanicos de mar y algas de la costa del Pacífico."
+    },
+    "threats": {
+      "en": "Shrimp nets that catch them by accident, and being sold dried for traditional medicine and souvenirs.",
+      "es": "Las redes de camarón que los atrapan por accidente, y la venta de caballitos secos para medicina tradicional y recuerdos."
+    },
+    "help": {
+      "en": [
+        "Never buy dried seahorses or seahorse souvenirs.",
+        "Choose shrimp from responsible fisheries.",
+        "Never touch seahorses when you snorkel."
+      ],
+      "es": [
+        "Nunca compres caballitos de mar secos ni recuerdos hechos con ellos.",
+        "Escoge camarón de pesca responsable.",
+        "Nunca toques caballitos de mar cuando hagas snorkel."
+      ]
+    },
+    "funFact": {
+      "en": "The dad seahorse carries the eggs in a pouch on his belly, and he gives birth to the babies!",
+      "es": "¡El papá caballito de mar lleva los huevos en una bolsa en la panza y es él quien da a luz a las crías!"
+    },
+    "wiki": "Pacific_seahorse",
+    "photo": null
+  },
+  {
+    "id": "blue-marlin",
+    "group": "sea",
+    "emoji": "🐟",
+    "scientific": "Makaira nigricans",
+    "status": "VU",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Blue Marlin",
+      "es": "Marlín Azul"
+    },
+    "summary": {
+      "en": "A huge, super fast ocean fish with a long, spear-like bill. Females can grow much bigger than males.",
+      "es": "Un pez enorme y súper rápido del océano, con un pico largo como una lanza. Las hembras pueden crecer mucho más que los machos."
+    },
+    "where": {
+      "en": "Deep blue water far offshore in the Pacific and Caribbean.",
+      "es": "Aguas azules y profundas lejos de la costa en el Pacífico y el Caribe."
+    },
+    "threats": {
+      "en": "Being caught by long fishing lines set for tuna and swordfish.",
+      "es": "Quedar atrapado en largas líneas de pesca puestas para atún y pez espada."
+    },
+    "help": {
+      "en": [
+        "Choose seafood from responsible fisheries, and never eat undersized fish.",
+        "Practice catch-and-release when you go sportfishing.",
+        "Keep plastic and trash out of the ocean."
+      ],
+      "es": [
+        "Escoge mariscos de pesca responsable y nunca comas peces demasiado pequeños.",
+        "Practica la pesca de captura y liberación cuando vayas a pescar.",
+        "No dejes que el plástico ni la basura lleguen al mar."
+      ]
+    },
+    "funFact": {
+      "en": "It slashes through schools of fish with its bill to stun them before eating. Some marlins weigh more than 600 kg!",
+      "es": "Atraviesa los cardúmenes golpeando con su pico para aturdir a los peces antes de comerlos. ¡Algunos marlines pesan más de 600 kg!"
+    },
+    "wiki": "Atlantic_blue_marlin",
+    "photo": null
+  },
+  {
+    "id": "cocos-barnacle-blenny",
+    "group": "sea",
+    "emoji": "🐟",
+    "scientific": "Acanthemblemaria atrata",
+    "status": "VU",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Cocos Island Barnacle Blenny",
+      "es": "Trambollo de Percebe del Coco"
+    },
+    "summary": {
+      "en": "A tiny fish, only about 3 cm long, that lives inside empty barnacle shells. It lives only around Cocos Island.",
+      "es": "Un pez diminuto, de solo unos 3 cm, que vive dentro de conchas vacías de percebes. Solo vive alrededor de la Isla del Coco."
+    },
+    "where": {
+      "en": "Rocky reefs around Cocos Island, from shallow water down to about 30 m, and nowhere else on Earth.",
+      "es": "Arrecifes rocosos alrededor de la Isla del Coco, desde aguas poco profundas hasta unos 30 m, y en ningún otro lugar del mundo."
+    },
+    "threats": {
+      "en": "Because it lives in only one small place, warmer seas from El Niño or damage to its reefs could hurt the whole species.",
+      "es": "Como vive en un solo lugar pequeño, los mares más calientes de El Niño o el daño a sus arrecifes podrían afectar a toda la especie."
+    },
+    "help": {
+      "en": [
+        "Never touch or stand on coral when you snorkel or dive.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Never take shells, coral or animals from the reef."
+      ],
+      "es": [
+        "Nunca toques ni te pares sobre el coral cuando hagas snorkel o buceo.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Nunca te lleves conchas, coral ni animales del arrecife."
+      ]
+    },
+    "funFact": {
+      "en": "The dad lays claim to a barnacle shell, and the mom lays her eggs on its walls. Then the dad guards them until they hatch.",
+      "es": "El papá se adueña de una concha de percebe y la mamá pone los huevos en sus paredes. Luego el papá los cuida hasta que nacen."
+    },
+    "wiki": "Acanthemblemaria_atrata",
+    "photo": null
+  },
+  {
+    "id": "sailfish",
+    "group": "sea",
+    "emoji": "🐟",
+    "scientific": "Istiophorus platypterus",
+    "status": "LC",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Sailfish",
+      "es": "Pez Vela"
+    },
+    "summary": {
+      "en": "Famous for the giant, sail-like fin on its back and for being one of the fastest fish in the ocean.",
+      "es": "Famoso por la enorme aleta en forma de vela en su espalda y por ser uno de los peces más rápidos del océano."
+    },
+    "where": {
+      "en": "Warm waters of the Pacific coast, where it is the favorite fish of catch-and-release sportfishing.",
+      "es": "Aguas cálidas de la costa del Pacífico, donde es el pez favorito de la pesca deportiva de captura y liberación."
+    },
+    "threats": {
+      "en": "Being caught by commercial fishing boats. Studies show fewer sailfish in Costa Rica's Pacific in recent years.",
+      "es": "Quedar atrapado en barcos de pesca comercial. Los estudios muestran menos peces vela en el Pacífico de Costa Rica en los últimos años."
+    },
+    "help": {
+      "en": [
+        "Choose seafood from responsible fisheries, and never eat undersized fish.",
+        "Practice catch-and-release when you go sportfishing.",
+        "Keep plastic and trash out of the ocean."
+      ],
+      "es": [
+        "Escoge mariscos de pesca responsable y nunca comas peces demasiado pequeños.",
+        "Practica la pesca de captura y liberación cuando vayas a pescar.",
+        "No dejes que el plástico ni la basura lleguen al mar."
+      ]
+    },
+    "funFact": {
+      "en": "Sailfish hunt in teams. They raise their sails to herd sardines into a tight ball, then take turns slashing with their bills.",
+      "es": "Los peces vela cazan en equipo. Levantan sus velas para arrear sardinas en una bola apretada y luego se turnan para golpear con el pico."
+    },
+    "wiki": "Sailfish",
+    "photo": null
+  },
+  {
+    "id": "yellowfin-tuna",
+    "group": "sea",
+    "emoji": "🐟",
+    "scientific": "Thunnus albacares",
+    "status": "LC",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Yellowfin Tuna",
+      "es": "Atún Aleta Amarilla"
+    },
+    "summary": {
+      "en": "A torpedo-shaped fish with bright yellow fins that travels the ocean in fast schools.",
+      "es": "Un pez con forma de torpedo y aletas amarillo brillante que recorre el océano en cardúmenes veloces."
+    },
+    "where": {
+      "en": "The open Pacific Ocean, including the waters around Cocos Island.",
+      "es": "El océano Pacífico abierto, incluidas las aguas alrededor de la Isla del Coco."
+    },
+    "threats": {
+      "en": "It is one of the most fished fish in the world, so fishing must be carefully controlled.",
+      "es": "Es uno de los peces más pescados del mundo, así que la pesca debe controlarse con cuidado."
+    },
+    "help": {
+      "en": [
+        "Choose seafood from responsible fisheries, and never eat undersized fish.",
+        "Practice catch-and-release when you go sportfishing.",
+        "Keep plastic and trash out of the ocean."
+      ],
+      "es": [
+        "Escoge mariscos de pesca responsable y nunca comas peces demasiado pequeños.",
+        "Practica la pesca de captura y liberación cuando vayas a pescar.",
+        "No dejes que el plástico ni la basura lleguen al mar."
+      ]
+    },
+    "funFact": {
+      "en": "In the eastern Pacific, yellowfin tuna often swim together with dolphins.",
+      "es": "En el Pacífico oriental, el atún aleta amarilla suele nadar junto con delfines."
+    },
+    "wiki": "Yellowfin_tuna",
+    "photo": null
+  },
+  {
+    "id": "mahi-mahi",
+    "group": "sea",
+    "emoji": "🐟",
+    "scientific": "Coryphaena hippurus",
+    "status": "LC",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Mahi-Mahi",
+      "es": "Dorado"
+    },
+    "summary": {
+      "en": "A dazzling fish with neon blue, green and gold colors. Its name in Spanish, 'dorado', means golden.",
+      "es": "Un pez deslumbrante de colores neón azul, verde y dorado. Por eso en español se llama 'dorado'."
+    },
+    "where": {
+      "en": "Warm open waters of both coasts, often near floating logs and seaweed.",
+      "es": "Aguas cálidas y abiertas de ambas costas, a menudo cerca de troncos y algas flotantes."
+    },
+    "threats": {
+      "en": "Lots of fishing, though it grows so fast that its numbers can recover quickly.",
+      "es": "Mucha pesca, aunque crece tan rápido que su población se puede recuperar pronto."
+    },
+    "help": {
+      "en": [
+        "Choose seafood from responsible fisheries, and never eat undersized fish.",
+        "Practice catch-and-release when you go sportfishing.",
+        "Keep plastic and trash out of the ocean."
+      ],
+      "es": [
+        "Escoge mariscos de pesca responsable y nunca comas peces demasiado pequeños.",
+        "Practica la pesca de captura y liberación cuando vayas a pescar.",
+        "No dejes que el plástico ni la basura lleguen al mar."
+      ]
+    },
+    "funFact": {
+      "en": "It can change color in seconds, and the males have a tall, square forehead.",
+      "es": "Puede cambiar de color en segundos, y los machos tienen la frente alta y cuadrada."
+    },
+    "wiki": "Mahi-mahi",
+    "photo": null
+  },
+  {
+    "id": "roosterfish",
+    "group": "sea",
+    "emoji": "🐟",
+    "scientific": "Nematistius pectoralis",
+    "status": "LC",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Roosterfish",
+      "es": "Pez Gallo"
+    },
+    "summary": {
+      "en": "A Pacific fish with seven long spines on its back that stand up just like a rooster's comb.",
+      "es": "Un pez del Pacífico con siete espinas largas en la espalda que se paran igualito que la cresta de un gallo."
+    },
+    "where": {
+      "en": "Sandy beaches and shallow waters of the Pacific coast.",
+      "es": "Playas arenosas y aguas poco profundas de la costa del Pacífico."
+    },
+    "threats": {
+      "en": "Fishing. It is popular with sport fishers, who usually release it.",
+      "es": "La pesca. Es muy popular en la pesca deportiva, donde normalmente lo liberan."
+    },
+    "help": {
+      "en": [
+        "Choose seafood from responsible fisheries, and never eat undersized fish.",
+        "Practice catch-and-release when you go sportfishing.",
+        "Keep plastic and trash out of the ocean."
+      ],
+      "es": [
+        "Escoge mariscos de pesca responsable y nunca comas peces demasiado pequeños.",
+        "Practica la pesca de captura y liberación cuando vayas a pescar.",
+        "No dejes que el plástico ni la basura lleguen al mar."
+      ]
+    },
+    "funFact": {
+      "en": "It is the only species in its whole family, and it lives only in the eastern Pacific Ocean.",
+      "es": "Es la única especie de toda su familia, y solo vive en el océano Pacífico oriental."
+    },
+    "wiki": "Roosterfish",
+    "photo": null
+  },
+  {
+    "id": "king-angelfish",
+    "group": "sea",
+    "emoji": "🐠",
+    "scientific": "Holacanthus passer",
+    "status": "LC",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "King Angelfish",
+      "es": "Pez Ángel Rey"
+    },
+    "summary": {
+      "en": "A bright blue reef fish with a bold white stripe on its side and a yellow tail.",
+      "es": "Un pez de arrecife azul brillante con una franja blanca llamativa en el costado y la cola amarilla."
+    },
+    "where": {
+      "en": "Rocky reefs of the Pacific coast, Caño Island and Cocos Island.",
+      "es": "Arrecifes rocosos de la costa del Pacífico, la Isla del Caño y la Isla del Coco."
+    },
+    "threats": {
+      "en": "Being collected for home aquariums, and damage to reefs.",
+      "es": "La captura para acuarios caseros y el daño a los arrecifes."
+    },
+    "help": {
+      "en": [
+        "Never touch or stand on coral when you snorkel or dive.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Never take shells, coral or animals from the reef."
+      ],
+      "es": [
+        "Nunca toques ni te pares sobre el coral cuando hagas snorkel o buceo.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Nunca te lleves conchas, coral ni animales del arrecife."
+      ]
+    },
+    "funFact": {
+      "en": "Babies look completely different: orange with thin blue stripes. They change colors as they grow up.",
+      "es": "Las crías se ven totalmente distintas: anaranjadas con rayitas azules. Cambian de color al crecer."
+    },
+    "wiki": "King_angelfish",
+    "photo": null
+  },
+  {
+    "id": "porcupine-pufferfish",
+    "group": "sea",
+    "emoji": "🐡",
+    "scientific": "Diodon holocanthus",
+    "status": "LC",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Porcupine Pufferfish",
+      "es": "Pez Erizo"
+    },
+    "summary": {
+      "en": "When it is scared, it gulps water and puffs up into a spiky balloon that predators can't swallow.",
+      "es": "Cuando se asusta, traga agua y se infla como un globo lleno de espinas que los depredadores no pueden tragar."
+    },
+    "where": {
+      "en": "Reefs and rocky areas on both coasts and at Cocos Island.",
+      "es": "Arrecifes y zonas rocosas de ambas costas y de la Isla del Coco."
+    },
+    "threats": {
+      "en": "Being caught and dried to sell as souvenirs, and damage to reefs.",
+      "es": "La captura para secarlos y venderlos como recuerdos, y el daño a los arrecifes."
+    },
+    "help": {
+      "en": [
+        "Never buy dried pufferfish souvenirs.",
+        "Never try to make a pufferfish puff up: it is very stressful for it.",
+        "Keep plastic and trash out of the ocean."
+      ],
+      "es": [
+        "Nunca compres peces erizo secos como recuerdo.",
+        "Nunca intentes que un pez erizo se infle: le causa mucho estrés.",
+        "No dejes que el plástico ni la basura lleguen al mar."
+      ]
+    },
+    "funFact": {
+      "en": "Its teeth are joined into a strong beak that cracks open snails and crabs.",
+      "es": "Sus dientes están unidos en un pico fuerte que rompe caracoles y cangrejos."
+    },
+    "wiki": "Long-spine_porcupinefish",
+    "photo": null
+  },
+  {
+    "id": "rainbow-parrotfish",
+    "group": "sea",
+    "emoji": "🐠",
+    "scientific": "Scarus guacamaia",
+    "status": "NT",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Rainbow Parrotfish",
+      "es": "Pez Loro Arcoíris"
+    },
+    "summary": {
+      "en": "The biggest parrotfish in the Atlantic, with green, orange and bronze colors. It uses its beak-like teeth to scrape coral.",
+      "es": "El pez loro más grande del Atlántico, de colores verde, anaranjado y bronce. Usa sus dientes en forma de pico para raspar el coral."
+    },
+    "where": {
+      "en": "Caribbean reefs. Young ones grow up in mangroves, like those of Gandoca-Manzanillo.",
+      "es": "Arrecifes del Caribe. Los jóvenes crecen en manglares, como los de Gandoca-Manzanillo."
+    },
+    "threats": {
+      "en": "Fishing, and the loss of the mangroves it needs as a baby.",
+      "es": "La pesca y la pérdida de los manglares que necesita cuando es pequeño."
+    },
+    "help": {
+      "en": [
+        "Never touch or stand on coral when you snorkel or dive.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Never take shells, coral or animals from the reef."
+      ],
+      "es": [
+        "Nunca toques ni te pares sobre el coral cuando hagas snorkel o buceo.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Nunca te lleves conchas, coral ni animales del arrecife."
+      ]
+    },
+    "funFact": {
+      "en": "Parrotfish crunch rock and coral and poop out fine white sand. Some of the white sand on Caribbean beaches was made by parrotfish!",
+      "es": "Los peces loro trituran roca y coral y hacen popó de arena blanca fina. ¡Parte de la arena blanca de las playas del Caribe la hicieron los peces loro!"
+    },
+    "wiki": "Rainbow_parrotfish",
+    "photo": null
+  },
+  {
+    "id": "zebra-moray",
+    "group": "sea",
+    "emoji": "🐟",
+    "scientific": "Gymnomuraena zebra",
+    "status": "LC",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Zebra Moray Eel",
+      "es": "Morena Cebra"
+    },
+    "summary": {
+      "en": "A shy eel with black and white stripes, like a zebra, that hides in rocky cracks.",
+      "es": "Una morena tímida con rayas negras y blancas, como una cebra, que se esconde en las grietas de las rocas."
+    },
+    "where": {
+      "en": "Rocky reefs at Cocos Island and the southern Pacific coast.",
+      "es": "Arrecifes rocosos de la Isla del Coco y la costa del Pacífico Sur."
+    },
+    "threats": {
+      "en": "Damage to reefs and being collected for aquariums.",
+      "es": "El daño a los arrecifes y la captura para acuarios."
+    },
+    "help": {
+      "en": [
+        "Never touch or stand on coral when you snorkel or dive.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Never take shells, coral or animals from the reef."
+      ],
+      "es": [
+        "Nunca toques ni te pares sobre el coral cuando hagas snorkel o buceo.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Nunca te lleves conchas, coral ni animales del arrecife."
+      ]
+    },
+    "funFact": {
+      "en": "Instead of sharp fangs like other morays, it has flat, pebble-like teeth for crushing crabs.",
+      "es": "En vez de colmillos filosos como otras morenas, tiene dientes planos como piedritas para triturar cangrejos."
+    },
+    "wiki": "Zebra_moray",
+    "photo": null
+  },
+  {
+    "id": "moorish-idol",
+    "group": "sea",
+    "emoji": "🐠",
+    "scientific": "Zanclus cornutus",
+    "status": "LC",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Moorish Idol",
+      "es": "Ídolo Moro"
+    },
+    "summary": {
+      "en": "A striking black, white and yellow fish with a long, flowing fin on its back.",
+      "es": "Un pez llamativo negro, blanco y amarillo con una aleta larga y ondulante en la espalda."
+    },
+    "where": {
+      "en": "Rocky and coral reefs of the Pacific coast and Cocos Island.",
+      "es": "Arrecifes rocosos y de coral de la costa del Pacífico y la Isla del Coco."
+    },
+    "threats": {
+      "en": "Damage to reefs and being collected for aquariums, where it rarely survives.",
+      "es": "El daño a los arrecifes y la captura para acuarios, donde casi nunca sobrevive."
+    },
+    "help": {
+      "en": [
+        "Never touch or stand on coral when you snorkel or dive.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Never take shells, coral or animals from the reef."
+      ],
+      "es": [
+        "Nunca toques ni te pares sobre el coral cuando hagas snorkel o buceo.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Nunca te lleves conchas, coral ni animales del arrecife."
+      ]
+    },
+    "funFact": {
+      "en": "It lives in reefs all the way from Africa to the Americas, one of the widest homes of any reef fish.",
+      "es": "Vive en arrecifes desde África hasta América, uno de los territorios más grandes de cualquier pez de arrecife."
+    },
+    "wiki": "Moorish_idol",
+    "photo": null
+  },
+  {
+    "id": "scorpionfish",
+    "group": "sea",
+    "emoji": "🐟",
+    "scientific": "Scorpaena plumieri",
+    "status": "LC",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Spotted Scorpionfish",
+      "es": "Pez Escorpión"
+    },
+    "summary": {
+      "en": "A master of camouflage that looks just like an algae-covered rock, with venomous spines on its back.",
+      "es": "Un maestro del camuflaje que parece una roca cubierta de algas, con espinas venenosas en la espalda."
+    },
+    "where": {
+      "en": "Rocky and coral reefs of the Caribbean coast.",
+      "es": "Arrecifes rocosos y de coral de la costa del Caribe."
+    },
+    "threats": {
+      "en": "Damage to reefs and pollution.",
+      "es": "El daño a los arrecifes y la contaminación."
+    },
+    "help": {
+      "en": [
+        "Never touch or stand on coral when you snorkel or dive.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Never take shells, coral or animals from the reef."
+      ],
+      "es": [
+        "Nunca toques ni te pares sobre el coral cuando hagas snorkel o buceo.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Nunca te lleves conchas, coral ni animales del arrecife."
+      ]
+    },
+    "funFact": {
+      "en": "It waits perfectly still, then opens its mouth so fast that it sucks in a passing fish in a blink!",
+      "es": "Espera perfectamente quieto y luego abre la boca tan rápido que se traga a un pez en un parpadeo."
+    },
+    "wiki": "Spotted_scorpionfish",
+    "photo": null
+  },
+  {
+    "id": "yellowhead-jawfish",
+    "group": "sea",
+    "emoji": "🐟",
+    "scientific": "Opistognathus aurifrons",
+    "status": "LC",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Yellowhead Jawfish",
+      "es": "Pez Bocón Cabeza Amarilla"
+    },
+    "summary": {
+      "en": "A small fish with a yellow head that digs a burrow in the sand and peeks its head out.",
+      "es": "Un pez pequeño de cabeza amarilla que excava una madriguera en la arena y asoma la cabeza."
+    },
+    "where": {
+      "en": "Sandy and rubble areas near Caribbean reefs.",
+      "es": "Zonas de arena y cascajo cerca de los arrecifes del Caribe."
+    },
+    "threats": {
+      "en": "Being collected for aquariums and damage to reefs.",
+      "es": "La captura para acuarios y el daño a los arrecifes."
+    },
+    "help": {
+      "en": [
+        "Never touch or stand on coral when you snorkel or dive.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Never take shells, coral or animals from the reef."
+      ],
+      "es": [
+        "Nunca toques ni te pares sobre el coral cuando hagas snorkel o buceo.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Nunca te lleves conchas, coral ni animales del arrecife."
+      ]
+    },
+    "funFact": {
+      "en": "The dad keeps the eggs safe inside his mouth until they hatch!",
+      "es": "¡El papá guarda los huevos dentro de su boca hasta que nacen!"
+    },
+    "wiki": "Yellowhead_jawfish",
+    "photo": null
+  },
+  {
+    "id": "staghorn-coral",
+    "group": "sea",
+    "emoji": "🪸",
+    "scientific": "Acropora cervicornis",
+    "status": "CR",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Staghorn Coral",
+      "es": "Coral Cuerno de Ciervo"
+    },
+    "summary": {
+      "en": "A coral that grows in branches that look like deer antlers. It was once one of the main builders of Caribbean reefs.",
+      "es": "Un coral que crece en ramas parecidas a los cuernos de un venado. Antes era uno de los principales constructores de los arrecifes del Caribe."
+    },
+    "where": {
+      "en": "Shallow Caribbean reefs, like those of Cahuita.",
+      "es": "Arrecifes poco profundos del Caribe, como los de Cahuita."
+    },
+    "threats": {
+      "en": "Coral diseases, warmer seas that cause bleaching, pollution and mud washing in from rivers.",
+      "es": "Las enfermedades del coral, los mares más calientes que causan blanqueamiento, la contaminación y el lodo que llega de los ríos."
+    },
+    "help": {
+      "en": [
+        "Never touch, break or stand on coral.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Save energy at home: a cooler planet means fewer coral bleaching events."
+      ],
+      "es": [
+        "Nunca toques, quiebres ni te pares sobre el coral.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Ahorra energía en casa: un planeta más fresco significa menos blanqueamiento del coral."
+      ]
+    },
+    "funFact": {
+      "en": "It is one of the fastest-growing corals. People now grow pieces in underwater 'coral nurseries' to replant reefs.",
+      "es": "Es uno de los corales que crecen más rápido. Hoy la gente cultiva pedacitos en 'viveros de coral' bajo el agua para replantar arrecifes."
+    },
+    "wiki": "Staghorn_coral",
+    "photo": null
+  },
+  {
+    "id": "elkhorn-coral",
+    "group": "sea",
+    "emoji": "🪸",
+    "scientific": "Acropora palmata",
+    "status": "CR",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Elkhorn Coral",
+      "es": "Coral Cuerno de Alce"
+    },
+    "summary": {
+      "en": "A coral with big, flat branches like the antlers of an elk. Its thick thickets protect coastlines from big waves.",
+      "es": "Un coral con ramas grandes y planas como los cuernos de un alce. Sus matorrales protegen las costas de las olas grandes."
+    },
+    "where": {
+      "en": "Shallow, wavy Caribbean reefs, like those of Cahuita.",
+      "es": "Arrecifes poco profundos y con oleaje del Caribe, como los de Cahuita."
+    },
+    "threats": {
+      "en": "Coral diseases, warmer seas that cause bleaching, storms and pollution.",
+      "es": "Las enfermedades del coral, los mares más calientes que causan blanqueamiento, las tormentas y la contaminación."
+    },
+    "help": {
+      "en": [
+        "Never touch, break or stand on coral.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Save energy at home: a cooler planet means fewer coral bleaching events."
+      ],
+      "es": [
+        "Nunca toques, quiebres ni te pares sobre el coral.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Ahorra energía en casa: un planeta más fresco significa menos blanqueamiento del coral."
+      ]
+    },
+    "funFact": {
+      "en": "Coral is not a plant or a rock: it is made of thousands of tiny animals called polyps!",
+      "es": "El coral no es una planta ni una roca: ¡está formado por miles de animalitos llamados pólipos!"
+    },
+    "wiki": "Elkhorn_coral",
+    "photo": null
+  },
+  {
+    "id": "pillar-coral",
+    "group": "sea",
+    "emoji": "🪸",
+    "scientific": "Dendrogyra cylindrus",
+    "status": "CR",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Pillar Coral",
+      "es": "Coral Pilar"
+    },
+    "summary": {
+      "en": "A coral that grows straight up from the sea floor in tall columns, like underwater towers.",
+      "es": "Un coral que crece hacia arriba desde el fondo del mar en columnas altas, como torres bajo el agua."
+    },
+    "where": {
+      "en": "Caribbean reefs, where it has always been rare.",
+      "es": "Arrecifes del Caribe, donde siempre ha sido raro."
+    },
+    "threats": {
+      "en": "A coral disease that arrived in 2014 and kills it fast, plus bleaching. Its numbers fell by more than 80% since 1990.",
+      "es": "Una enfermedad del coral que llegó en 2014 y lo mata rápido, además del blanqueamiento. Su población bajó más del 80% desde 1990."
+    },
+    "help": {
+      "en": [
+        "Never touch, break or stand on coral.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Save energy at home: a cooler planet means fewer coral bleaching events."
+      ],
+      "es": [
+        "Nunca toques, quiebres ni te pares sobre el coral.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Ahorra energía en casa: un planeta más fresco significa menos blanqueamiento del coral."
+      ]
+    },
+    "funFact": {
+      "en": "Unlike most corals, it opens its tiny tentacles during the day, so its towers look soft and fuzzy.",
+      "es": "A diferencia de la mayoría de los corales, abre sus tentáculos diminutos de día, así que sus torres se ven suaves y peluditas."
+    },
+    "wiki": "Pillar_coral",
+    "photo": null
+  },
+  {
+    "id": "boulder-star-coral",
+    "group": "sea",
+    "emoji": "🪸",
+    "scientific": "Orbicella annularis",
+    "status": "EN",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Boulder Star Coral",
+      "es": "Coral Estrella"
+    },
+    "summary": {
+      "en": "A coral that forms massive, bumpy mounds. Some colonies are hundreds of years old.",
+      "es": "Un coral que forma montículos enormes y abultados. Algunas colonias tienen cientos de años."
+    },
+    "where": {
+      "en": "Caribbean reefs, like those of Cahuita and Gandoca-Manzanillo.",
+      "es": "Arrecifes del Caribe, como los de Cahuita y Gandoca-Manzanillo."
+    },
+    "threats": {
+      "en": "Bleaching from warmer seas, coral diseases, pollution and mud from rivers.",
+      "es": "El blanqueamiento por mares más calientes, las enfermedades del coral, la contaminación y el lodo de los ríos."
+    },
+    "help": {
+      "en": [
+        "Never touch, break or stand on coral.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Save energy at home: a cooler planet means fewer coral bleaching events."
+      ],
+      "es": [
+        "Nunca toques, quiebres ni te pares sobre el coral.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Ahorra energía en casa: un planeta más fresco significa menos blanqueamiento del coral."
+      ]
+    },
+    "funFact": {
+      "en": "It grows only about 1 cm per year, so a mound as big as a car may be older than your great-great-grandparents!",
+      "es": "Crece solo como 1 cm por año, ¡así que un montículo del tamaño de un carro puede ser más viejo que tus tatarabuelos!"
+    },
+    "wiki": "Orbicella_annularis",
+    "photo": null
+  },
+  {
+    "id": "cauliflower-coral",
+    "group": "sea",
+    "emoji": "🪸",
+    "scientific": "Pocillopora damicornis",
+    "status": "NT",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Cauliflower Coral",
+      "es": "Coral Coliflor"
+    },
+    "summary": {
+      "en": "A branching coral that looks like a little cauliflower. It is one of the main reef builders on Costa Rica's Pacific coast.",
+      "es": "Un coral ramificado que parece una coliflor pequeña. Es uno de los principales constructores de arrecifes de la costa del Pacífico de Costa Rica."
+    },
+    "where": {
+      "en": "Pacific reefs like those of Bahía Culebra, Caño Island, Golfo Dulce and Cocos Island.",
+      "es": "Arrecifes del Pacífico como los de Bahía Culebra, la Isla del Caño, el Golfo Dulce y la Isla del Coco."
+    },
+    "threats": {
+      "en": "Bleaching during hot El Niño years, pollution and mud from the land.",
+      "es": "El blanqueamiento en los años calientes de El Niño, la contaminación y el lodo que viene de tierra."
+    },
+    "help": {
+      "en": [
+        "Never touch, break or stand on coral.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Save energy at home: a cooler planet means fewer coral bleaching events."
+      ],
+      "es": [
+        "Nunca toques, quiebres ni te pares sobre el coral.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Ahorra energía en casa: un planeta más fresco significa menos blanqueamiento del coral."
+      ]
+    },
+    "funFact": {
+      "en": "Tiny crabs and shrimp live between its branches and defend it from coral-eating sea stars!",
+      "es": "¡Cangrejitos y camarones viven entre sus ramas y lo defienden de las estrellas de mar que comen coral!"
+    },
+    "wiki": "Pocillopora_damicornis",
+    "photo": null
+  },
+  {
+    "id": "grooved-brain-coral",
+    "group": "sea",
+    "emoji": "🧠",
+    "scientific": "Diploria labyrinthiformis",
+    "status": "CR",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Grooved Brain Coral",
+      "es": "Coral Cerebro"
+    },
+    "summary": {
+      "en": "A round coral covered in winding grooves that make it look just like a human brain.",
+      "es": "Un coral redondo cubierto de surcos ondulados que lo hacen parecer igualito a un cerebro humano."
+    },
+    "where": {
+      "en": "Caribbean reefs.",
+      "es": "Arrecifes del Caribe."
+    },
+    "threats": {
+      "en": "A deadly coral disease spreading through the Caribbean, plus bleaching and pollution.",
+      "es": "Una enfermedad mortal del coral que se está extendiendo por el Caribe, además del blanqueamiento y la contaminación."
+    },
+    "help": {
+      "en": [
+        "Never touch, break or stand on coral.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Save energy at home: a cooler planet means fewer coral bleaching events."
+      ],
+      "es": [
+        "Nunca toques, quiebres ni te pares sobre el coral.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Ahorra energía en casa: un planeta más fresco significa menos blanqueamiento del coral."
+      ]
+    },
+    "funFact": {
+      "en": "Each groove is a valley where many tiny coral animals live side by side, sharing the same mouth line.",
+      "es": "Cada surco es un valle donde muchos animalitos de coral viven lado a lado, compartiendo una misma línea de bocas."
+    },
+    "wiki": "Diploria",
+    "photo": null
+  },
+  {
+    "id": "purple-sea-fan",
+    "group": "sea",
+    "emoji": "🪸",
+    "scientific": "Gorgonia ventalina",
+    "status": "NE",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Purple Sea Fan",
+      "es": "Abanico de Mar Morado"
+    },
+    "summary": {
+      "en": "A soft coral shaped like a giant purple fan that sways back and forth with the ocean current.",
+      "es": "Un coral blando con forma de abanico morado gigante que se mece de un lado a otro con la corriente."
+    },
+    "where": {
+      "en": "Shallow Caribbean reefs.",
+      "es": "Arrecifes poco profundos del Caribe."
+    },
+    "threats": {
+      "en": "A fungus disease, warmer seas and pollution.",
+      "es": "Una enfermedad por hongos, los mares más calientes y la contaminación."
+    },
+    "help": {
+      "en": [
+        "Never touch, break or stand on coral.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Save energy at home: a cooler planet means fewer coral bleaching events."
+      ],
+      "es": [
+        "Nunca toques, quiebres ni te pares sobre el coral.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Ahorra energía en casa: un planeta más fresco significa menos blanqueamiento del coral."
+      ]
+    },
+    "funFact": {
+      "en": "It always grows facing across the current, like a net, so its tiny polyps can catch more food floating by.",
+      "es": "Siempre crece de frente a la corriente, como una red, para que sus pólipos diminutos atrapen más comida que pasa flotando."
+    },
+    "wiki": "Gorgonia_ventalina",
+    "photo": null
+  },
+  {
+    "id": "giant-caribbean-anemone",
+    "group": "sea",
+    "emoji": "🪸",
+    "scientific": "Condylactis gigantea",
+    "status": "NE",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Giant Caribbean Sea Anemone",
+      "es": "Anémona Gigante del Caribe"
+    },
+    "summary": {
+      "en": "A big anemone with long tentacles, often with pink or purple tips. Its tentacles sting and catch small animals.",
+      "es": "Una anémona grande con tentáculos largos, a menudo con puntas rosadas o moradas. Sus tentáculos pican y atrapan animalitos."
+    },
+    "where": {
+      "en": "Caribbean reefs and seagrass beds, tucked into cracks in the rock.",
+      "es": "Arrecifes y pastos marinos del Caribe, metida en grietas de las rocas."
+    },
+    "threats": {
+      "en": "Being collected for aquariums, and damage to reefs.",
+      "es": "La captura para acuarios y el daño a los arrecifes."
+    },
+    "help": {
+      "en": [
+        "Never touch or stand on coral when you snorkel or dive.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Never take shells, coral or animals from the reef."
+      ],
+      "es": [
+        "Nunca toques ni te pares sobre el coral cuando hagas snorkel o buceo.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Nunca te lleves conchas, coral ni animales del arrecife."
+      ]
+    },
+    "funFact": {
+      "en": "Tiny shrimp live safely among its stinging tentacles, and some of them clean fish that visit!",
+      "es": "¡Camaroncitos viven seguros entre sus tentáculos que pican, y algunos limpian a los peces que los visitan!"
+    },
+    "wiki": "Condylactis_gigantea",
+    "photo": null
+  },
+  {
+    "id": "brown-sea-cucumber",
+    "group": "sea",
+    "emoji": "🥒",
+    "scientific": "Isostichopus fuscus",
+    "status": "EN",
+    "checked": "2026-11-26",
+    "needsCheck": false,
+    "name": {
+      "en": "Brown Sea Cucumber",
+      "es": "Pepino de Mar Café"
+    },
+    "summary": {
+      "en": "A soft, bumpy animal that works like an ocean vacuum cleaner, sifting through sand to recycle nutrients.",
+      "es": "Un animal blando y lleno de bultos que funciona como una aspiradora del mar, cerniendo la arena para reciclar nutrientes."
+    },
+    "where": {
+      "en": "Rocky reefs and sandy bottoms of the Pacific coast and Cocos Island.",
+      "es": "Arrecifes rocosos y fondos arenosos de la costa del Pacífico y la Isla del Coco."
+    },
+    "threats": {
+      "en": "Too much harvesting: it is sold dried as an expensive food in Asia.",
+      "es": "La recolección excesiva: se vende seco como un alimento caro en Asia."
+    },
+    "help": {
+      "en": [
+        "Never buy dried sea cucumbers.",
+        "Never pick up sea cucumbers on the beach or reef.",
+        "Support marine protected areas."
+      ],
+      "es": [
+        "Nunca compres pepinos de mar secos.",
+        "Nunca recojas pepinos de mar en la playa o el arrecife.",
+        "Apoya las áreas marinas protegidas."
+      ]
+    },
+    "funFact": {
+      "en": "Sea cucumbers breathe through their bottom! They pump water in and out through it.",
+      "es": "¡Los pepinos de mar respiran por el trasero! Bombean agua hacia adentro y afuera por ahí."
+    },
+    "wiki": "Isostichopus_fuscus",
+    "photo": null
+  },
+  {
+    "id": "caribbean-reef-octopus",
+    "group": "sea",
+    "emoji": "🐙",
+    "scientific": "Octopus briareus",
+    "status": "LC",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Caribbean Reef Octopus",
+      "es": "Pulpo de Arrecife del Caribe"
+    },
+    "summary": {
+      "en": "A bright blue-green octopus that can change the color and texture of its skin in less than a second.",
+      "es": "Un pulpo verde azulado brillante que puede cambiar el color y la textura de su piel en menos de un segundo."
+    },
+    "where": {
+      "en": "Caribbean reefs, rocks and seagrass.",
+      "es": "Arrecifes, rocas y pastos marinos del Caribe."
+    },
+    "threats": {
+      "en": "Fishing and damage to reefs.",
+      "es": "La pesca y el daño a los arrecifes."
+    },
+    "help": {
+      "en": [
+        "Never touch or stand on coral when you snorkel or dive.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Never take shells, coral or animals from the reef."
+      ],
+      "es": [
+        "Nunca toques ni te pares sobre el coral cuando hagas snorkel o buceo.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Nunca te lleves conchas, coral ni animales del arrecife."
+      ]
+    },
+    "funFact": {
+      "en": "It hunts at night and wraps its webbed arms around crabs and fish like a net.",
+      "es": "Caza de noche y envuelve a cangrejos y peces con sus brazos unidos por una membrana, como una red."
+    },
+    "wiki": "Caribbean_reef_octopus",
+    "photo": null
+  },
+  {
+    "id": "pacific-striped-octopus",
+    "group": "sea",
+    "emoji": "🐙",
+    "scientific": "Octopus chierchiae",
+    "status": "NE",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Lesser Pacific Striped Octopus",
+      "es": "Pulpo Rayado del Pacífico"
+    },
+    "summary": {
+      "en": "A small, striped octopus of the Pacific coast. Like all octopuses, it is smart, has three hearts and blue blood.",
+      "es": "Un pulpo pequeño y rayado de la costa del Pacífico. Como todos los pulpos, es inteligente, tiene tres corazones y sangre azul."
+    },
+    "where": {
+      "en": "Shallow muddy and sandy bottoms of the Pacific coast, from Nicaragua to Colombia.",
+      "es": "Fondos poco profundos de lodo y arena de la costa del Pacífico, desde Nicaragua hasta Colombia."
+    },
+    "threats": {
+      "en": "Pollution and damage to shallow coastal habitats.",
+      "es": "La contaminación y el daño a los hábitats costeros poco profundos."
+    },
+    "help": {
+      "en": [
+        "Look, but don't touch or pick up sea creatures in tide pools.",
+        "Keep plastic and trash off the beach.",
+        "Put rocks back the way you found them."
+      ],
+      "es": [
+        "Mira, pero no toques ni levantes a los animales de las pozas de marea.",
+        "No dejes plástico ni basura en la playa.",
+        "Deja las piedras como las encontraste."
+      ]
+    },
+    "funFact": {
+      "en": "Most octopus moms lay eggs only once, but this one can lay eggs many times in her life, which surprised scientists!",
+      "es": "La mayoría de las mamás pulpo ponen huevos una sola vez, pero esta puede poner huevos muchas veces en su vida, ¡y eso sorprendió a los científicos!"
+    },
+    "wiki": "Lesser_Pacific_striped_octopus",
+    "photo": null
+  },
+  {
+    "id": "caribbean-reef-squid",
+    "group": "sea",
+    "emoji": "🦑",
+    "scientific": "Sepioteuthis sepioidea",
+    "status": "LC",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Caribbean Reef Squid",
+      "es": "Calamar de Arrecife del Caribe"
+    },
+    "summary": {
+      "en": "A squid that talks to other squid by flashing patterns of color across its skin.",
+      "es": "Un calamar que se comunica con otros calamares mostrando dibujos de colores en su piel."
+    },
+    "where": {
+      "en": "Shallow Caribbean reefs and seagrass, often in small groups.",
+      "es": "Arrecifes poco profundos y pastos marinos del Caribe, a menudo en grupos pequeños."
+    },
+    "threats": {
+      "en": "Pollution and damage to reefs and seagrass.",
+      "es": "La contaminación y el daño a los arrecifes y pastos marinos."
+    },
+    "help": {
+      "en": [
+        "Never touch or stand on coral when you snorkel or dive.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Never take shells, coral or animals from the reef."
+      ],
+      "es": [
+        "Nunca toques ni te pares sobre el coral cuando hagas snorkel o buceo.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Nunca te lleves conchas, coral ni animales del arrecife."
+      ]
+    },
+    "funFact": {
+      "en": "Scientists have seen these squid shoot out of the water and glide through the air, like flying fish!",
+      "es": "¡Los científicos han visto a estos calamares salir disparados del agua y planear por el aire, como peces voladores!"
+    },
+    "wiki": "Caribbean_reef_squid",
+    "photo": null
+  },
+  {
+    "id": "moon-jellyfish",
+    "group": "sea",
+    "emoji": "🪼",
+    "scientific": "Aurelia aurita",
+    "status": "NE",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Moon Jellyfish",
+      "es": "Medusa Luna"
+    },
+    "summary": {
+      "en": "A see-through jellyfish with four horseshoe-shaped rings visible inside its glowing bell.",
+      "es": "Una medusa transparente con cuatro anillos en forma de herradura que se ven dentro de su campana brillante."
+    },
+    "where": {
+      "en": "Coastal waters of both coasts, sometimes in huge groups.",
+      "es": "Aguas costeras de ambas costas, a veces en grupos enormes."
+    },
+    "threats": {
+      "en": "Not in danger. In fact, warmer and polluted seas can make jellyfish more common.",
+      "es": "No está en peligro. De hecho, los mares más calientes y contaminados pueden hacer que haya más medusas."
+    },
+    "help": {
+      "en": [
+        "Keep plastic bags out of the ocean: sea turtles mistake them for jellyfish.",
+        "Look, but never touch a jellyfish, even one washed up on the beach.",
+        "Help keep the sea clean and healthy."
+      ],
+      "es": [
+        "No dejes que las bolsas plásticas lleguen al mar: las tortugas marinas las confunden con medusas.",
+        "Mira, pero nunca toques una medusa, ni siquiera una que esté en la playa.",
+        "Ayuda a mantener el mar limpio y sano."
+      ]
+    },
+    "funFact": {
+      "en": "The four rings are its reproductive organs. Jellyfish have no brain, no heart and no bones!",
+      "es": "Los cuatro anillos son sus órganos reproductivos. ¡Las medusas no tienen cerebro, ni corazón, ni huesos!"
+    },
+    "wiki": "Aurelia_aurita",
+    "photo": null
+  },
+  {
+    "id": "cannonball-jellyfish",
+    "group": "sea",
+    "emoji": "🪼",
+    "scientific": "Stomolophus meleagris",
+    "status": "NE",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Cannonball Jellyfish",
+      "es": "Medusa Bola de Cañón"
+    },
+    "summary": {
+      "en": "A firm, round jellyfish shaped like a dome, without the long dangling tentacles of other jellies.",
+      "es": "Una medusa firme y redonda con forma de cúpula, sin los tentáculos largos que cuelgan en otras medusas."
+    },
+    "where": {
+      "en": "Coastal waters, sometimes in huge swarms near the beach.",
+      "es": "Aguas costeras, a veces en enjambres enormes cerca de la playa."
+    },
+    "threats": {
+      "en": "Not in danger, but too much fishing for it in some countries could hurt local swarms.",
+      "es": "No está en peligro, pero la pesca excesiva en algunos países podría afectar los enjambres locales."
+    },
+    "help": {
+      "en": [
+        "Keep plastic bags out of the ocean: sea turtles mistake them for jellyfish.",
+        "Look, but never touch a jellyfish, even one washed up on the beach.",
+        "Help keep the sea clean and healthy."
+      ],
+      "es": [
+        "No dejes que las bolsas plásticas lleguen al mar: las tortugas marinas las confunden con medusas.",
+        "Mira, pero nunca toques una medusa, ni siquiera una que esté en la playa.",
+        "Ayuda a mantener el mar limpio y sano."
+      ]
+    },
+    "funFact": {
+      "en": "It is a favorite food of the leatherback sea turtle, the biggest turtle in the world.",
+      "es": "Es una de las comidas favoritas de la tortuga baula, la tortuga más grande del mundo."
+    },
+    "wiki": "Cannonball_jellyfish",
+    "photo": null
+  },
+  {
+    "id": "portuguese-man-o-war",
+    "group": "sea",
+    "emoji": "🪼",
+    "scientific": "Physalia physalis",
+    "status": "NE",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Portuguese Man o' War",
+      "es": "Carabela Portuguesa"
+    },
+    "summary": {
+      "en": "It looks like a floating blue bubble, but it is not one animal: it is a colony of tiny animals working together.",
+      "es": "Parece una burbuja azul flotante, pero no es un solo animal: es una colonia de animalitos que trabajan juntos."
+    },
+    "where": {
+      "en": "Floating on the surface of the open ocean. Winds sometimes blow many onto beaches.",
+      "es": "Flotando en la superficie del océano abierto. A veces el viento empuja muchas a las playas."
+    },
+    "threats": {
+      "en": "Not in danger.",
+      "es": "No está en peligro."
+    },
+    "help": {
+      "en": [
+        "Never touch one, even if it is dead on the beach: it still stings!",
+        "Tell a lifeguard if you see them on the beach.",
+        "Keep plastic out of the ocean."
+      ],
+      "es": [
+        "Nunca toques una, aunque esté muerta en la playa: ¡todavía pica!",
+        "Avísale a un salvavidas si las ves en la playa.",
+        "No dejes que el plástico llegue al mar."
+      ]
+    },
+    "funFact": {
+      "en": "Its bubble works like a sail, and its stinging tentacles can be more than 10 m long!",
+      "es": "Su burbuja funciona como una vela, y sus tentáculos que pican pueden medir más de 10 m."
+    },
+    "wiki": "Portuguese_man_o'_war",
+    "photo": null
+  },
+  {
+    "id": "agassiz-nudibranch",
+    "group": "sea",
+    "emoji": "🐌",
+    "scientific": "Hypselodoris agassizii",
+    "status": "NE",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Agassiz's Nudibranch",
+      "es": "Nudibranquio de Agassiz"
+    },
+    "summary": {
+      "en": "A tiny, colorful sea slug, dark blue with bright yellow-orange stripes, that crawls over Pacific reefs.",
+      "es": "Una babosa de mar diminuta y colorida, azul oscuro con rayas amarillo anaranjado, que se arrastra por los arrecifes del Pacífico."
+    },
+    "where": {
+      "en": "Rocky reefs of the Pacific coast and Cocos Island.",
+      "es": "Arrecifes rocosos de la costa del Pacífico y la Isla del Coco."
+    },
+    "threats": {
+      "en": "Damage to reefs and pollution.",
+      "es": "El daño a los arrecifes y la contaminación."
+    },
+    "help": {
+      "en": [
+        "Never touch or stand on coral when you snorkel or dive.",
+        "Use reef-safe sunscreen, or wear a shirt in the water.",
+        "Never take shells, coral or animals from the reef."
+      ],
+      "es": [
+        "Nunca toques ni te pares sobre el coral cuando hagas snorkel o buceo.",
+        "Usa bloqueador seguro para arrecifes, o una camisa en el agua.",
+        "Nunca te lleves conchas, coral ni animales del arrecife."
+      ]
+    },
+    "funFact": {
+      "en": "Its bright colors are a warning: 'I taste terrible!' It gets bad-tasting chemicals from the sponges it eats.",
+      "es": "Sus colores brillantes son una advertencia: '¡Sé horrible!'. Saca químicos de mal sabor de las esponjas que come."
+    },
+    "wiki": "Hypselodoris_agassizii",
+    "photo": null
+  },
+  {
+    "id": "chocolate-chip-sea-star",
+    "group": "sea",
+    "emoji": "⭐",
+    "scientific": "Nidorellia armata",
+    "status": "NE",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Chocolate Chip Sea Star",
+      "es": "Estrella Chispas de Chocolate"
+    },
+    "summary": {
+      "en": "A plump, five-sided sea star covered in dark brown spines that look like chocolate chips.",
+      "es": "Una estrella de mar gordita de cinco lados, cubierta de espinas café oscuro que parecen chispas de chocolate."
+    },
+    "where": {
+      "en": "Rocky reefs and sandy bottoms of the Pacific coast and Cocos Island.",
+      "es": "Arrecifes rocosos y fondos arenosos de la costa del Pacífico y la Isla del Coco."
+    },
+    "threats": {
+      "en": "Being collected as souvenirs, and warmer seas.",
+      "es": "La recolección como recuerdo y los mares más calientes."
+    },
+    "help": {
+      "en": [
+        "Look, but don't touch or pick up sea creatures in tide pools.",
+        "Keep plastic and trash off the beach.",
+        "Put rocks back the way you found them."
+      ],
+      "es": [
+        "Mira, pero no toques ni levantes a los animales de las pozas de marea.",
+        "No dejes plástico ni basura en la playa.",
+        "Deja las piedras como las encontraste."
+      ]
+    },
+    "funFact": {
+      "en": "A sea star eats by pushing its stomach out of its mouth and onto its food!",
+      "es": "¡Una estrella de mar come sacando el estómago por la boca y poniéndolo sobre su comida!"
+    },
+    "wiki": "Nidorellia_armata",
+    "photo": null
+  },
+  {
+    "id": "caribbean-spiny-lobster",
+    "group": "sea",
+    "emoji": "🦞",
+    "scientific": "Panulirus argus",
+    "status": "DD",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Caribbean Spiny Lobster",
+      "es": "Langosta Espinosa del Caribe"
+    },
+    "summary": {
+      "en": "A lobster with no big claws. Instead, it uses its long, spiky antennae to fight off predators.",
+      "es": "Una langosta sin tenazas grandes. En cambio, usa sus antenas largas y espinosas para defenderse de los depredadores."
+    },
+    "where": {
+      "en": "Caribbean reefs, rocks and seagrass, hiding in cracks during the day.",
+      "es": "Arrecifes, rocas y pastos marinos del Caribe, escondida en grietas durante el día."
+    },
+    "threats": {
+      "en": "Too much fishing, especially of young lobsters and of females carrying eggs.",
+      "es": "La pesca excesiva, sobre todo de langostas jóvenes y de hembras con huevos."
+    },
+    "help": {
+      "en": [
+        "Never eat lobster during the closed season, when they are having babies.",
+        "Never buy lobsters that are too small or carrying eggs.",
+        "Support marine protected areas."
+      ],
+      "es": [
+        "Nunca comas langosta en época de veda, cuando están teniendo crías.",
+        "Nunca compres langostas muy pequeñas o con huevos.",
+        "Apoya las áreas marinas protegidas."
+      ]
+    },
+    "funFact": {
+      "en": "In autumn, spiny lobsters migrate in long single-file lines, each one touching the one in front, like a conga line!",
+      "es": "En otoño, las langostas migran en largas filas, cada una tocando a la de adelante, ¡como un trencito!"
+    },
+    "wiki": "Caribbean_spiny_lobster",
+    "photo": null
+  },
+  {
+    "id": "sally-lightfoot-crab",
+    "group": "sea",
+    "emoji": "🦀",
+    "scientific": "Grapsus grapsus",
+    "status": "NE",
+    "checked": "2026-11-26",
+    "needsCheck": true,
+    "name": {
+      "en": "Sally Lightfoot Crab",
+      "es": "Cangrejo Zayapa"
+    },
+    "summary": {
+      "en": "A bright red and yellow crab that scuttles super fast across dark, wet rocks along the shore.",
+      "es": "Un cangrejo rojo y amarillo brillante que corre súper rápido por las rocas oscuras y mojadas de la costa."
+    },
+    "where": {
+      "en": "Rocky shores of the Pacific coast and Cocos Island, just above the waves.",
+      "es": "Costas rocosas del Pacífico y la Isla del Coco, justo arriba de las olas."
+    },
+    "threats": {
+      "en": "Not in danger, but pollution on rocky shores can hurt it.",
+      "es": "No está en peligro, pero la contaminación en las costas rocosas le puede hacer daño."
+    },
+    "help": {
+      "en": [
+        "Look, but don't touch or pick up sea creatures in tide pools.",
+        "Keep plastic and trash off the beach.",
+        "Put rocks back the way you found them."
+      ],
+      "es": [
+        "Mira, pero no toques ni levantes a los animales de las pozas de marea.",
+        "No dejes plástico ni basura en la playa.",
+        "Deja las piedras como las encontraste."
+      ]
+    },
+    "funFact": {
+      "en": "Young ones are dark, to hide on black rocks. They turn bright red as they grow up. They can even jump from rock to rock!",
+      "es": "Los jóvenes son oscuros para esconderse en las rocas negras, y se vuelven rojo brillante al crecer. ¡Hasta pueden saltar de roca en roca!"
+    },
+    "wiki": "Grapsus_grapsus",
+    "photo": null
   }
 ];
