@@ -10,8 +10,8 @@ window.REGIONS = [
     "lat": 10.45,
     "lon": -85.45,
     "name": {
-      "en": "North Pacific Dry Forest",
-      "es": "Bosque Seco del Pacífico Norte"
+      "en": "North Pacific",
+      "es": "Pacífico Norte"
     },
     "desc": {
       "en": "Guanacaste and the Nicoya Peninsula: hot, sunny dry forests that turn brown in the dry season and green with the rains, plus volcanoes like Rincón de la Vieja and turtle beaches.",
@@ -40,8 +40,8 @@ window.REGIONS = [
     "lat": 8.6,
     "lon": -83.4,
     "name": {
-      "en": "South Pacific & Osa",
-      "es": "Pacífico Sur y Osa"
+      "en": "South Pacific",
+      "es": "Pacífico Sur"
     },
     "desc": {
       "en": "The wild Osa Peninsula, Corcovado and Golfo Dulce: some of the most biologically intense rainforest on Earth, plus mangroves and whale-watching waters.",
@@ -55,8 +55,8 @@ window.REGIONS = [
     "lat": 10.1,
     "lon": -84.2,
     "name": {
-      "en": "Volcanoes & Central Valley",
-      "es": "Volcanes y Valle Central"
+      "en": "Volcanic Highlands",
+      "es": "Cordillera Volcánica"
     },
     "desc": {
       "en": "Volcanoes like Poás, Irazú and Barva, the cloud forests of Monteverde, and the Central Valley where most people live.",
@@ -71,7 +71,7 @@ window.REGIONS = [
     "lon": -83.35,
     "name": {
       "en": "Talamanca Highlands",
-      "es": "Cordillera de Talamanca"
+      "es": "Cordillera Talamanca"
     },
     "desc": {
       "en": "Costa Rica's highest mountains: Chirripó, Cerro de la Muerte and La Amistad. Cold cloud forests and páramo full of animals found nowhere else.",
