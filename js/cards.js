@@ -27,6 +27,14 @@ function photoPage(photo) {
 function photoCredit(photo) {
   return fill(t("photoBy"), { a: photo.author }) + [photo.license, photo.source].filter(Boolean).map(x => " · " + x).join("");
 }
+// "If you have a problem with this image, please feel free to contact us." (photos you added yourself)
+function photoContactNote(photo, short = false) {
+  if (!photo || !photo.contactNote) return "";
+  const email = (window.SITE && window.SITE.contactEmail) || "";
+  const text = t(short ? "photoContactShort" : "photoContact");
+  return el("p", { class: short ? "photo-contact short" : "photo-contact" },
+    email ? el("a", { href: `mailto:${email}?subject=${encodeURIComponent("Animography photo")}` }, text) : text);
+}
 
 // A picture that falls back to the emoji if the photo can't load
 function photoOrEmoji(animal, { width, allowPhoto, cls }) {
@@ -220,6 +228,7 @@ function openCardPopup(animal, count) {
   dlg.replaceChildren(
     close,
     el("div", { class: "popup-card" }, renderCard(animal)),
+    photoContactNote(animal.photo, true),
     count > 1 ? el("p", { class: "popup-copies" }, fill(t("copies"), { n: count })) : "",
     talk,
     link

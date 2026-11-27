@@ -235,6 +235,7 @@ function renderAnimal(id) {
     !a.photo && a.photoWanted ? el("p", { class: "photo-credit photo-wanted-note" }, t("photoWantedHelp")) : "",
     a.photo ? el("p", { class: "photo-credit" },
       el("a", { href: photoPage(a.photo), target: "_blank", rel: "noopener" }, photoCredit(a.photo))) : "",
+    photoContactNote(a.photo),
 
     el("h2", { class: "animal-name" }, a.name[L]),
     el("p", { class: "scientific" }, a.scientific, " · ", t("groups")[a.group]),
