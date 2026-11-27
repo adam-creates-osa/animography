@@ -86,7 +86,7 @@ window.REGIONS = [
     "lon": -84.45,
     "name": {
       "en": "Northern Plains",
-      "es": "Llanuras Norte"
+      "es": "Llanuras_del_Norte"
     },
     "desc": {
       "en": "Flat, rainy lowlands near Nicaragua: Caño Negro's wetlands, Sarapiquí's rivers and Maquenque, home of the great green macaw.",
