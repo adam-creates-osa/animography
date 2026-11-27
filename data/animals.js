@@ -940,7 +940,8 @@ window.ANIMALS = [
       "es": "No vive en ningún otro lugar del mundo: ¡un verdadero tico!"
     },
     "wiki": "Rodríguez's_harvest_mouse",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "dices-cottontail",
@@ -7999,7 +8000,8 @@ window.ANIMALS = [
       "es": "Su nombre científico 'senex' significa 'anciano' en latín."
     },
     "wiki": "Atelopus_senex",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "pico-blanco-toad",
@@ -8042,7 +8044,8 @@ window.ANIMALS = [
       "es": "Sapos como este ayudan a controlar los insectos del bosque."
     },
     "wiki": "Incilius_fastidiosus",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "holdridges-toad",
@@ -8085,7 +8088,8 @@ window.ANIMALS = [
       "es": "Es un símbolo de esperanza: las especies perdidas pueden regresar."
     },
     "wiki": "Incilius_holdridgei",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "chompipe-toad",
@@ -8180,7 +8184,8 @@ window.ANIMALS = [
       "es": "Es una 'especie Lázaro': una que regresó después de creerse extinta."
     },
     "wiki": "Craugastor_escoces",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "fleischmanns-robber-frog",
@@ -8223,7 +8228,8 @@ window.ANIMALS = [
       "es": "Los científicos buscan con urgencia para confirmar que todavía vive ahí."
     },
     "wiki": "Craugastor_fleischmanni",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "stream-robber-frog",
@@ -8471,7 +8477,8 @@ window.ANIMALS = [
       "es": "Vive en quebradas de montaña rápidas y con piedras."
     },
     "wiki": "Craugastor_catalinae",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "broad-headed-rainfrog",
@@ -8514,7 +8521,8 @@ window.ANIMALS = [
       "es": "Su cabeza y boca grandes le permiten comer insectos grandes."
     },
     "wiki": "Craugastor_gulosus",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "chunky-robber-frog",
@@ -8557,7 +8565,8 @@ window.ANIMALS = [
       "es": "Como sus primas, pone sus huevos en tierra, no en el agua."
     },
     "wiki": "Craugastor_obesus",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "mountain-stream-frog",
@@ -8600,7 +8609,8 @@ window.ANIMALS = [
       "es": "'Rhyacobatrachus' significa 'rana de arroyo' en griego."
     },
     "wiki": "Craugastor_rhyacobatrachus",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "similar-robber-frog",
@@ -9006,7 +9016,8 @@ window.ANIMALS = [
       "es": "Canta desde hojas que cuelgan sobre quebradas rápidas."
     },
     "wiki": "Duellmanohyla_lythrodes",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "fringe-limbed-treefrog",
@@ -9049,7 +9060,8 @@ window.ANIMALS = [
       "es": "Sus manos y patas con membranas le pueden ayudar a planear entre los árboles."
     },
     "wiki": "Ecnomiohyla_fimbrimembra",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "copes-brown-treefrog",
@@ -9194,7 +9206,8 @@ window.ANIMALS = [
       "es": "Su nombre honra a los costarricenses, que se llaman 'ticos'."
     },
     "wiki": "Isthmohyla_tica",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "rivulet-treefrog",
@@ -9289,7 +9302,8 @@ window.ANIMALS = [
       "es": "Su piel moteada se confunde con el musgo y los líquenes."
     },
     "wiki": "Isthmohyla_calypsa",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "narrow-lined-treefrog",
@@ -9332,7 +9346,8 @@ window.ANIMALS = [
       "es": "Su nombre significa 'línea angosta' en latín."
     },
     "wiki": "Isthmohyla_angustilineata",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "isla-bonita-treefrog",
@@ -9791,7 +9806,8 @@ window.ANIMALS = [
       "es": "Su piel marmoleada la esconde sobre piedras con musgo."
     },
     "wiki": "Bolitoglossa_marmorea",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "blackish-salamander",
@@ -9834,7 +9850,8 @@ window.ANIMALS = [
       "es": "Se esconde bajo troncos y musgo durante el día."
     },
     "wiki": "Bolitoglossa_nigrescens",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "shadow-salamander",
@@ -9877,7 +9894,8 @@ window.ANIMALS = [
       "es": "¡Su nombre es 'sombra' en español!"
     },
     "wiki": "Bolitoglossa_sombra",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "giant-moss-salamander",
@@ -9971,7 +9989,8 @@ window.ANIMALS = [
       "es": "Lleva el nombre de Tapantí, donde fue descubierta."
     },
     "wiki": "Nototriton_tapanti",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "guanacaste-moss-salamander",
@@ -10014,7 +10033,8 @@ window.ANIMALS = [
       "es": "Vive en los bosques neblinosos en la cima de los volcanes."
     },
     "wiki": "Nototriton_guanacaste",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "el-empalme-worm-salamander",
@@ -10057,7 +10077,8 @@ window.ANIMALS = [
       "es": "Las salamandras gusano tienen patitas diminutas y escarban en la tierra."
     },
     "wiki": "Oedipina_paucidentata",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "glass-frog",
@@ -10511,7 +10532,8 @@ window.ANIMALS = [
       "es": "Solo las hembras de estas libélulas de Costa Rica tienen esos cuernitos."
     },
     "wiki": "Epigomphus_corniculatus",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "volcano-knobtail",
@@ -10656,7 +10678,8 @@ window.ANIMALS = [
       "es": "¡Las libélulas son antiguas: sus parientes volaban mucho antes que los dinosaurios!"
     },
     "wiki": "Epigomphus_subsimilis",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "wagners-knobtail",
@@ -10699,7 +10722,8 @@ window.ANIMALS = [
       "es": "Los científicos le pusieron nombre en 2017, años después de verla por última vez."
     },
     "wiki": "Epigomphus_wagneri",
-    "photo": null
+    "photo": null,
+    "photoWanted": true
   },
   {
     "id": "helicopter-damselfly",
