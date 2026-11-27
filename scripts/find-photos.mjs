@@ -175,7 +175,7 @@ const marker = "window.ANIMALS = ";
 const start = src.indexOf(marker) + marker.length;
 const animals = JSON.parse(src.slice(start).trim().replace(/;$/, ""));
 
-let found = 0, kept = 0, missing = [];
+let found = 0, kept = 0, missing = [], marked = 0;
 const bySource = {};
 for (const a of animals) {
   const hasGood = a.photo && a.photo.cardOk;
@@ -197,8 +197,14 @@ for (const a of animals) {
   try { if (!photo) photo = await gbifPhoto(names); }
   catch (err) { console.log(`!  ${a.scientific} (GBIF): ${err.message}`); }
 
-  if (!photo) { console.log(`–  ${a.scientific}: no Public domain / CC0 / CC BY photo found anywhere yet`); missing.push(`${a.name.en} (${a.scientific})`); continue; }
+  if (!photo) {
+    console.log(`–  ${a.scientific}: no Public domain / CC0 / CC BY photo found anywhere yet`);
+    missing.push(`${a.name.en} (${a.scientific})`);
+    if (!a.photoWanted && !hasGood) { a.photoWanted = true; marked++; }   // the site shows "📷 Photo wanted!"
+    continue;
+  }
   a.photo = photo;
+  delete a.photoWanted;
   found++;
   bySource[photo.source] = (bySource[photo.source] || 0) + 1;
   console.log(`📷 ${a.scientific}: ${photo.license} by ${photo.author} · ${photo.source}${photo.inCostaRica ? " (Costa Rica)" : ""}`);
@@ -207,7 +213,7 @@ for (const a of animals) {
 console.log(`\nNew photos: ${found} ${JSON.stringify(bySource)}. Kept existing: ${kept}. Still without a photo: ${missing.length}.`);
 if (missing.length) console.log("Without photo:\n  " + missing.join("\n  "));
 if (DRY_RUN) console.log("Dry run: nothing saved.");
-else if (found > 0) {
+else if (found > 0 || marked > 0) {
   await writeFile(FILE, src.slice(0, start) + JSON.stringify(animals, null, 2) + ";\n");
   console.log("Saved data/animals.js");
 }

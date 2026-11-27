@@ -228,9 +228,10 @@ function renderAnimal(id) {
     // Picture at the top: real photo from Wikimedia Commons (emoji if there's no photo)
     (() => {
       const hero = photoOrEmoji(a, { width: 1000, allowPhoto: true, cls: `hero hero-${a.group}` });
-      if (!a.photo) hero.append(el("span", { class: "hero-note" }, t("photoSoon")));
+      if (!a.photo) hero.append(el("span", { class: "hero-note" }, a.photoWanted ? t("photoWantedLong") : t("photoSoon")));
       return hero;
     })(),
+    !a.photo && a.photoWanted ? el("p", { class: "photo-credit photo-wanted-note" }, t("photoWantedHelp")) : "",
     a.photo ? el("p", { class: "photo-credit" },
       el("a", { href: photoPage(a.photo), target: "_blank", rel: "noopener" }, photoCredit(a.photo))) : "",
 

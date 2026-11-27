@@ -39,6 +39,11 @@ function photoOrEmoji(animal, { width, allowPhoto, cls }) {
     img.addEventListener("error", () => img.remove());
     box.append(img);
   }
+  // No free photo exists anywhere yet (the photo robot sets "photoWanted"): show a silhouette instead
+  if (animal.photoWanted && !(allowPhoto && animal.photo)) {
+    box.classList.add("photo-wanted");
+    if (cls === "card-art") box.append(el("span", { class: "wanted-tag" }, t("photoWanted")));
+  }
   return box;
 }
 

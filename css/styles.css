@@ -874,3 +874,14 @@ main {
 /* Extra sections on an animal page ("more" in the animal's data) */
 .info-card.more p + p { margin-top: 10px; }
 .info-card.more-hope { background: linear-gradient(135deg, #e3f4ff, #d9f2e8); border: 2px dashed var(--blue); }
+
+/* "Photo wanted!": very rare animals with no free photo yet → dark silhouette */
+.photo-wanted .art-emoji { filter: brightness(0); opacity: 0.55; }
+.wanted-tag {
+  position: absolute; top: 6px; left: 50%; transform: translateX(-50%);
+  white-space: nowrap; font-size: 0.62rem; font-weight: 800;
+  background: rgba(255, 255, 255, 0.85); color: var(--ink);
+  padding: 2px 8px; border-radius: 999px;
+}
+.hero-note { color: var(--white); }
+.photo-wanted-note { font-style: italic; }
