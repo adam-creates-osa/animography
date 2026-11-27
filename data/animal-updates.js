@@ -452,7 +452,9 @@ window.PHOTO_UPDATES = {
   "guanacaste-moss-salamander": CAL("1111_1111/1111/8558"),
   "tico-knobtail": { url: "https://static.inaturalist.org/photos/696947838/medium.jpg", large: "https://static.inaturalist.org/photos/696947838/large.jpg", author: "iNaturalist user", source: "iNaturalist", page: "https://www.inaturalist.org/photos/696947838" },
   "wagners-knobtail": { url: "https://zenodo.org/record/818447/files/figure.png", author: "Zenodo", source: "", page: "https://zenodo.org/record/818447" },
-  "andi-robber-frog": { ...INAT(142428) }
+  "andi-robber-frog": { ...INAT(142428) },
+  "tapanti-moss-salamander": { url: "https://static.inaturalist.org/photos/706982993/medium.jpg", large: "https://static.inaturalist.org/photos/706982993/large.jpg", author: "iNaturalist user", source: "iNaturalist", page: "https://www.inaturalist.org/photos/706982993" },
+  "broad-headed-rainfrog": CAL("0000_0000/0210/0341")
 };
 
 // Apply the updates
