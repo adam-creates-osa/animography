@@ -84,18 +84,19 @@ function matchesStatus(a, key) {
   return key === "all" || STATUS_FILTERS[key].includes(a.status);
 }
 
-// Counts follow the animal-group button that is picked, so the numbers always match the list
-function statusChips(pool) {
+// Counts follow the animal-group button that is picked, so the numbers always match the list.
+// active/onPick are optional (the Geography region pages use their own filter).
+function statusChips(pool, active = statusFilter, onPick = key => { statusFilter = key; renderResults(); }) {
   const row = el("div", { class: "chips status-chips", role: "group", "aria-label": t("statusFilterLabel") },
     el("span", { class: "chips-label" }, t("statusFilterLabel")));
   for (const key of Object.keys(STATUS_FILTERS)) {
     const n = pool.filter(a => matchesStatus(a, key)).length;
-    if (key !== "all" && n === 0 && statusFilter !== key) continue; // hide empty ones
+    if (key !== "all" && n === 0 && active !== key) continue; // hide empty ones
     const chip = el("button", { type: "button", class: `chip chip-status chip-${key}`,
-      "aria-pressed": String(key === statusFilter) },
+      "aria-pressed": String(key === active) },
       key === "all" ? "" : el("span", { class: "dot", "aria-hidden": "true" }),
       `${t("statusFilters")[key]} (${n})`);
-    chip.addEventListener("click", () => { statusFilter = key; renderResults(); });
+    chip.addEventListener("click", () => onPick(key));
     row.append(chip);
   }
   return row;
@@ -138,7 +139,7 @@ function renderResults() {
   const box = document.getElementById("results");
   box.replaceChildren();
   document.getElementById("results-count").textContent =
-    matches.length ? fill(t("resultsCount"), { n: matches.length }) : t("noResults");
+    matches.length ? (matches.length === 1 ? t("resultsCountOne") : fill(t("resultsCount"), { n: matches.length })) : t("noResults");
 
   for (const a of matches) box.append(animalButton(a));
 }

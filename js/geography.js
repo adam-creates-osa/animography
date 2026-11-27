@@ -3,6 +3,7 @@
 
 const SVG_NS = "http://www.w3.org/2000/svg";
 let regionGroupFilter = "all";
+let regionStatusFilter = "all";
 let lastRegion = null; // the filter resets when you open a different region
 
 function regionById(id) { return window.REGIONS.find(r => r.id === id); }
@@ -99,13 +100,14 @@ function renderRegion(id) {
   const box = document.getElementById("geography");
   box.replaceChildren();
   const r = regionById(id);
-  if (id !== lastRegion) { regionGroupFilter = "all"; lastRegion = id; }
+  if (id !== lastRegion) { regionGroupFilter = "all"; regionStatusFilter = "all"; lastRegion = id; }
   const back = el("a", { href: "#/geography", class: "back" }, t("backToMap"));
   if (!r) { box.append(back, el("p", { class: "note" }, t("notFound"))); return; }
   const L = currentLang;
   const all = animalsIn(r.id);
-  const shown = all
-    .filter(a => regionGroupFilter === "all" || a.group === regionGroupFilter)
+  const inGroup = all.filter(a => regionGroupFilter === "all" || a.group === regionGroupFilter);
+  const shown = inGroup
+    .filter(a => matchesStatus(a, regionStatusFilter))
     .sort((a, b) => a.name[L].localeCompare(b.name[L], L));
 
   const results = el("div", { class: "results" });
@@ -120,7 +122,10 @@ function renderRegion(id) {
     ),
     // Group buttons, counting only the animals of this region
     groupChips(regionGroupFilter, g => { regionGroupFilter = g; renderRegion(id); }, a => regionsOf(a).includes(r.id)),
-    el("p", { class: "results-count" }, fill(t("resultsCount"), { n: shown.length })),
+    // Red List status buttons, counting only this region's animals in the picked group
+    statusChips(inGroup, regionStatusFilter, k => { regionStatusFilter = k; renderRegion(id); }),
+    el("p", { class: "results-count" },
+      shown.length === 1 ? t("resultsCountOne") : fill(t("resultsCount"), { n: shown.length })),
     results
   );
 }
