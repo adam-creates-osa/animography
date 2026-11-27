@@ -885,3 +885,8 @@ main {
 }
 .hero-note { color: var(--white); }
 .photo-wanted-note { font-style: italic; }
+
+/* "If you have a problem with this image, please contact us" */
+.photo-contact { margin: 2px 0 8px; font-size: 0.78rem; opacity: 0.85; text-align: center; }
+.photo-contact.short { font-size: 0.72rem; margin: 6px 0 0; }
+.photo-contact a { color: inherit; }
