@@ -1,7 +1,7 @@
 // Animography Geography: 9 natural regions of Costa Rica — FIRST DRAFT for you to check and fix.
 // REGIONS: the regions (name, short description, map marker position, color).
 // ANIMAL_REGIONS: where each animal lives. Add or remove region ids in the list to change it.
-//   Region ids: north-pacific, central-pacific, south-pacific, central-mountains, talamanca, northern-plains, caribbean, cocos, ocean
+//   Region ids: north-pacific, central-pacific, south-pacific, central-mountains, talamanca, northern-plains, caribbean, cocos
 window.REGIONS = [
   {
     "id": "north-pacific",
@@ -10,8 +10,8 @@ window.REGIONS = [
     "lat": 10.45,
     "lon": -85.45,
     "name": {
-      "en": "North Pacific Dry Forest",
-      "es": "Bosque Seco del Pacífico Norte"
+      "en": "North Pacific",
+      "es": "Pacífico Norte"
     },
     "desc": {
       "en": "Guanacaste and the Nicoya Peninsula: hot, sunny dry forests that turn brown in the dry season and green with the rains, plus volcanoes like Rincón de la Vieja and turtle beaches.",
@@ -40,8 +40,8 @@ window.REGIONS = [
     "lat": 8.6,
     "lon": -83.4,
     "name": {
-      "en": "South Pacific & Osa",
-      "es": "Pacífico Sur y Osa"
+      "en": "South Pacific",
+      "es": "Pacífico Sur"
     },
     "desc": {
       "en": "The wild Osa Peninsula, Corcovado and Golfo Dulce: some of the most biologically intense rainforest on Earth, plus mangroves and whale-watching waters.",
@@ -55,8 +55,8 @@ window.REGIONS = [
     "lat": 10.1,
     "lon": -84.2,
     "name": {
-      "en": "Volcanoes & Central Valley",
-      "es": "Volcanes y Valle Central"
+      "en": "Volcanic Highlands",
+      "es": "Cordillera Volcánica"
     },
     "desc": {
       "en": "Volcanoes like Poás, Irazú and Barva, the cloud forests of Monteverde, and the Central Valley where most people live.",
@@ -71,7 +71,7 @@ window.REGIONS = [
     "lon": -83.35,
     "name": {
       "en": "Talamanca Highlands",
-      "es": "Cordillera de Talamanca"
+      "es": "Cordillera Talamanca"
     },
     "desc": {
       "en": "Costa Rica's highest mountains: Chirripó, Cerro de la Muerte and La Amistad. Cold cloud forests and páramo full of animals found nowhere else.",
@@ -86,7 +86,7 @@ window.REGIONS = [
     "lon": -84.45,
     "name": {
       "en": "Northern Plains",
-      "es": "Llanuras del Norte"
+      "es": "Llanuras_del_Norte"
     },
     "desc": {
       "en": "Flat, rainy lowlands near Nicaragua: Caño Negro's wetlands, Sarapiquí's rivers and Maquenque, home of the great green macaw.",
@@ -116,28 +116,13 @@ window.REGIONS = [
     "lon": null,
     "name": {
       "en": "Cocos Island",
-      "es": "Isla del Coco"
+      "es": "Isla_del_Coco"
     },
     "desc": {
       "en": "A rainy, faraway island in the Pacific, more than 500 km from the mainland, with birds that live nowhere else and famous shark-filled waters.",
       "es": "Una isla lluviosa y lejana en el Pacífico, a más de 500 km del continente, con aves que no viven en ningún otro lugar y aguas famosas por sus tiburones."
     }
   },
-  {
-    "id": "ocean",
-    "emoji": "🐋",
-    "color": "#1864ab",
-    "lat": null,
-    "lon": null,
-    "name": {
-      "en": "The Ocean",
-      "es": "El Océano"
-    },
-    "desc": {
-      "en": "Costa Rica's ocean is far bigger than its land! Whales, dolphins, sea turtles and seabirds travel through the Pacific and the Caribbean.",
-      "es": "¡El mar de Costa Rica es mucho más grande que su tierra! Ballenas, delfines, tortugas marinas y aves marinas viajan por el Pacífico y el Caribe."
-    }
-  }
 ];
 
 window.ANIMAL_REGIONS = {
@@ -145,12 +130,12 @@ window.ANIMAL_REGIONS = {
   "bairds-tapir": ["south-pacific","talamanca","north-pacific","central-mountains"],
   "great-green-macaw": ["northern-plains","caribbean"],
   "scarlet-macaw": ["central-pacific","south-pacific"],
-  "leatherback-turtle": ["north-pacific","caribbean","ocean"],
-  "hawksbill-turtle": ["south-pacific","caribbean","ocean"],
+  "leatherback-turtle": ["north-pacific","caribbean",""],
+  "hawksbill-turtle": ["south-pacific","caribbean",""],
   "spider-monkey": ["north-pacific","south-pacific","caribbean","northern-plains"],
   "squirrel-monkey": ["central-pacific","south-pacific"],
   "golden-toad": ["central-mountains"],
-  "caribbean-monk-seal": ["caribbean","ocean"],
+  "caribbean-monk-seal": ["caribbean"],
   "mantled-howler": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean","central-mountains"],
   "white-faced-capuchin": ["north-pacific","central-pacific","south-pacific","caribbean"],
   "white-lipped-peccary": ["south-pacific"],
@@ -163,8 +148,8 @@ window.ANIMAL_REGIONS = {
   "talamancan-shrew": ["talamanca"],
   "van-gelders-bat": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
   "tacarcuna-bat": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
-  "blue-whale": ["ocean"],
-  "sperm-whale": ["ocean"],
+  "blue-whale": ["north-pacific"],
+  "sperm-whale": ["south-pacific", "cocos"],
   "neotropical-otter": ["south-pacific","caribbean","north-pacific","central-pacific","northern-plains"],
   "margay": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
   "ocelot": ["north-pacific","south-pacific"],
@@ -190,12 +175,12 @@ window.ANIMAL_REGIONS = {
   "spectral-bat": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
   "water-opossum": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
   "nine-banded-armadillo": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
-  "humpback-whale": ["south-pacific","ocean"],
-  "guiana-dolphin": ["caribbean","ocean"],
-  "bottlenose-dolphin": ["central-pacific","south-pacific","caribbean","ocean"],
-  "galapagos-sea-lion": ["cocos","ocean"],
-  "false-killer-whale": ["ocean"],
-  "spotted-dolphin": ["south-pacific","ocean"],
+  "humpback-whale": ["south-pacific","north-pacific"],
+  "guiana-dolphin": ["caribbean"],
+  "bottlenose-dolphin": ["central-pacific","south-pacific","caribbean"],
+  "galapagos-sea-lion": ["cocos"],
+  "false-killer-whale": ["south-pacific", "cocos"],
+  "spotted-dolphin": ["south-pacific"],
   "mangrove-hummingbird": ["north-pacific","central-pacific","south-pacific"],
   "guanacaste-hummingbird": ["north-pacific"],
   "turquoise-cotinga": ["central-pacific","south-pacific"],
@@ -210,8 +195,8 @@ window.ANIMAL_REGIONS = {
   "yellow-naped-parrot": ["north-pacific"],
   "black-cheeked-ant-tanager": ["south-pacific"],
   "agami-heron": ["northern-plains","caribbean"],
-  "galapagos-petrel": ["cocos","ocean"],
-  "pink-footed-shearwater": ["ocean"],
+  "galapagos-petrel": ["cocos"],
+  "pink-footed-shearwater": ["north-pacific", "south-pacific"],
   "cocos-finch": ["cocos"],
   "cocos-cuckoo": ["cocos"],
   "cocos-flycatcher": ["cocos"],
@@ -241,12 +226,12 @@ window.ANIMAL_REGIONS = {
   "volcano-hummingbird": ["central-mountains","talamanca"],
   "long-tailed-manakin": ["north-pacific","central-pacific"],
   "spectacled-owl": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
-  "magnificent-frigatebird": ["north-pacific","central-pacific","south-pacific","caribbean","ocean"],
+  "magnificent-frigatebird": ["north-pacific","central-pacific","south-pacific","caribbean"],
   "brown-pelican": ["north-pacific","central-pacific","south-pacific"],
   "sungrebe": ["caribbean","northern-plains"],
-  "green-sea-turtle": ["caribbean","ocean"],
-  "olive-ridley": ["north-pacific","ocean"],
-  "loggerhead-turtle": ["caribbean","ocean"],
+  "green-sea-turtle": ["caribbean","south-pacific"],
+  "olive-ridley": ["north-pacific","south-pacific"],
+  "loggerhead-turtle": ["caribbean"],
   "american-crocodile": ["north-pacific","central-pacific","south-pacific","caribbean","northern-plains"],
   "five-keeled-spiny-tailed-iguana": ["north-pacific"],
   "narrow-bridged-mud-turtle": ["caribbean"],
@@ -267,7 +252,7 @@ window.ANIMAL_REGIONS = {
   "green-vine-snake": ["north-pacific","central-pacific"],
   "brown-vine-snake": ["north-pacific","central-pacific"],
   "central-american-rattlesnake": ["north-pacific"],
-  "yellow-bellied-sea-snake": ["north-pacific","ocean"],
+  "yellow-bellied-sea-snake": ["north-pacific","south-pacific"],
   "helmeted-iguana": ["south-pacific","northern-plains","caribbean"],
   "green-spiny-lizard": ["central-mountains","talamanca"],
   "turnip-tailed-gecko": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
@@ -392,17 +377,17 @@ window.ANIMAL_REGIONS = {
   "giant-grasshopper": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
   "dobsonfly": ["north-pacific","central-pacific","south-pacific","northern-plains","caribbean"],
   // Sea creatures
-  "scalloped-hammerhead": ["cocos", "ocean", "south-pacific"],
-  "great-hammerhead": ["caribbean", "north-pacific", "ocean"],
-  "oceanic-whitetip": ["ocean", "cocos"],
-  "whale-shark": ["ocean", "cocos", "north-pacific", "south-pacific"],
-  "pelagic-thresher": ["ocean", "cocos"],
+  "scalloped-hammerhead": ["cocos", "south-pacific"],
+  "great-hammerhead": ["caribbean", "north-pacific", "south-pacific"],
+  "oceanic-whitetip": ["cocos"],
+  "whale-shark": ["cocos", "north-pacific", "south-pacific"],
+  "pelagic-thresher": ["cocos"],
   "pacific-nurse-shark": ["north-pacific", "central-pacific"],
   "bull-shark": ["north-pacific", "caribbean", "northern-plains"],
-  "silky-shark": ["ocean", "cocos"],
+  "silky-shark": ["cocos"],
   "whitetip-reef-shark": ["cocos", "south-pacific"],
-  "tiger-shark": ["cocos", "ocean", "caribbean"],
-  "giant-manta-ray": ["ocean", "cocos", "north-pacific"],
+  "tiger-shark": ["cocos", "caribbean"],
+  "giant-manta-ray": ["south-pacific", "cocos", "north-pacific"],
   "spotted-eagle-ray": ["caribbean"],
   "munks-devil-ray": ["north-pacific", "central-pacific", "cocos"],
   "pacific-chupare": ["central-pacific", "cocos"],
@@ -410,11 +395,11 @@ window.ANIMAL_REGIONS = {
   "southern-stingray": ["caribbean"],
   "goliath-grouper": ["caribbean"],
   "pacific-seahorse": ["north-pacific", "central-pacific", "south-pacific"],
-  "blue-marlin": ["ocean", "north-pacific", "cocos"],
+  "blue-marlin": ["south-pacific", "north-pacific", "cocos"],
   "cocos-barnacle-blenny": ["cocos"],
-  "sailfish": ["ocean", "north-pacific", "central-pacific", "south-pacific"],
-  "yellowfin-tuna": ["ocean", "cocos"],
-  "mahi-mahi": ["ocean", "north-pacific", "caribbean"],
+  "sailfish": ["north-pacific", "central-pacific", "south-pacific"],
+  "yellowfin-tuna": ["cocos"],
+  "mahi-mahi": ["south-pacific", "north-pacific", "caribbean"],
   "roosterfish": ["north-pacific", "central-pacific", "south-pacific"],
   "king-angelfish": ["north-pacific", "south-pacific", "cocos"],
   "porcupine-pufferfish": ["caribbean", "north-pacific", "cocos"],
@@ -435,9 +420,9 @@ window.ANIMAL_REGIONS = {
   "caribbean-reef-octopus": ["caribbean"],
   "pacific-striped-octopus": ["north-pacific", "central-pacific", "south-pacific"],
   "caribbean-reef-squid": ["caribbean"],
-  "moon-jellyfish": ["caribbean", "north-pacific", "ocean"],
+  "moon-jellyfish": ["caribbean", "north-pacific", "south-pacific"],
   "cannonball-jellyfish": ["north-pacific", "caribbean"],
-  "portuguese-man-o-war": ["ocean", "caribbean", "north-pacific"],
+  "portuguese-man-o-war": ["south-pacific", "caribbean", "north-pacific"],
   "agassiz-nudibranch": ["north-pacific", "south-pacific", "cocos"],
   "chocolate-chip-sea-star": ["north-pacific", "central-pacific", "cocos"],
   "caribbean-spiny-lobster": ["caribbean"],

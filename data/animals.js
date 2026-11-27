@@ -893,7 +893,15 @@ window.ANIMALS = [
       "es": "Es tan rara que los científicos todavía saben muy poco sobre cómo vive."
     },
     "wiki": "Harris's_rice_water_rat",
-    "photo": null
+    "photo": {
+      "url": "https://collections.nmnh.si.edu/media/?i=14166063&h=2000",
+      "large": "https://collections.nmnh.si.edu/media/?i=14166063&h=2000",
+      "author": "R. Pine",
+      "license": "CC0",
+      "page": "https://www.gbif.org/occurrence/1317491312",
+      "source": "GBIF",
+      "cardOk": true
+    }
   },
   {
     "id": "rodriguez-harvest-mouse",
@@ -1021,7 +1029,15 @@ window.ANIMALS = [
       "es": "Las musarañas parecen ratones, pero en realidad son parientes más cercanos de los topos y los erizos."
     },
     "wiki": "Talamancan_small-eared_shrew",
-    "photo": null
+    "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cryptotis_gracilis.jpg?width=500",
+      "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Cryptotis_gracilis.jpg?width=1024",
+      "author": "Katie Sayers",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cryptotis_gracilis.jpg",
+      "source": "Wikimedia Commons",
+      "cardOk": true
+    }
   },
   {
     "id": "van-gelders-bat",
@@ -1112,7 +1128,15 @@ window.ANIMALS = [
       "es": "El color de su pelo le ayuda a esconderse entre hojas secas mientras duerme."
     },
     "wiki": "Tacarcuna_bat",
-    "photo": null
+    "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lasiurus_castaneus.jpg?width=500",
+      "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Lasiurus_castaneus.jpg?width=1024",
+      "author": "Unknown author Unknown author",
+      "license": "CC BY",
+      "page": "https://commons.wikimedia.org/wiki/File:Lasiurus_castaneus.jpg",
+      "source": "Wikimedia Commons",
+      "cardOk": true
+    }
   },
   {
     "id": "blue-whale",
@@ -5585,7 +5609,15 @@ window.ANIMALS = [
       "es": "Se esconde en huecos de árboles y tapa la entrada con su cola espinosa."
     },
     "wiki": "Ctenosaura_quinquecarinata",
-    "photo": null
+    "photo": {
+      "url": "https://images.collections.yale.edu/iiif/2/ypm:6e77f8a4-ef32-4518-9b59-3d134ed5dfae/full/!1920,1920/0/default.jpg",
+      "large": "https://images.collections.yale.edu/iiif/2/ypm:6e77f8a4-ef32-4518-9b59-3d134ed5dfae/full/!1920,1920/0/default.jpg",
+      "author": "Adam Z. Andis",
+      "license": "CC0",
+      "page": "https://www.gbif.org/occurrence/1039482104",
+      "source": "GBIF",
+      "cardOk": true
+    }
   },
   {
     "id": "narrow-bridged-mud-turtle",
@@ -7916,7 +7948,15 @@ window.ANIMALS = [
       "es": "Los científicos siguen buscando, ¡porque otras ranas 'perdidas' se han vuelto a encontrar!"
     },
     "wiki": "Atelopus_chiriquiensis",
-    "photo": null
+    "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Atelopus_chiriquiensis%2C_once_a_common_harlequin_frog_and_subject_of_numerous_ecological_studies_at_Fortuna%2C_last_seen_in_1996._Likely_extinct_due_to_chytridiomycosis._(5414886416).jpg?width=500",
+      "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Atelopus_chiriquiensis%2C_once_a_common_harlequin_frog_and_subject_of_numerous_ecological_studies_at_Fortuna%2C_last_seen_in_1996._Likely_extinct_due_to_chytridiomycosis._(5414886416).jpg?width=1024",
+      "author": "Brian Gratwicke from DC, USA",
+      "license": "CC BY",
+      "page": "https://commons.wikimedia.org/wiki/File:Atelopus_chiriquiensis,_once_a_common_harlequin_frog_and_subject_of_numerous_ecological_studies_at_Fortuna,_last_seen_in_1996._Likely_extinct_due_to_chytridiomycosis._(5414886416).jpg",
+      "source": "Wikimedia Commons",
+      "cardOk": true
+    }
   },
   {
     "id": "pass-stubfoot-toad",
@@ -8226,7 +8266,15 @@ window.ANIMALS = [
       "es": "Casi todas sus poblaciones desaparecieron, pero algunas resisten en Guanacaste."
     },
     "wiki": "Craugastor_ranoides",
-    "photo": null
+    "photo": {
+      "url": "https://data.nhm.ac.uk/media/0c4af44e-7c6a-4760-9071-2e39f634795d",
+      "large": "https://data.nhm.ac.uk/media/0c4af44e-7c6a-4760-9071-2e39f634795d",
+      "author": "The Trustees of the Natural History Museum, London",
+      "license": "CC BY",
+      "page": "https://www.gbif.org/occurrence/1057236135",
+      "source": "GBIF",
+      "cardOk": true
+    }
   },
   {
     "id": "south-pacific-streamfrog",
@@ -8321,7 +8369,15 @@ window.ANIMALS = [
       "es": "Su nombre científico significa 'angelical' en latín."
     },
     "wiki": "Craugastor_angelicus",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172085187/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/172085187/large.jpg",
+      "author": "Tom Kennedy",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/172085187",
+      "source": "iNaturalist",
+      "cardOk": true
+    }
   },
   {
     "id": "andi-robber-frog",
@@ -8364,7 +8420,15 @@ window.ANIMALS = [
       "es": "Las ranas de este grupo no tienen renacuajos: ¡las crías nacen como ranitas!"
     },
     "wiki": "Craugastor_andi",
-    "photo": null
+    "photo": {
+      "url": "https://data.nhm.ac.uk/media/e0f1ae09-5ec3-4737-9157-f114fc4d2239",
+      "large": "https://data.nhm.ac.uk/media/e0f1ae09-5ec3-4737-9157-f114fc4d2239",
+      "author": "The Trustees of the Natural History Museum, London",
+      "license": "CC BY",
+      "page": "https://www.gbif.org/occurrence/1057547244",
+      "source": "GBIF",
+      "cardOk": true
+    }
   },
   {
     "id": "catalina-robber-frog",
@@ -8579,7 +8643,15 @@ window.ANIMALS = [
       "es": "Su nombre significa 'muy parecida' porque se parece mucho a sus primas."
     },
     "wiki": "Craugastor_persimilis",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151499297/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/151499297/large.jpeg",
+      "author": "Edward Bell",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/151499297",
+      "source": "iNaturalist",
+      "cardOk": true
+    }
   },
   {
     "id": "granular-poison-frog",
@@ -9020,7 +9092,15 @@ window.ANIMALS = [
       "es": "Puede lanzarse en 'paracaídas' desde ramas altas usando sus enormes patas palmeadas."
     },
     "wiki": "Ecnomiohyla_miliaria",
-    "photo": null
+    "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ecnomiohyla_miliaria_at_EVACC.jpg?width=500",
+      "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Ecnomiohyla_miliaria_at_EVACC.jpg?width=1024",
+      "author": "Brian Gratwicke",
+      "license": "CC BY",
+      "page": "https://commons.wikimedia.org/wiki/File:Ecnomiohyla_miliaria_at_EVACC.jpg",
+      "source": "Wikimedia Commons",
+      "cardOk": true
+    }
   },
   {
     "id": "torrent-treefrog",
@@ -9063,7 +9143,15 @@ window.ANIMALS = [
       "es": "'Colymba' viene de una palabra griega que significa buceador."
     },
     "wiki": "Hyloscirtus_colymba",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67336/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/67336/large.jpg",
+      "author": "Brian Gratwicke",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/67336",
+      "source": "iNaturalist",
+      "cardOk": true
+    }
   },
   {
     "id": "tica-treefrog",
@@ -9832,7 +9920,15 @@ window.ANIMALS = [
       "es": "Las salamandras de musgo son tan pequeñas que cabrían sobre tu uña."
     },
     "wiki": "Nototriton_major",
-    "photo": null
+    "photo": {
+      "url": "https://collections.nmnh.si.edu/media/?i=7006110&h=2000",
+      "large": "https://collections.nmnh.si.edu/media/?i=7006110&h=2000",
+      "author": "Welch, Jenna L.",
+      "license": "CC0",
+      "page": "https://www.gbif.org/occurrence/1319260168",
+      "source": "GBIF",
+      "cardOk": true
+    }
   },
   {
     "id": "tapanti-moss-salamander",
@@ -10160,7 +10256,15 @@ window.ANIMALS = [
       "es": "Se posan quietos en ramitas, en la sombra del bosque cerca de las quebradas."
     },
     "wiki": "Palaemnema_reventazoni",
-    "photo": null
+    "photo": {
+      "url": "https://collections.nmnh.si.edu/media/?i=16417997&h=2000",
+      "large": "https://collections.nmnh.si.edu/media/?i=16417997&h=2000",
+      "author": "Picturae",
+      "license": "CC0",
+      "page": "https://www.gbif.org/occurrence/1319414033",
+      "source": "GBIF",
+      "cardOk": true
+    }
   },
   {
     "id": "chiriquita-shadowdamsel",
@@ -10203,7 +10307,15 @@ window.ANIMALS = [
       "es": "Los machos enroscan su cuerpo largo como una serpiente cuando alguien los sostiene."
     },
     "wiki": "Palaemnema_chiriquita",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65431540/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/65431540/large.jpg",
+      "author": "Dennis Paulson",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/65431540",
+      "source": "iNaturalist",
+      "cardOk": true
+    }
   },
   {
     "id": "black-backed-shadowdamsel",
@@ -10246,7 +10358,15 @@ window.ANIMALS = [
       "es": "Los caballitos del diablo doblan las alas al descansar; las libélulas las dejan abiertas."
     },
     "wiki": "Palaemnema_melanota",
-    "photo": null
+    "photo": {
+      "url": "https://sfg.taxonworks.org/s/lact62",
+      "large": "https://sfg.taxonworks.org/s/lact62",
+      "author": "GBIF",
+      "license": "CC BY",
+      "page": "https://www.gbif.org/occurrence/5937809194",
+      "source": "GBIF",
+      "cardOk": true
+    }
   },
   {
     "id": "cacao-shadowdamsel",
@@ -10289,7 +10409,15 @@ window.ANIMALS = [
       "es": "Las crías (ninfas) viven bajo el agua por meses antes de poder volar."
     },
     "wiki": "Palaemnema_baltodanoi",
-    "photo": null
+    "photo": {
+      "url": "https://data.nhm.ac.uk/media/0c7c2472-e4bc-45e5-a40c-72cd69b3f6c3",
+      "large": "https://data.nhm.ac.uk/media/0c7c2472-e4bc-45e5-a40c-72cd69b3f6c3",
+      "author": "The Trustees of the Natural History Museum, London",
+      "license": "CC BY",
+      "page": "https://www.gbif.org/occurrence/2350456509",
+      "source": "GBIF",
+      "cardOk": true
+    }
   },
   {
     "id": "limon-knobtail",
@@ -10332,7 +10460,15 @@ window.ANIMALS = [
       "es": "Los científicos esperan volver a encontrarla en los bosques de Siquirres."
     },
     "wiki": "Epigomphus_houghtoni",
-    "photo": null
+    "photo": {
+      "url": "https://data.nhm.ac.uk/media/bd478703-00de-4ca6-828c-7da5fd1579be",
+      "large": "https://data.nhm.ac.uk/media/bd478703-00de-4ca6-828c-7da5fd1579be",
+      "author": "The Trustees of the Natural History Museum, London",
+      "license": "CC BY",
+      "page": "https://www.gbif.org/occurrence/2350455736",
+      "source": "GBIF",
+      "cardOk": true
+    }
   },
   {
     "id": "horned-knobtail",
@@ -10418,7 +10554,15 @@ window.ANIMALS = [
       "es": "Lleva el nombre de un ganadero que donó su tierra al Parque Nacional Guanacaste."
     },
     "wiki": "Epigomphus_echeverrii",
-    "photo": null
+    "photo": {
+      "url": "https://collections.nmnh.si.edu/media/?i=16314958&h=2000",
+      "large": "https://collections.nmnh.si.edu/media/?i=16314958&h=2000",
+      "author": "Picturae",
+      "license": "CC0",
+      "page": "https://www.gbif.org/occurrence/1321324235",
+      "source": "GBIF",
+      "cardOk": true
+    }
   },
   {
     "id": "cartago-knobtail",
@@ -10461,7 +10605,15 @@ window.ANIMALS = [
       "es": "Las libélulas pueden ver casi en todas las direcciones al mismo tiempo."
     },
     "wiki": "Epigomphus_verticicornis",
-    "photo": null
+    "photo": {
+      "url": "https://collections.nmnh.si.edu/media/?i=16386312&h=2000",
+      "large": "https://collections.nmnh.si.edu/media/?i=16386312&h=2000",
+      "author": "Picturae",
+      "license": "CC0",
+      "page": "https://www.gbif.org/occurrence/1319059739",
+      "source": "GBIF",
+      "cardOk": true
+    }
   },
   {
     "id": "tico-knobtail",
@@ -11838,7 +11990,16 @@ window.ANIMALS = [
       "es": "El árbol les da casa y comida; las hormigas atacan a los animales que se comen sus hojas."
     },
     "wiki": "Pseudomyrmex_spinicola",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8538421/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8538421/large.jpeg",
+      "author": "Toby",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/8538421",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "mariola-bee",
@@ -12661,7 +12822,16 @@ window.ANIMALS = [
       "es": "Su cabeza ancha funciona como un detector de metales: siente las pequeñas señales eléctricas de los animales escondidos en la arena."
     },
     "wiki": "Scalloped_hammerhead",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426052125/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/426052125/large.jpeg",
+      "author": "mikazilla",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/426052125",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "great-hammerhead",
@@ -12704,7 +12874,16 @@ window.ANIMALS = [
       "es": "Su comida favorita son las rayas. ¡Usa su cabeza de martillo para sujetarlas contra el fondo del mar!"
     },
     "wiki": "Great_hammerhead",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353767237/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/353767237/large.jpg",
+      "author": "Robin White",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/353767237",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "oceanic-whitetip",
@@ -12747,7 +12926,16 @@ window.ANIMALS = [
       "es": "A menudo nada junto a ballenas piloto, tal vez porque las ballenas le ayudan a encontrar calamares para comer."
     },
     "wiki": "Oceanic_whitetip_shark",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334402814/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/334402814/large.jpg",
+      "author": "Daniel Benák",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/334402814",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "whale-shark",
@@ -12790,7 +12978,16 @@ window.ANIMALS = [
       "es": "Cada tiburón ballena tiene su propio dibujo de manchas blancas, como una huella digital. ¡Los científicos usan fotos de las manchas para reconocerlos!"
     },
     "wiki": "Whale_shark",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90242284/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/90242284/large.jpg",
+      "author": "Shaunak Modi",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/90242284",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "pelagic-thresher",
@@ -12833,7 +13030,16 @@ window.ANIMALS = [
       "es": "Golpea con la cola tan rápido que puede aturdir varios peces a la vez, y luego se da la vuelta para comérselos."
     },
     "wiki": "Pelagic_thresher",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18597692/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/18597692/large.jpeg",
+      "author": "cstobie",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/18597692",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "pacific-nurse-shark",
@@ -12876,7 +13082,16 @@ window.ANIMALS = [
       "es": "Los parques marinos de Costa Rica y Panamá podrían ser uno de los últimos lugares seguros para este tiburón."
     },
     "wiki": "Pacific_nurse_shark",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595155982/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/595155982/large.jpg",
+      "author": "Toby Rowland",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/595155982",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "bull-shark",
@@ -12919,7 +13134,16 @@ window.ANIMALS = [
       "es": "Su cuerpo puede controlar cuánta sal guarda adentro, y eso le permite viajar del mar a lagos y ríos."
     },
     "wiki": "Bull_shark",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243409228/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/243409228/large.jpg",
+      "author": "Daniel Benák",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/243409228",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "silky-shark",
@@ -12962,7 +13186,16 @@ window.ANIMALS = [
       "es": "La piel de los tiburones está cubierta de escamas diminutas parecidas a dientes. Las del tiburón sedoso son tan pequeñas que su piel se siente lisa."
     },
     "wiki": "Silky_shark",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170832075/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/170832075/large.jpeg",
+      "author": "José Francisco Colorado-Dapa",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/170832075",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "whitetip-reef-shark",
@@ -13005,7 +13238,16 @@ window.ANIMALS = [
       "es": "A diferencia de muchos tiburones, puede quedarse quieto en el fondo y bombear agua por sus branquias para respirar."
     },
     "wiki": "Whitetip_reef_shark",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311107122/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/311107122/large.jpeg",
+      "author": "Ben Jobson",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/311107122",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "tiger-shark",
@@ -13048,7 +13290,16 @@ window.ANIMALS = [
       "es": "Come casi de todo: peces, tortugas marinas, aves, y a veces hasta basura. ¡Sus dientes pueden cortar caparazones de tortuga!"
     },
     "wiki": "Tiger_shark",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/587546933/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/587546933/large.jpg",
+      "author": "Jay Brasher",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/587546933",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "giant-manta-ray",
@@ -13091,7 +13342,16 @@ window.ANIMALS = [
       "es": "Las mantas tienen uno de los cerebros más grandes de todos los peces, y visitan 'estaciones de limpieza' donde pececitos les limpian la piel."
     },
     "wiki": "Giant_oceanic_manta_ray",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594917798/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/594917798/large.jpg",
+      "author": "Victor E. Chocho",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/594917798",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "spotted-eagle-ray",
@@ -13134,7 +13394,16 @@ window.ANIMALS = [
       "es": "Tiene dientes planos como un cascanueces que trituran almejas y caracoles, y los busca escarbando con su hocico de pato."
     },
     "wiki": "Spotted_eagle_ray",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/490576649/medium.png",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/490576649/large.png",
+      "author": "Robbie",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/490576649",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "munks-devil-ray",
@@ -13177,7 +13446,16 @@ window.ANIMALS = [
       "es": "Nadie sabe con seguridad por qué saltan. Puede ser para comunicarse, para impresionar a su pareja o para quitarse parásitos."
     },
     "wiki": "Munk's_devil_ray",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619672463/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/619672463/large.jpg",
+      "author": "Carter Dorscht",
+      "license": "CC0",
+      "page": "https://www.inaturalist.org/photos/619672463",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "pacific-chupare",
@@ -13220,7 +13498,16 @@ window.ANIMALS = [
       "es": "¡Sus parientes más cercanos son las rayas de río de Sudamérica, aunque ella vive en el mar!"
     },
     "wiki": "Styracura_pacifica",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462049443/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/462049443/large.jpg",
+      "author": "I. Matthew Acton",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/462049443",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "marble-ray",
@@ -13263,7 +13550,16 @@ window.ANIMALS = [
       "es": "¡Los científicos creen que las rayas marmoleadas del Coco y Galápagos podrían ser una especie distinta que todavía no tiene nombre!"
     },
     "wiki": "Taeniurops_meyeni",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58204765/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/58204765/large.jpeg",
+      "author": "fede2cr",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/58204765",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "southern-stingray",
@@ -13306,7 +13602,16 @@ window.ANIMALS = [
       "es": "Para encontrar almejas y gusanos escondidos, sopla chorros de agua en la arena para destaparlos."
     },
     "wiki": "Southern_stingray",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174694329/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/174694329/large.jpeg",
+      "author": "er-birds",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/174694329",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "goliath-grouper",
@@ -13349,7 +13654,16 @@ window.ANIMALS = [
       "es": "¡Hace fuertes sonidos de 'BUM' con su vejiga natatoria que los buzos pueden sentir en el pecho!"
     },
     "wiki": "Atlantic_goliath_grouper",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/562934054/square.gif",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/562934054/square.gif",
+      "author": "schneepschnorp",
+      "license": "CC0",
+      "page": "https://www.inaturalist.org/photos/562934054",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "pacific-seahorse",
@@ -13392,7 +13706,16 @@ window.ANIMALS = [
       "es": "¡El papá caballito de mar lleva los huevos en una bolsa en la panza y es él quien da a luz a las crías!"
     },
     "wiki": "Pacific_seahorse",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/625896004/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/625896004/large.jpg",
+      "author": "Eric Klug",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/625896004",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "blue-marlin",
@@ -13435,7 +13758,16 @@ window.ANIMALS = [
       "es": "Atraviesa los cardúmenes golpeando con su pico para aturdir a los peces antes de comerlos. ¡Algunos marlines pesan más de 600 kg!"
     },
     "wiki": "Atlantic_blue_marlin",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349147818/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/349147818/large.jpeg",
+      "author": "Robin Fokker",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/349147818",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "cocos-barnacle-blenny",
@@ -13478,7 +13810,15 @@ window.ANIMALS = [
       "es": "El papá se adueña de una concha de percebe y la mamá pone los huevos en sus paredes. Luego el papá los cuida hasta que nacen."
     },
     "wiki": "Acanthemblemaria_atrata",
-    "photo": null
+    "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Acanthemblemaria_atrata.jpg?width=500",
+      "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Acanthemblemaria_atrata.jpg?width=1024",
+      "author": "D Ross Robertson",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Acanthemblemaria_atrata.jpg",
+      "source": "Wikimedia Commons",
+      "cardOk": true
+    }
   },
   {
     "id": "sailfish",
@@ -13521,7 +13861,16 @@ window.ANIMALS = [
       "es": "Los peces vela cazan en equipo. Levantan sus velas para arrear sardinas en una bola apretada y luego se turnan para golpear con el pico."
     },
     "wiki": "Sailfish",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/611278924/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/611278924/large.jpg",
+      "author": "Kai Murphy",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/611278924",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "yellowfin-tuna",
@@ -13564,7 +13913,16 @@ window.ANIMALS = [
       "es": "En el Pacífico oriental, el atún aleta amarilla suele nadar junto con delfines."
     },
     "wiki": "Yellowfin_tuna",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62043094/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/62043094/large.jpg",
+      "author": "Michel Frisch",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/62043094",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "mahi-mahi",
@@ -13607,7 +13965,16 @@ window.ANIMALS = [
       "es": "Puede cambiar de color en segundos, y los machos tienen la frente alta y cuadrada."
     },
     "wiki": "Mahi-mahi",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237990889/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/237990889/large.jpeg",
+      "author": "Attila Oláh",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/237990889",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "roosterfish",
@@ -13650,7 +14017,16 @@ window.ANIMALS = [
       "es": "Es la única especie de toda su familia, y solo vive en el océano Pacífico oriental."
     },
     "wiki": "Roosterfish",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/611277606/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/611277606/large.jpg",
+      "author": "Kai Murphy",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/611277606",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "king-angelfish",
@@ -13693,7 +14069,16 @@ window.ANIMALS = [
       "es": "Las crías se ven totalmente distintas: anaranjadas con rayitas azules. Cambian de color al crecer."
     },
     "wiki": "King_angelfish",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458750807/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/458750807/large.jpeg",
+      "author": "Matt Berger",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/458750807",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "porcupine-pufferfish",
@@ -13736,7 +14121,16 @@ window.ANIMALS = [
       "es": "Sus dientes están unidos en un pico fuerte que rompe caracoles y cangrejos."
     },
     "wiki": "Long-spine_porcupinefish",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/590275315/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/590275315/large.jpg",
+      "author": "Uma Mezzanotte",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/590275315",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "rainbow-parrotfish",
@@ -13779,7 +14173,16 @@ window.ANIMALS = [
       "es": "Los peces loro trituran roca y coral y hacen popó de arena blanca fina. ¡Parte de la arena blanca de las playas del Caribe la hicieron los peces loro!"
     },
     "wiki": "Rainbow_parrotfish",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197075557/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/197075557/large.jpg",
+      "author": "Pauline Walsh Jacobson",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/197075557",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "zebra-moray",
@@ -13822,7 +14225,16 @@ window.ANIMALS = [
       "es": "En vez de colmillos filosos como otras morenas, tiene dientes planos como piedritas para triturar cangrejos."
     },
     "wiki": "Zebra_moray",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458206022/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/458206022/large.jpeg",
+      "author": "Lukas Zangl",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/458206022",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "moorish-idol",
@@ -13865,7 +14277,16 @@ window.ANIMALS = [
       "es": "Vive en arrecifes desde África hasta América, uno de los territorios más grandes de cualquier pez de arrecife."
     },
     "wiki": "Moorish_idol",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399212403/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/399212403/large.jpg",
+      "author": "Nick Tobler (Cowturtle)",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/399212403",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "scorpionfish",
@@ -13908,7 +14329,16 @@ window.ANIMALS = [
       "es": "Espera perfectamente quieto y luego abre la boca tan rápido que se traga a un pez en un parpadeo."
     },
     "wiki": "Spotted_scorpionfish",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/680510975/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/680510975/large.jpg",
+      "author": "Nigel Hoadley",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/680510975",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "yellowhead-jawfish",
@@ -13951,7 +14381,16 @@ window.ANIMALS = [
       "es": "¡El papá guarda los huevos dentro de su boca hasta que nacen!"
     },
     "wiki": "Yellowhead_jawfish",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613491833/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/613491833/large.jpg",
+      "author": "Daniel Z",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/613491833",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "staghorn-coral",
@@ -13994,7 +14433,16 @@ window.ANIMALS = [
       "es": "Es uno de los corales que crecen más rápido. Hoy la gente cultiva pedacitos en 'viveros de coral' bajo el agua para replantar arrecifes."
     },
     "wiki": "Staghorn_coral",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693041474/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/693041474/large.jpg",
+      "author": "Gregor Bailar",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/693041474",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "elkhorn-coral",
@@ -14037,7 +14485,16 @@ window.ANIMALS = [
       "es": "El coral no es una planta ni una roca: ¡está formado por miles de animalitos llamados pólipos!"
     },
     "wiki": "Elkhorn_coral",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41235504/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/41235504/large.jpeg",
+      "author": "lukeromaine",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/41235504",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "pillar-coral",
@@ -14080,7 +14537,16 @@ window.ANIMALS = [
       "es": "A diferencia de la mayoría de los corales, abre sus tentáculos diminutos de día, así que sus torres se ven suaves y peluditas."
     },
     "wiki": "Pillar_coral",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345234529/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/345234529/large.jpg",
+      "author": "Pauline Walsh Jacobson",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/345234529",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "boulder-star-coral",
@@ -14123,7 +14589,16 @@ window.ANIMALS = [
       "es": "Crece solo como 1 cm por año, ¡así que un montículo del tamaño de un carro puede ser más viejo que tus tatarabuelos!"
     },
     "wiki": "Orbicella_annularis",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/502113046/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/502113046/large.jpeg",
+      "author": "Alex Doyle",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/502113046",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "cauliflower-coral",
@@ -14166,7 +14641,16 @@ window.ANIMALS = [
       "es": "¡Cangrejitos y camarones viven entre sus ramas y lo defienden de las estrellas de mar que comen coral!"
     },
     "wiki": "Pocillopora_damicornis",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/436074072/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/436074072/large.jpeg",
+      "author": "Bob",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/436074072",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "grooved-brain-coral",
@@ -14209,7 +14693,16 @@ window.ANIMALS = [
       "es": "Cada surco es un valle donde muchos animalitos de coral viven lado a lado, compartiendo una misma línea de bocas."
     },
     "wiki": "Diploria",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/520923185/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/520923185/large.jpg",
+      "author": "Pauline Walsh Jacobson",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/520923185",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "purple-sea-fan",
@@ -14252,7 +14745,16 @@ window.ANIMALS = [
       "es": "Siempre crece de frente a la corriente, como una red, para que sus pólipos diminutos atrapen más comida que pasa flotando."
     },
     "wiki": "Gorgonia_ventalina",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/413359789/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/413359789/large.jpeg",
+      "author": "ritirene",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/413359789",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "giant-caribbean-anemone",
@@ -14295,7 +14797,16 @@ window.ANIMALS = [
       "es": "¡Camaroncitos viven seguros entre sus tentáculos que pican, y algunos limpian a los peces que los visitan!"
     },
     "wiki": "Condylactis_gigantea",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367521486/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/367521486/large.jpeg",
+      "author": "R Vasconcellos",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/367521486",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "brown-sea-cucumber",
@@ -14338,7 +14849,16 @@ window.ANIMALS = [
       "es": "¡Los pepinos de mar respiran por el trasero! Bombean agua hacia adentro y afuera por ahí."
     },
     "wiki": "Isostichopus_fuscus",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/558531562/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/558531562/large.jpg",
+      "author": "Uma Mezzanotte",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/558531562",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "caribbean-reef-octopus",
@@ -14381,7 +14901,16 @@ window.ANIMALS = [
       "es": "Caza de noche y envuelve a cangrejos y peces con sus brazos unidos por una membrana, como una red."
     },
     "wiki": "Caribbean_reef_octopus",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238188630/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/238188630/large.jpeg",
+      "author": "Dan Schofield",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/238188630",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "pacific-striped-octopus",
@@ -14424,7 +14953,15 @@ window.ANIMALS = [
       "es": "La mayoría de las mamás pulpo ponen huevos una sola vez, pero esta puede poner huevos muchas veces en su vida, ¡y eso sorprendió a los científicos!"
     },
     "wiki": "Lesser_Pacific_striped_octopus",
-    "photo": null
+    "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Octopus_chierchiae.png?width=500",
+      "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Octopus_chierchiae.png?width=1024",
+      "author": "Benjamin Liu, Leo Song, Saumitra Kelkar, Anna Ramji",
+      "license": "CC BY",
+      "page": "https://commons.wikimedia.org/wiki/File:Octopus_chierchiae.png",
+      "source": "Wikimedia Commons",
+      "cardOk": true
+    }
   },
   {
     "id": "caribbean-reef-squid",
@@ -14467,7 +15004,16 @@ window.ANIMALS = [
       "es": "¡Los científicos han visto a estos calamares salir disparados del agua y planear por el aire, como peces voladores!"
     },
     "wiki": "Caribbean_reef_squid",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/382542455/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/382542455/large.jpg",
+      "author": "Pauline Walsh Jacobson",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/382542455",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "moon-jellyfish",
@@ -14510,7 +15056,16 @@ window.ANIMALS = [
       "es": "Los cuatro anillos son sus órganos reproductivos. ¡Las medusas no tienen cerebro, ni corazón, ni huesos!"
     },
     "wiki": "Aurelia_aurita",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305558239/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/305558239/large.jpeg",
+      "author": "Andra Waagmeester",
+      "license": "CC0",
+      "page": "https://www.inaturalist.org/photos/305558239",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "cannonball-jellyfish",
@@ -14553,7 +15108,16 @@ window.ANIMALS = [
       "es": "Es una de las comidas favoritas de la tortuga baula, la tortuga más grande del mundo."
     },
     "wiki": "Cannonball_jellyfish",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368252768/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/368252768/large.jpeg",
+      "author": "Nonbinary-Naturalist",
+      "license": "CC0",
+      "page": "https://www.inaturalist.org/photos/368252768",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "portuguese-man-o-war",
@@ -14596,7 +15160,16 @@ window.ANIMALS = [
       "es": "Su burbuja funciona como una vela, y sus tentáculos que pican pueden medir más de 10 m."
     },
     "wiki": "Portuguese_man_o'_war",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/713264658/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/713264658/large.jpg",
+      "author": "Federico Muñoz",
+      "license": "CC0",
+      "page": "https://www.inaturalist.org/photos/713264658",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "agassiz-nudibranch",
@@ -14639,7 +15212,16 @@ window.ANIMALS = [
       "es": "Sus colores brillantes son una advertencia: '¡Sé horrible!'. Saca químicos de mal sabor de las esponjas que come."
     },
     "wiki": "Hypselodoris_agassizii",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613179545/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/613179545/large.jpg",
+      "author": "Uma Mezzanotte",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/613179545",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "chocolate-chip-sea-star",
@@ -14682,7 +15264,16 @@ window.ANIMALS = [
       "es": "¡Una estrella de mar come sacando el estómago por la boca y poniéndolo sobre su comida!"
     },
     "wiki": "Nidorellia_armata",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448668237/medium.jpeg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/448668237/large.jpeg",
+      "author": "Chris Spain",
+      "license": "CC0",
+      "page": "https://www.inaturalist.org/photos/448668237",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   },
   {
     "id": "caribbean-spiny-lobster",
@@ -14725,7 +15316,16 @@ window.ANIMALS = [
       "es": "En otoño, las langostas migran en largas filas, cada una tocando a la de adelante, ¡como un trencito!"
     },
     "wiki": "Caribbean_spiny_lobster",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304319157/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/304319157/large.jpg",
+      "author": "Robin White",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/304319157",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": false
+    }
   },
   {
     "id": "sally-lightfoot-crab",
@@ -14768,6 +15368,15 @@ window.ANIMALS = [
       "es": "Los jóvenes son oscuros para esconderse en las rocas negras, y se vuelven rojo brillante al crecer. ¡Hasta pueden saltar de roca en roca!"
     },
     "wiki": "Grapsus_grapsus",
-    "photo": null
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32225395/medium.jpg",
+      "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/32225395/large.jpg",
+      "author": "Don Loarie",
+      "license": "CC BY",
+      "page": "https://www.inaturalist.org/photos/32225395",
+      "source": "iNaturalist",
+      "cardOk": true,
+      "inCostaRica": true
+    }
   }
 ];
