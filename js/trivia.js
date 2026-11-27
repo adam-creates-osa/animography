@@ -60,7 +60,7 @@ const AUTO = {
     };
   },
   region(a) {
-    const mine = window.ANIMAL_REGIONS?.[a.id] || [];
+    const mine = (window.ANIMAL_REGIONS?.[a.id] || []).filter(id => window.REGIONS.some(r => r.id === id));
     if (!mine.length || mine.length > 2) return null;          // only animals with a clear home
     const rightId = pick(mine);
     const right = window.REGIONS.find(r => r.id === rightId);

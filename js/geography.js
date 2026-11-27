@@ -6,7 +6,10 @@ let regionGroupFilter = "all";
 let lastRegion = null; // the filter resets when you open a different region
 
 function regionById(id) { return window.REGIONS.find(r => r.id === id); }
-function regionsOf(animal) { return window.ANIMAL_REGIONS[animal.id] || []; }
+// Only regions that exist in data/regions.js count (so a deleted region is simply ignored)
+function regionsOf(animal) {
+  return (window.ANIMAL_REGIONS[animal.id] || []).filter(id => window.REGIONS.some(r => r.id === id));
+}
 function animalsIn(regionId) { return ANIMALS.filter(a => regionsOf(a).includes(regionId)); }
 
 // Turn latitude/longitude into a spot on the drawing
@@ -57,13 +60,13 @@ function renderMap() {
     const [x, y] = project(r.lat, r.lon);
     s.append(marker(r, x, y));
   }
-  // Cocos Island is far away, so it gets its own little box; the ocean marker sits in the Pacific
+  // Cocos Island is far away, so it gets its own little box; the ocean marker (if that region exists) sits in the Pacific
   s.append(
     svg("rect", { x: 10, y: 432, width: 150, height: 150, rx: 14, class: "inset" }),
-    svg("text", { x: 85, y: 568, "text-anchor": "middle", class: "inset-label" }, t("cocosDistance")),
-    marker(regionById("cocos"), 85, 475),
-    marker(regionById("ocean"), 250, 470)
+    svg("text", { x: 85, y: 568, "text-anchor": "middle", class: "inset-label" }, t("cocosDistance"))
   );
+  if (regionById("cocos")) s.append(marker(regionById("cocos"), 85, 475));
+  if (regionById("ocean")) s.append(marker(regionById("ocean"), 250, 470));
   return s;
 }
 
