@@ -86,7 +86,7 @@ window.REGIONS = [
     "lon": -84.45,
     "name": {
       "en": "Northern Plains",
-      "es": "Llanuras del Norte"
+      "es": "Llanuras Norte"
     },
     "desc": {
       "en": "Flat, rainy lowlands near Nicaragua: Caño Negro's wetlands, Sarapiquí's rivers and Maquenque, home of the great green macaw.",
@@ -116,7 +116,7 @@ window.REGIONS = [
     "lon": null,
     "name": {
       "en": "Cocos Island",
-      "es": "Isla del Coco"
+      "es": "Isla_del_Coco"
     },
     "desc": {
       "en": "A rainy, faraway island in the Pacific, more than 500 km from the mainland, with birds that live nowhere else and famous shark-filled waters.",
