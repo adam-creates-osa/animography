@@ -425,10 +425,44 @@ window.ANIMAL_UPDATES = {
   }
 };
 
+// Photos you chose yourself, from websites where the license isn't free or isn't known.
+// Each one shows: "If you have a problem with this image, please feel free to contact us."
+// These replace the robot's photo for that animal. To remove one, delete its line.
+const CAL = n => ({ url: `https://calphotos.berkeley.edu/imgs/512x768/${n}.jpeg`, author: "CalPhotos, UC Berkeley", source: "CalPhotos",
+  page: `https://calphotos.berkeley.edu/cgi/img_query?enlarge=${n.replace(/[_/]/g, "+")}` });
+const INAT = (id, ext = "jpg") => ({ url: `https://inaturalist-open-data.s3.amazonaws.com/photos/${id}/medium.${ext}`,
+  large: `https://inaturalist-open-data.s3.amazonaws.com/photos/${id}/large.${ext}`, author: "iNaturalist user", source: "iNaturalist",
+  page: `https://www.inaturalist.org/photos/${id}` });
+window.PHOTO_UPDATES = {
+  "harris-rice-water-rat": { url: "https://www.mammaldiversity.org/mil-images/6595.webp", author: "Mammal Images Library", source: "Mammal Diversity Database", page: "https://www.mammaldiversity.org/" },
+  "talamancan-shrew": { ...INAT(342828742, "jpeg") },
+  "rodriguez-harvest-mouse": { url: "https://8costarica.weebly.com/uploads/4/8/9/0/48900699/95997_orig.jpg", author: "8costarica.weebly.com", source: "", page: "https://8costarica.weebly.com/" },
+  "pass-stubfoot-toad": CAL("1111_1111/1111/9115"),
+  "pico-blanco-toad": CAL("1111_1111/1111/9158"),
+  "holdridges-toad": { url: "https://i0.wp.com/gonefroggin.com/wp-content/uploads/2023/01/1345.jpeg?w=1008&ssl=1", author: "Juan G. Abarca", source: "gonefroggin.com", page: "https://gonefroggin.com/2023/01/23/holdridges-toad-incilius-holdridgei/" },
+  "escoces-robber-frog": { ...INAT(52227279, "png") },
+  "fleischmanns-robber-frog": CAL("1111_1111/1111/9139"),
+  "fringe-limbed-treefrog": CAL("0000_0000/1212/0104"),
+  "tica-treefrog": { url: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Isthmohyla_tica_6009067_%28cropped%29.jpg", author: "Wikimedia Commons", source: "", page: "https://commons.wikimedia.org/wiki/File:Isthmohyla_tica_6009067_(cropped).jpg" },
+  "calypso-treefrog": { ...INAT(142416) },
+  "narrow-lined-treefrog": { ...INAT(269991961) },
+  "marbled-salamander": CAL("1111_1111/1111/9210"),
+  "blackish-salamander": CAL("0000_0000/1021/0637"),
+  "shadow-salamander": CAL("0000_0000/0626/1168"),
+  "guanacaste-moss-salamander": CAL("1111_1111/1111/8558"),
+  "tico-knobtail": { url: "https://static.inaturalist.org/photos/696947838/medium.jpg", large: "https://static.inaturalist.org/photos/696947838/large.jpg", author: "iNaturalist user", source: "iNaturalist", page: "https://www.inaturalist.org/photos/696947838" },
+  "wagners-knobtail": { url: "https://zenodo.org/record/818447/files/figure.png", author: "Zenodo", source: "", page: "https://zenodo.org/record/818447" },
+  "andi-robber-frog": { ...INAT(142428) }
+};
+
 // Apply the updates
 (function () {
   for (const [id, changes] of Object.entries(window.ANIMAL_UPDATES)) {
     const animal = (window.ANIMALS || []).find(a => a.id === id);
     if (animal) Object.assign(animal, changes);
+  }
+  for (const [id, photo] of Object.entries(window.PHOTO_UPDATES || {})) {
+    const animal = (window.ANIMALS || []).find(a => a.id === id);
+    if (animal) { animal.photo = { license: "", cardOk: true, contactNote: true, ...photo }; animal.photoWanted = false; }
   }
 })();
