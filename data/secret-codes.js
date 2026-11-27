@@ -14,5 +14,6 @@ window.SECRET_CODES = [
   { hash: "78dce471fcd65f3b2ee616023e22f8dab65d9656159fc69884b033cc7122516f", reward: { points: 50 }, note: "Example: PURAVIDA" },
   { hash: "9011d5793ae867045db1739190018df8b13668a215e7ccea524ffb96e4ce8e94", reward: { points: 100 }, note: "Big points code 1" },
   { hash: "f03ceeab514aa84f43f9855485b6b6b544ae81f11330c1dd4633abc6e15fec4a", reward: { points: 100 }, note: "Big points code 2" },
-  { hash: "c462287f428b54f0671867804e1e9ccbe5cac88f5d2d095399d6ef018c50ec42", reward: { points: 1000000 }, note: "Mega points code" }
+  { hash: "c462287f428b54f0671867804e1e9ccbe5cac88f5d2d095399d6ef018c50ec42", reward: { points: 1000000 }, note: "Mega points code" },
+   {"hash": "03581773aff94d5b60bf32cde86d0fac048c9280af9ecf608c88ac887c388112", "reward": {"card": "tico knobtail"}, "expires": "2026-12-25", "note": "Christmas gift!"}
 ];
