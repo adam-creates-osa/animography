@@ -291,6 +291,7 @@ function showScreen() {
   else if (route === "badges") { id = "screen-badges"; renderBadges(); }
   else if (route === "games") { id = "screen-games"; renderGames(); }
   else if (route === "memory") { id = "screen-games"; renderMemory(); }
+  else if (route === "mapdrop") { id = "screen-games"; renderMapDrop(); }
   else if (route.startsWith("binder/")) { id = "screen-binders"; renderBinder(decodeURIComponent(route.slice(7))); }
   else if (route === "favorites") { id = "screen-favorites"; renderFavorites(); }
   else if (route === "geography") { id = "screen-geography"; renderGeography(); }
@@ -305,6 +306,7 @@ window.addEventListener("hashchange", () => {
   if (location.hash !== "#/cards") reveal = null;
   if (location.hash !== "#/trade") lastTrade = null;
   if (location.hash !== "#/memory") memoryGame = null; // leaving Memory Match ends the game
+  if (location.hash !== "#/mapdrop") mapGame = null;
   showScreen();
   window.scrollTo(0, 0);
 });

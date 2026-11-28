@@ -35,6 +35,10 @@ window.GAME_RULES = {
     bonus: 10
   },
 
+  // Map Drop: animals per round, points for each right answer, and
+  // maxRegions: animals that live in this many regions or fewer are picked first (so it isn't too easy)
+  mapDrop: { animals: 8, pointsPerCorrect: 10, maxRegions: 3 },
+
   // Trade duplicates with Lento: how many duplicates for one random card of that rarity
   trade: { rare: 5, special: 10 },
   // Complete a group of cards: bonus points (once per group). Complete ALL cards: a random card of this rarity.

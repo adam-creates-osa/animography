@@ -93,7 +93,9 @@ function collectionStats(d) {
     earned: d.totalEarned || 0,
     codes: (m.redeemed || []).length,
     memoryPlayed: d.memory?.played || 0,
-    memoryHardBonus: Boolean(d.memory?.bonusByLevel?.hard)
+    memoryHardBonus: Boolean(d.memory?.bonusByLevel?.hard),
+    mapPlayed: d.mapDrop?.played || 0,
+    mapPerfect: d.mapDrop?.perfect || 0
   };
 }
 

@@ -1073,3 +1073,32 @@ main {
 .points-won { font-family: "Fredoka", sans-serif; font-size: 2rem; color: var(--blue); margin: 6px 0; }
 .mem-found { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 0 auto 16px; max-width: 640px; }
 .mem-found-item { background: var(--white); color: var(--ink); text-decoration: none; border-radius: 999px; padding: 5px 10px; font-size: 0.85rem; font-weight: 700; }
+
+/* ===== Map Drop ===== */
+.map-game { display: grid; gap: 16px; grid-template-columns: 1fr; max-width: 900px; margin: 0 auto; }
+@media (min-width: 760px) { .map-game { grid-template-columns: 280px 1fr; align-items: start; } }
+.map-side { display: flex; flex-direction: column; gap: 12px; }
+.map-animal { display: flex; gap: 12px; align-items: center; background: var(--white); border-radius: 18px; padding: 10px; box-shadow: 0 5px 0 rgba(10,77,51,0.18); }
+.map-animal.draggable { cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; border: 3px dashed var(--blue); }
+@media (min-width: 760px) { .map-animal { flex-direction: column; text-align: center; } .map-art { width: 100%; } }
+.map-art { position: relative; width: 96px; flex: none; aspect-ratio: 4 / 3; border-radius: 12px; overflow: hidden; display: grid; place-items: center; font-size: 2.6rem; }
+.map-art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
+.map-animal-text { display: flex; flex-direction: column; gap: 2px; }
+.map-animal-text strong { font-family: "Fredoka", sans-serif; font-size: 1.15rem; }
+.map-group { font-size: 0.8rem; opacity: 0.75; }
+.map-hint { font-size: 0.8rem; font-weight: 700; color: var(--blue); }
+.map-ghost { width: 200px; }
+.drop-zone { cursor: pointer; }
+.drop-zone circle { transition: r 0.15s, opacity 0.2s; }
+.drop-zone:hover circle, .drop-zone.zone-hover circle { r: 38; stroke: var(--ink); stroke-width: 5; }
+.drop-zone.zone-right circle { stroke: #2fb344; stroke-width: 9; r: 36; }
+.drop-zone.zone-wrong circle { stroke: #e03131; stroke-width: 9; }
+.drop-zone.zone-dim { opacity: 0.35; }
+.map-feedback { background: var(--white); border-radius: 18px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.map-feedback.ok { border-left: 8px solid #2fb344; }
+.map-feedback.bad { border-left: 8px solid #e03131; }
+.map-feedback p { margin: 0; }
+.map-results { list-style: none; padding: 0; max-width: 560px; margin: 8px auto 16px; text-align: left; display: grid; gap: 6px; }
+.map-results li { background: var(--white); border-radius: 12px; padding: 8px 12px; font-size: 0.9rem; }
+.map-results a { color: var(--ink); font-weight: 700; }
+.map-game .map-wrap { width: 100%; max-width: 600px; margin: 0 auto; }

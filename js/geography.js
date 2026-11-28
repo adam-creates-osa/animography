@@ -35,11 +35,14 @@ function svg(tag, attrs = {}, ...kids) {
 }
 
 // A tappable marker: colored circle + emoji + short label
-function marker(region, x, y) {
+// In a game (Map Drop) the marker is a drop target instead of a link.
+function marker(region, x, y, game) {
   const L = currentLang;
   const count = animalsIn(region.id).length;
-  const link = svg("a", { href: `#/geography/${region.id}`, class: "map-marker",
-    "aria-label": `${region.name[L]}: ${fill(t("regionCount"), { n: count })}` });
+  const link = game
+    ? svg("g", { class: "map-marker drop-zone", "data-region": region.id, role: "button", tabindex: "0", "aria-label": region.name[L] })
+    : svg("a", { href: `#/geography/${region.id}`, class: "map-marker",
+      "aria-label": `${region.name[L]}: ${fill(t("regionCount"), { n: count })}` });
   link.append(
     svg("circle", { cx: x, cy: y, r: 30, fill: region.color }),
     svg("text", { x, y: y + 11, "text-anchor": "middle", class: "marker-emoji" }, region.emoji),
@@ -48,7 +51,7 @@ function marker(region, x, y) {
   return link;
 }
 
-function renderMap() {
+function renderMap(game = false) {
   const s = svg("svg", { viewBox: "0 0 600 600", class: "cr-map", role: "group", "aria-label": t("mapLabel") });
   s.append(
     svg("rect", { x: 0, y: 0, width: 600, height: 600, rx: 24, class: "map-sea" }),
@@ -59,15 +62,15 @@ function renderMap() {
   for (const r of window.REGIONS) {
     if (r.lat == null) continue;
     const [x, y] = project(r.lat, r.lon);
-    s.append(marker(r, x, y));
+    s.append(marker(r, x, y, game));
   }
   // Cocos Island is far away, so it gets its own little box; the ocean marker (if that region exists) sits in the Pacific
   s.append(
     svg("rect", { x: 10, y: 432, width: 150, height: 150, rx: 14, class: "inset" }),
     svg("text", { x: 85, y: 568, "text-anchor": "middle", class: "inset-label" }, t("cocosDistance"))
   );
-  if (regionById("cocos")) s.append(marker(regionById("cocos"), 85, 475));
-  if (regionById("ocean")) s.append(marker(regionById("ocean"), 250, 470));
+  if (regionById("cocos")) s.append(marker(regionById("cocos"), 85, 475, game));
+  if (regionById("ocean")) s.append(marker(regionById("ocean"), 250, 470, game));
   return s;
 }
 

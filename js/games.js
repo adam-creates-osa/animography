@@ -19,7 +19,8 @@ function renderGames() {
       tile("#/trivia", "❓", t("triviaTitle"), t("gameTriviaDesc")),
       tile("#/memory", "🧠", t("memoryTitle"), t("gameMemoryDesc"),
         d.memory?.played ? fill(t("memoryPlayed"), { n: d.memory.played }) : ""),
-      soon("🗺️", t("mapDropTitle"), t("gameMapDesc")))
+      tile("#/mapdrop", "🗺️", t("mapDropTitle"), t("gameMapDesc"),
+        d.mapDrop?.played ? fill(t("memoryPlayed"), { n: d.mapDrop.played }) : ""))
   );
 }
 
