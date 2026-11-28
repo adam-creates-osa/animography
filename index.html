@@ -22,7 +22,8 @@
     <nav class="top-links">
       <a href="#/favorites" class="pill" id="fav-pill"><span aria-hidden="true">❤️</span> <span id="fav-count">0</span><span class="visually-hidden" data-i18n="favorites"></span></a>
       <a href="#/cards" class="pill" id="cards-pill"><span aria-hidden="true">🃏</span> <span id="cards-count">0</span><span class="visually-hidden" data-i18n="cardsLabel"></span></a>
-      <a href="#/trivia" class="pill" id="points-pill"><span aria-hidden="true">🎮</span> <span class="hide-small" data-i18n="trivia"></span> ⭐ <span id="points-count">0</span></a>
+      <a href="#/badges" class="pill" id="badges-pill"><span aria-hidden="true">🏅</span> <span id="badges-count">0</span><span class="visually-hidden" data-i18n="badgesTitle"></span></a>
+      <a href="#/trivia" class="pill" id="points-pill"><span aria-hidden="true">🎮</span> <span class="hide-small" data-i18n="trivia"></span> <span class="pill-star">⭐</span> <span id="points-count">0</span></a>
     </nav>
     <div class="lang-switch" role="group" aria-label="Language">
       <button type="button" data-lang="en" aria-pressed="true">EN</button>
@@ -74,6 +75,11 @@
       <div id="binders"></div>
     </section>
 
+    <!-- BADGES: filled in by js/collection.js -->
+    <section id="screen-badges" class="screen" hidden>
+      <div id="badges"></div>
+    </section>
+
     <!-- MY FAVORITES -->
     <section id="screen-favorites" class="screen" hidden>
       <a href="#/" class="back" data-i18n="back"></a>
@@ -102,12 +108,14 @@
   <script src="data/regions.js"></script>
   <script src="data/mascot.js"></script>
   <script src="data/secret-codes.js"></script>
+  <script src="data/badges.js"></script>
   <script src="data/chat.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/storage.js"></script>
   <script src="js/trivia.js"></script>
   <script src="js/cards.js"></script>
   <script src="js/binders.js"></script>
+  <script src="js/collection.js"></script>
   <script src="js/animal-chat.js"></script>
   <script src="js/geography.js"></script>
   <script src="js/mascot.js"></script>

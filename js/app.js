@@ -197,6 +197,8 @@ function updateCounters() {
   document.getElementById("fav-count").textContent = d.favorites.length;
   document.getElementById("points-count").textContent = d.points;
   document.getElementById("cards-count").textContent = Object.values(d.cards).filter(n => n > 0).length;
+  Badges.check();   // set rewards and new badges (js/collection.js)
+  document.getElementById("badges-count").textContent = Object.keys(Store.load().badges || {}).length;
 }
 
 searchBox.addEventListener("input", renderResults);
@@ -284,6 +286,9 @@ function showScreen() {
   else if (route === "trivia") { id = "screen-trivia"; renderTrivia(); }
   else if (route === "cards") { id = "screen-cards"; renderCardsScreen(); }
   else if (route === "binders") { id = "screen-binders"; renderBinders(); }
+  else if (route === "trade") { id = "screen-cards"; renderTrade(); }
+  else if (route === "sets") { id = "screen-cards"; renderSets(); }
+  else if (route === "badges") { id = "screen-badges"; renderBadges(); }
   else if (route.startsWith("binder/")) { id = "screen-binders"; renderBinder(decodeURIComponent(route.slice(7))); }
   else if (route === "favorites") { id = "screen-favorites"; renderFavorites(); }
   else if (route === "geography") { id = "screen-geography"; renderGeography(); }
@@ -296,6 +301,7 @@ function showScreen() {
 window.addEventListener("hashchange", () => {
   if (location.hash !== "#/trivia") round = null; // leaving trivia ends an unfinished round
   if (location.hash !== "#/cards") reveal = null;
+  if (location.hash !== "#/trade") lastTrade = null;
   showScreen();
   window.scrollTo(0, 0);
 });

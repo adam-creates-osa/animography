@@ -25,6 +25,11 @@ window.GAME_RULES = {
   // Special, and any one Special more likely than any one Secret Rare, no matter how many cards are in each group.
   // With 8 / 4 / 2 / 1, each level is half as likely as the one before it.
   // The game works out and shows the real percentages by itself.
+  // Trade duplicates with Lento: how many duplicates for one random card of that rarity
+  trade: { rare: 5, special: 10 },
+  // Complete a group of cards: bonus points (once per group). Complete ALL cards: a random card of this rarity.
+  sets: { groupBonus: 500, allReward: "secretRare" },
+
   cardWeights: { common: 8, rare: 4, special: 2, secretRare: 1 },
 
   // Which Red List status makes which card rarity

@@ -50,7 +50,8 @@ const Binders = {
 
 // Tabs at the top of the card screens
 function cardTabs(active) {
-  const tabs = [["cards", "#/cards", "🃏 " + t("tabCollection")], ["binders", "#/binders", "📒 " + t("tabBinders")]];
+  const tabs = [["cards", "#/cards", "🃏 " + t("tabCollection")], ["binders", "#/binders", "📒 " + t("tabBinders")],
+                ["trade", "#/trade", "🤝 " + t("tabTrade")], ["sets", "#/sets", "🏆 " + t("tabSets")]];
   return el("nav", { class: "card-tabs", "aria-label": t("myCards") },
     ...tabs.map(([key, href, label]) => el("a", { href, class: "card-tab", "aria-current": key === active ? "page" : "false" }, label)));
 }
