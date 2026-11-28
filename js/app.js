@@ -258,6 +258,7 @@ function renderAnimal(id) {
     el("p", { class: "checked" }, fill(t("statusChecked"), { date: a.checked })),
 
     section(t("about"), el("p", {}, a.summary[L])),
+    sizeSection(a),
     section(t("where"), el("p", {}, a.where[L]), regionLinks(a)),
     section(extinct ? t("threatsExtinct") : t("threats"), el("p", {}, a.threats[L])),
     section(extinct ? t("helpExtinct") : t("help"),
@@ -299,6 +300,11 @@ function showScreen() {
   else if (route === "memory") { id = "screen-games"; renderMemory(); }
   else if (route === "mapdrop") { id = "screen-games"; renderMapDrop(); }
   else if (route === "sightings") { id = "screen-sightings"; renderSightings(); }
+  else if (route === "compare" || route.startsWith("compare/")) {
+    id = "screen-compare";
+    const [, x, y] = route.split("/").map(decodeURIComponent);
+    renderCompare(x, y);
+  }
   else if (route.startsWith("binder/")) { id = "screen-binders"; renderBinder(decodeURIComponent(route.slice(7))); }
   else if (route === "favorites") { id = "screen-favorites"; renderFavorites(); }
   else if (route === "geography") { id = "screen-geography"; renderGeography(); }
