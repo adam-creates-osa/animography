@@ -300,6 +300,8 @@ function showScreen() {
   else if (route === "memory") { id = "screen-games"; renderMemory(); }
   else if (route === "mapdrop") { id = "screen-games"; renderMapDrop(); }
   else if (route === "sightings") { id = "screen-sightings"; renderSightings(); }
+  else if (route === "hope") { id = "screen-hope"; renderHope(); }
+  else if (route.startsWith("hope/")) { id = "screen-hope"; renderHopeStory(decodeURIComponent(route.slice(5))); }
   else if (route === "compare" || route.startsWith("compare/")) {
     id = "screen-compare";
     const [, x, y] = route.split("/").map(decodeURIComponent);

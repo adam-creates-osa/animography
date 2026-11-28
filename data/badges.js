@@ -12,6 +12,7 @@
 //   s.earned      all points ever earned          s.codes (secret codes used)
 //   s.memoryPlayed  Memory Match games finished   s.memoryHardBonus (won Hard with the bonus)
 //   s.sightings     animals marked "I saw it!"
+//   s.hopeRead      Hope Stories read             s.hopeTotal (how many Hope Stories exist)
 //   s.mapPlayed     Map Drop games finished       s.mapPerfect (Map Drop games with every answer right)
 window.BADGES = [
   // ---- Collecting ----
@@ -64,6 +65,11 @@ window.BADGES = [
     name: { en: "Wildlife Spotter", es: "Observador de Fauna" }, how: { en: "Mark an animal you saw in real life.", es: "Marca un animal que viste en la vida real." } },
   { id: "sightings-10", icon: "🔭", test: s => s.sightings >= 10,
     name: { en: "Field Naturalist", es: "Naturalista de Campo" }, how: { en: "Mark 10 animals you saw in real life.", es: "Marca 10 animales que viste en la vida real." } },
+
+  { id: "hope-first", icon: "🌱", test: s => s.hopeRead >= 1,
+    name: { en: "Seed of Hope", es: "Semilla de Esperanza" }, how: { en: "Read a Hope Story.", es: "Lee una Historia de Esperanza." } },
+  { id: "hope-all", icon: "🌳", test: s => s.hopeRead >= s.hopeTotal && s.hopeTotal > 0,
+    name: { en: "Hope Champion", es: "Campeón de la Esperanza" }, how: { en: "Read every Hope Story.", es: "Lee todas las Historias de Esperanza." } },
 
   // ---- Trivia ----
   { id: "trivia-first", icon: "🎮", test: s => s.rounds >= 1,

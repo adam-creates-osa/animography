@@ -96,6 +96,8 @@ function collectionStats(d) {
     memoryHardBonus: Boolean(d.memory?.bonusByLevel?.hard),
     mapPlayed: d.mapDrop?.played || 0,
     sightings: Object.keys(d.sightings || {}).length,
+    hopeRead: (d.hopeRead || []).filter(id => (window.HOPE_STORIES || []).some(s => s.id === id)).length,
+    hopeTotal: (window.HOPE_STORIES || []).length,
     mapPerfect: d.mapDrop?.perfect || 0
   };
 }
