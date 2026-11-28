@@ -10,6 +10,7 @@
 //   s.favorites   favorites                       s.rounds (trivia rounds played)
 //   s.perfect     10/10 rounds                    s.perfectLevel.beginner/intermediate/advanced (true/false)
 //   s.earned      all points ever earned          s.codes (secret codes used)
+//   s.memoryPlayed  Memory Match games finished   s.memoryHardBonus (won Hard with the bonus)
 window.BADGES = [
   // ---- Collecting ----
   { id: "first-card", icon: "🃏", test: s => s.owned >= 1,
@@ -64,6 +65,11 @@ window.BADGES = [
     name: { en: "Perfect Score", es: "Puntaje Perfecto" }, how: { en: "Get 10 out of 10 in a trivia round.", es: "Saca 10 de 10 en una ronda de trivia." } },
   { id: "perfect-advanced", icon: "🏆", test: s => s.perfectLevel.advanced,
     name: { en: "Trivia Champion", es: "Campeón de Trivia" }, how: { en: "Get 10 out of 10 on Advanced.", es: "Saca 10 de 10 en Avanzado." } },
+  // ---- Games ----
+  { id: "memory-first", icon: "🧠", test: s => s.memoryPlayed >= 1,
+    name: { en: "Good Memory", es: "Buena Memoria" }, how: { en: "Finish a Memory Match game.", es: "Termina un juego de Memoria." } },
+  { id: "memory-master", icon: "🃏", test: s => s.memoryHardBonus,
+    name: { en: "Memory Master", es: "Maestro de la Memoria" }, how: { en: "Win Hard Memory Match with the few-mistakes bonus.", es: "Gana Memoria en Difícil con el bono de pocos errores." } },
   { id: "points-1000", icon: "⭐", test: s => s.earned >= 1000,
     name: { en: "Star Saver", es: "Junta Estrellas" }, how: { en: "Earn 1,000 points in total.", es: "Gana 1.000 puntos en total." } },
   { id: "secret-code", icon: "🔑", test: s => s.codes >= 1,

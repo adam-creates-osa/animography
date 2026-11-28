@@ -193,7 +193,7 @@ function renderTriviaStart(box) {
   play.addEventListener("click", () => { round = buildRound(chosenLevel); renderTrivia(); });
 
   box.append(
-    el("a", { href: "#/", class: "back" }, t("back")),
+    el("a", { href: "#/games", class: "back" }, t("backGames")),
     el("h2", { class: "screen-title" }, "🎮 " + t("triviaTitle")),
     el("div", { class: "stat-row" },
       el("div", { class: "stat" }, el("strong", {}, "⭐ " + save.points), el("span", {}, t("yourPoints")))

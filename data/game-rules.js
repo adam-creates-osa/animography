@@ -25,6 +25,16 @@ window.GAME_RULES = {
   // Special, and any one Special more likely than any one Secret Rare, no matter how many cards are in each group.
   // With 8 / 4 / 2 / 1, each level is half as likely as the one before it.
   // The game works out and shows the real percentages by itself.
+  // Memory Match: pairs per level, points for finishing, and a bonus when you make few mistakes
+  memory: {
+    levels: {
+      easy:   { pairs: 6,  points: 20, bonusMaxMistakes: 6 },
+      medium: { pairs: 8,  points: 40, bonusMaxMistakes: 8 },
+      hard:   { pairs: 12, points: 60, bonusMaxMistakes: 12 }
+    },
+    bonus: 10
+  },
+
   // Trade duplicates with Lento: how many duplicates for one random card of that rarity
   trade: { rare: 5, special: 10 },
   // Complete a group of cards: bonus points (once per group). Complete ALL cards: a random card of this rarity.

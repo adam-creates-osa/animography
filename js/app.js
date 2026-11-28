@@ -289,6 +289,8 @@ function showScreen() {
   else if (route === "trade") { id = "screen-cards"; renderTrade(); }
   else if (route === "sets") { id = "screen-cards"; renderSets(); }
   else if (route === "badges") { id = "screen-badges"; renderBadges(); }
+  else if (route === "games") { id = "screen-games"; renderGames(); }
+  else if (route === "memory") { id = "screen-games"; renderMemory(); }
   else if (route.startsWith("binder/")) { id = "screen-binders"; renderBinder(decodeURIComponent(route.slice(7))); }
   else if (route === "favorites") { id = "screen-favorites"; renderFavorites(); }
   else if (route === "geography") { id = "screen-geography"; renderGeography(); }
@@ -302,6 +304,7 @@ window.addEventListener("hashchange", () => {
   if (location.hash !== "#/trivia") round = null; // leaving trivia ends an unfinished round
   if (location.hash !== "#/cards") reveal = null;
   if (location.hash !== "#/trade") lastTrade = null;
+  if (location.hash !== "#/memory") memoryGame = null; // leaving Memory Match ends the game
   showScreen();
   window.scrollTo(0, 0);
 });

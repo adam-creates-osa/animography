@@ -91,7 +91,9 @@ function collectionStats(d) {
     perfect: m.perfectTotal || 0,
     perfectLevel: { beginner: (best.beginner || 0) >= per, intermediate: (best.intermediate || 0) >= per, advanced: (best.advanced || 0) >= per },
     earned: d.totalEarned || 0,
-    codes: (m.redeemed || []).length
+    codes: (m.redeemed || []).length,
+    memoryPlayed: d.memory?.played || 0,
+    memoryHardBonus: Boolean(d.memory?.bonusByLevel?.hard)
   };
 }
 
