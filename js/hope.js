@@ -48,6 +48,7 @@ function renderHopeStory(id) {
     el("a", { href: "#/hope", class: "back" }, t("hopeBack")),
     hero,
     title,
+    s.byline ? el("p", { class: "note hope-byline" }, "✍️ " + t("hopeByline")) : "",
     el("div", { class: "animal-actions" }, ReadAloud.makeButton(() => [title, storyBox, lesson])),
     storyBox,
     lesson,
