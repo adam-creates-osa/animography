@@ -133,6 +133,7 @@ function renderCardsScreen() {
   box.append(
     el("a", { href: "#/", class: "back" }, t("back")),
     el("h2", { class: "screen-title" }, "🃏 " + t("myCards")),
+    cardTabs("cards"),
     el("div", { class: "shop" },
       el("div", { class: "blind-box", id: "blind-box", "aria-hidden": "true" },
         el("span", { class: "box-lid" }), el("span", { class: "box-q" }, "?")),

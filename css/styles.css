@@ -890,3 +890,74 @@ main {
 .photo-contact { margin: 2px 0 8px; font-size: 0.78rem; opacity: 0.85; text-align: center; }
 .photo-contact.short { font-size: 0.72rem; margin: 6px 0 0; }
 .photo-contact a { color: inherit; }
+
+/* ===== Card tabs + Binders ===== */
+.card-tabs { display: flex; justify-content: center; gap: 8px; margin: 4px 0 14px; flex-wrap: wrap; }
+.card-tab {
+  font: 700 0.95rem "Nunito", sans-serif; color: var(--ink); text-decoration: none;
+  padding: 8px 18px; border-radius: 999px; background: rgba(255,255,255,0.5);
+}
+.card-tab[aria-current="page"] { background: var(--ink); color: var(--white); }
+.binder-new { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 10px 0 18px; }
+.binder-name-input {
+  font: inherit; font-size: 1rem; padding: 10px 14px; min-width: 0; width: min(280px, 70vw);
+  border: 2px solid var(--seafoam); border-radius: 999px; color: var(--ink); background: var(--white);
+}
+.binder-name-input:focus { outline: none; border-color: var(--blue); }
+.binder-shelf { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+.binder-tile {
+  display: flex; flex-direction: column; gap: 6px; padding: 10px; text-decoration: none; color: var(--ink);
+  background: var(--white); border-radius: 18px; border-left: 10px solid var(--blue);
+  box-shadow: 0 3px 10px rgba(10,77,51,0.15); transition: transform 0.15s;
+}
+.binder-tile:hover { transform: translateY(-3px); }
+.binder-tile-name { font-family: "Fredoka", sans-serif; font-size: 1.05rem; overflow-wrap: anywhere; }
+.binder-tile-count { font-size: 0.8rem; opacity: 0.75; }
+.mini-art { position: relative; aspect-ratio: 4 / 3; border-radius: 12px; overflow: hidden; display: grid; place-items: center; font-size: 2.4rem; }
+.mini-art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.empty-cover { background: #e3f4ff; }
+.empty-binders { text-align: center; opacity: 0.8; margin: 20px 0; }
+.binder-title { overflow-wrap: anywhere; }
+.binder-tools { display: flex; gap: 8px; justify-content: center; margin-bottom: 6px; }
+.chip-danger { background: #ffe3e3; color: #a61e1e; }
+.binder-confirm { background: var(--white); border-radius: 16px; padding: 12px; margin: 8px auto; max-width: 420px; text-align: center; }
+.binder-confirm p { margin: 0 0 8px; }
+.binder-confirm .chip { margin: 0 4px; }
+.binder-grid {
+  display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  min-height: 140px; padding: 14px; border-radius: 20px; background: rgba(255,255,255,0.35);
+  border: 3px dashed rgba(10,77,51,0.25); margin-bottom: 18px;
+}
+.binder-grid.grid-hover { border-color: var(--blue); background: rgba(227,244,255,0.7); }
+.binder-drop-hint { grid-column: 1 / -1; align-self: center; text-align: center; opacity: 0.75; }
+.binder-item, .pick-item { position: relative; display: flex; flex-direction: column; gap: 6px; }
+.binder-item.dragging, .pick-item.dragging { opacity: 0.35; }
+.drag-handle { cursor: grab; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+.is-dragging, .is-dragging * { cursor: grabbing !important; user-select: none; }
+.drag-ghost { position: fixed; z-index: 1000; pointer-events: none; transform: rotate(-4deg) scale(1.05); opacity: 0.92;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.3)); }
+.drop-before::before, .drop-after::after {
+  content: ""; position: absolute; top: 0; bottom: 30px; width: 5px; border-radius: 5px; background: var(--blue);
+}
+.drop-before::before { left: -10px; }
+.drop-after::after { right: -10px; }
+.bc-controls { display: flex; align-items: center; justify-content: center; gap: 4px; }
+.bc-btn {
+  border: 0; background: rgba(255,255,255,0.75); color: var(--ink); font: 700 0.85rem "Nunito", sans-serif;
+  width: 30px; height: 30px; border-radius: 50%; cursor: pointer;
+}
+.bc-btn:disabled { opacity: 0.3; cursor: default; }
+.bc-del { background: #ffe3e3; color: #a61e1e; }
+.bc-pos { font-size: 0.75rem; font-weight: 800; min-width: 22px; text-align: center; }
+.binder-pick { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+.pick-row { display: flex; align-items: center; justify-content: space-between; gap: 4px; }
+.pick-free { font-size: 0.72rem; font-weight: 700; }
+.pick-add { border: 0; background: var(--blue); color: var(--white); width: 32px; height: 32px; border-radius: 50%; font-size: 1.1rem; cursor: pointer; }
+.pick-add:disabled { opacity: 0.35; cursor: default; }
+.pick-item.used-up .binder-card { opacity: 0.45; }
+@media (max-width: 560px) {
+  .binder-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 10px; gap: 10px; }
+  .binder-pick { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .binder-pick .card-top, .binder-pick .card-foot { font-size: 0.5rem; }
+  .binder-pick .card-name { font-size: 0.7rem; }
+}

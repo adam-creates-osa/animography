@@ -283,6 +283,8 @@ function showScreen() {
   else if (route.startsWith("animal/")) { id = "screen-animal"; renderAnimal(decodeURIComponent(route.slice(7))); }
   else if (route === "trivia") { id = "screen-trivia"; renderTrivia(); }
   else if (route === "cards") { id = "screen-cards"; renderCardsScreen(); }
+  else if (route === "binders") { id = "screen-binders"; renderBinders(); }
+  else if (route.startsWith("binder/")) { id = "screen-binders"; renderBinder(decodeURIComponent(route.slice(7))); }
   else if (route === "favorites") { id = "screen-favorites"; renderFavorites(); }
   else if (route === "geography") { id = "screen-geography"; renderGeography(); }
   else if (route.startsWith("geography/")) { id = "screen-geography"; renderRegion(decodeURIComponent(route.slice(10))); }

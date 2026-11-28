@@ -11,7 +11,8 @@ const DEFAULT_SAVE = {
   bestByLevel: {},  // best number of right answers per level
   seen: {},         // recently asked question ids per level, so they don't repeat
   favorites: [],    // animal ids
-  cards: {}         // collectible cards: { animalId: how many copies }
+  cards: {},        // collectible cards: { animalId: how many copies }
+  binders: []       // binders: [{ id, name, cards: [animalId, ...in order], created }]
 };
 
 const Store = {
