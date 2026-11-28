@@ -241,7 +241,13 @@ function renderAnimal(id) {
 
     el("h2", { class: "animal-name" }, a.name[L]),
     el("p", { class: "scientific" }, a.scientific, " · ", t("groups")[a.group]),
-    heartButton(a),
+    el("div", { class: "animal-actions" },
+      heartButton(a),
+      // 🔊 reads the page out loud: name, status and every info card except the links
+      ReadAloud.makeButton(() => [box.querySelector(".animal-name"), box.querySelector(".scientific"),
+        box.querySelector(".status-row .status"), box.querySelector(".status-note"),
+        ...[...box.querySelectorAll(".info-card")].filter(n => !n.querySelector(".links"))])),
+    sightingBox(a),
 
     el("div", { class: "status-row" },
       statusBadge(a.status),
@@ -292,6 +298,7 @@ function showScreen() {
   else if (route === "games") { id = "screen-games"; renderGames(); }
   else if (route === "memory") { id = "screen-games"; renderMemory(); }
   else if (route === "mapdrop") { id = "screen-games"; renderMapDrop(); }
+  else if (route === "sightings") { id = "screen-sightings"; renderSightings(); }
   else if (route.startsWith("binder/")) { id = "screen-binders"; renderBinder(decodeURIComponent(route.slice(7))); }
   else if (route === "favorites") { id = "screen-favorites"; renderFavorites(); }
   else if (route === "geography") { id = "screen-geography"; renderGeography(); }
@@ -307,6 +314,7 @@ window.addEventListener("hashchange", () => {
   if (location.hash !== "#/trade") lastTrade = null;
   if (location.hash !== "#/memory") memoryGame = null; // leaving Memory Match ends the game
   if (location.hash !== "#/mapdrop") mapGame = null;
+  ReadAloud.stop(); // stop reading when you go to another page
   showScreen();
   window.scrollTo(0, 0);
 });

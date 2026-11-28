@@ -41,6 +41,12 @@
         <a href="#/geography" class="big-btn" data-i18n="geography"></a>
         <a href="#/games" class="big-btn" data-i18n="gamesBtn"></a>
       </nav>
+      <nav class="home-links">
+        <a href="#/favorites">❤️ <span data-i18n="favorites"></span></a>
+        <a href="#/sightings">👀 <span data-i18n="sightingsTitle"></span></a>
+        <a href="#/badges">🏅 <span data-i18n="badgesTitle"></span></a>
+        <a href="#/binders">📒 <span data-i18n="myBinders"></span></a>
+      </nav>
     </section>
 
     <!-- ANIMALS: search screen -->
@@ -86,6 +92,11 @@
       <div id="games"></div>
     </section>
 
+    <!-- MY SIGHTINGS: animals seen in real life (js/extras.js) -->
+    <section id="screen-sightings" class="screen" hidden>
+      <div id="sightings"></div>
+    </section>
+
     <!-- MY FAVORITES -->
     <section id="screen-favorites" class="screen" hidden>
       <a href="#/" class="back" data-i18n="back"></a>
@@ -124,6 +135,7 @@
   <script src="js/collection.js"></script>
   <script src="js/games.js"></script>
   <script src="js/mapdrop.js"></script>
+  <script src="js/extras.js"></script>
   <script src="js/animal-chat.js"></script>
   <script src="js/geography.js"></script>
   <script src="js/mascot.js"></script>

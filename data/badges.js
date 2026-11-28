@@ -11,6 +11,7 @@
 //   s.perfect     10/10 rounds                    s.perfectLevel.beginner/intermediate/advanced (true/false)
 //   s.earned      all points ever earned          s.codes (secret codes used)
 //   s.memoryPlayed  Memory Match games finished   s.memoryHardBonus (won Hard with the bonus)
+//   s.sightings     animals marked "I saw it!"
 //   s.mapPlayed     Map Drop games finished       s.mapPerfect (Map Drop games with every answer right)
 window.BADGES = [
   // ---- Collecting ----
@@ -58,6 +59,11 @@ window.BADGES = [
     name: { en: "100 Animals Read", es: "100 Animales Leídos" }, how: { en: "Read 100 animal pages.", es: "Lee 100 fichas de animales." } },
   { id: "favorites-10", icon: "❤️", test: s => s.favorites >= 10,
     name: { en: "Animal Lover", es: "Amante de los Animales" }, how: { en: "Add 10 animals to your favorites.", es: "Agrega 10 animales a tus favoritos." } },
+
+  { id: "first-sighting", icon: "👀", test: s => s.sightings >= 1,
+    name: { en: "Wildlife Spotter", es: "Observador de Fauna" }, how: { en: "Mark an animal you saw in real life.", es: "Marca un animal que viste en la vida real." } },
+  { id: "sightings-10", icon: "🔭", test: s => s.sightings >= 10,
+    name: { en: "Field Naturalist", es: "Naturalista de Campo" }, how: { en: "Mark 10 animals you saw in real life.", es: "Marca 10 animales que viste en la vida real." } },
 
   // ---- Trivia ----
   { id: "trivia-first", icon: "🎮", test: s => s.rounds >= 1,

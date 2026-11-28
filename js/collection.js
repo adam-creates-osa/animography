@@ -95,6 +95,7 @@ function collectionStats(d) {
     memoryPlayed: d.memory?.played || 0,
     memoryHardBonus: Boolean(d.memory?.bonusByLevel?.hard),
     mapPlayed: d.mapDrop?.played || 0,
+    sightings: Object.keys(d.sightings || {}).length,
     mapPerfect: d.mapDrop?.perfect || 0
   };
 }

@@ -1102,3 +1102,27 @@ main {
 .map-results li { background: var(--white); border-radius: 12px; padding: 8px 12px; font-size: 0.9rem; }
 .map-results a { color: var(--ink); font-weight: 700; }
 .map-game .map-wrap { width: 100%; max-width: 600px; margin: 0 auto; }
+
+/* ===== Animal page actions: favorite, read aloud, I saw it ===== */
+.animal-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 4px 0 8px; }
+.animal-actions .heart-btn { margin: 0; }
+.action-btn {
+  font: 700 1rem "Nunito", sans-serif; color: var(--ink); background: var(--white); border: 0;
+  border-radius: 999px; padding: 9px 16px; cursor: pointer; box-shadow: 0 3px 0 rgba(10,77,51,0.15);
+}
+.action-btn:hover { background: #f1fbf6; }
+.read-btn[aria-pressed="true"] { background: var(--blue); color: var(--white); }
+.action-btn.seen { background: #d3f9d8; }
+.sighting-box { display: flex; justify-content: center; margin: 0 0 12px; }
+.sighting-form { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; background: var(--white); border-radius: 18px; padding: 12px; max-width: 520px; }
+.sighting-label { font-weight: 700; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: center; }
+.sighting-date { font: inherit; padding: 6px 10px; border: 2px solid var(--seafoam); border-radius: 10px; color: var(--ink); }
+.sighting-tip { width: 100%; text-align: center; font-size: 0.8rem; margin: 2px 0 0; opacity: 0.8; }
+.info-card.reading, .animal-name.reading, .scientific.reading { outline: 4px solid var(--blue); outline-offset: 4px; border-radius: 14px; }
+.home-links { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 18px auto 0; max-width: 720px; }
+.home-links a { color: var(--ink); background: rgba(255,255,255,0.6); text-decoration: none; font-weight: 700; padding: 8px 14px; border-radius: 999px; }
+.home-links a:hover { background: var(--white); }
+.sight-item { display: flex; flex-direction: column; gap: 4px; }
+.sight-date { font-size: 0.8rem; font-weight: 700; padding-left: 8px; }
+.science-box { margin-top: 18px; }
+.science-box .sighting-tip { text-align: left; margin-top: 10px; }
